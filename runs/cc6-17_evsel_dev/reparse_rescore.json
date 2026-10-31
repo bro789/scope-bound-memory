@@ -1,0 +1,141 @@
+{
+ "totals": {
+  "B0": {
+   "suff_n": 25,
+   "suff_correct": 7,
+   "unsupported": 1,
+   "wrong_refusal": 17,
+   "parse_fail": 0,
+   "insuff_n": 15,
+   "insuff_correct": 14
+  },
+  "B1": {
+   "suff_n": 25,
+   "suff_correct": 19,
+   "unsupported": 4,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "insuff_n": 15,
+   "insuff_correct": 11
+  },
+  "B2": {
+   "suff_n": 25,
+   "suff_correct": 18,
+   "unsupported": 5,
+   "wrong_refusal": 1,
+   "parse_fail": 0,
+   "insuff_n": 15,
+   "insuff_correct": 10
+  },
+  "S": {
+   "suff_n": 25,
+   "suff_correct": 22,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "insuff_n": 15,
+   "insuff_correct": 15
+  },
+  "B1_sel_scope": {
+   "suff_n": 25,
+   "suff_correct": 22,
+   "unsupported": 5,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "insuff_n": 15,
+   "insuff_correct": 10
+  },
+  "B2_sel_scope": {
+   "suff_n": 25,
+   "suff_correct": 20,
+   "unsupported": 3,
+   "wrong_refusal": 2,
+   "parse_fail": 0,
+   "insuff_n": 15,
+   "insuff_correct": 12
+  },
+  "B2_sel_table": {
+   "suff_n": 25,
+   "suff_correct": 21,
+   "unsupported": 2,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "insuff_n": 15,
+   "insuff_correct": 13
+  }
+ },
+ "mcnemar_S_vs": {
+  "B0": {
+   "insufficient": {
+    "S_only": 1,
+    "B2_only": 0,
+    "p": 1.0
+   },
+   "sufficient": {
+    "S_only": 15,
+    "B2_only": 0,
+    "p": 6.1e-05
+   }
+  },
+  "B1": {
+   "insufficient": {
+    "S_only": 4,
+    "B2_only": 0,
+    "p": 0.125
+   },
+   "sufficient": {
+    "S_only": 5,
+    "B2_only": 2,
+    "p": 0.453125
+   }
+  },
+  "B2": {
+   "insufficient": {
+    "S_only": 5,
+    "B2_only": 0,
+    "p": 0.0625
+   },
+   "sufficient": {
+    "S_only": 6,
+    "B2_only": 2,
+    "p": 0.289062
+   }
+  },
+  "B1_sel_scope": {
+   "insufficient": {
+    "S_only": 5,
+    "B2_only": 0,
+    "p": 0.0625
+   },
+   "sufficient": {
+    "S_only": 2,
+    "B2_only": 2,
+    "p": 1.0
+   }
+  },
+  "B2_sel_scope": {
+   "insufficient": {
+    "S_only": 3,
+    "B2_only": 0,
+    "p": 0.25
+   },
+   "sufficient": {
+    "S_only": 4,
+    "B2_only": 2,
+    "p": 0.6875
+   }
+  },
+  "B2_sel_table": {
+   "insufficient": {
+    "S_only": 2,
+    "B2_only": 0,
+    "p": 0.5
+   },
+   "sufficient": {
+    "S_only": 3,
+    "B2_only": 2,
+    "p": 1.0
+   }
+  }
+ }
+}

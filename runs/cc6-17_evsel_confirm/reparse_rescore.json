@@ -1,0 +1,141 @@
+{
+ "totals": {
+  "B0": {
+   "insuff_n": 84,
+   "insuff_correct": 81,
+   "unsupported": 3,
+   "wrong_refusal": 79,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 26
+  },
+  "B1": {
+   "insuff_n": 84,
+   "insuff_correct": 51,
+   "unsupported": 33,
+   "wrong_refusal": 17,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 86
+  },
+  "B2": {
+   "insuff_n": 84,
+   "insuff_correct": 60,
+   "unsupported": 24,
+   "wrong_refusal": 18,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 88
+  },
+  "S": {
+   "insuff_n": 84,
+   "insuff_correct": 83,
+   "unsupported": 1,
+   "wrong_refusal": 13,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 96
+  },
+  "B1_sel_scope": {
+   "insuff_n": 84,
+   "insuff_correct": 54,
+   "unsupported": 30,
+   "wrong_refusal": 12,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 96
+  },
+  "B2_sel_scope": {
+   "insuff_n": 84,
+   "insuff_correct": 75,
+   "unsupported": 9,
+   "wrong_refusal": 26,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 81
+  },
+  "B2_sel_table": {
+   "insuff_n": 84,
+   "insuff_correct": 73,
+   "unsupported": 11,
+   "wrong_refusal": 26,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 80
+  }
+ },
+ "mcnemar_S_vs": {
+  "B0": {
+   "insufficient": {
+    "S_only": 3,
+    "B2_only": 1,
+    "p": 0.625
+   },
+   "sufficient": {
+    "S_only": 74,
+    "B2_only": 4,
+    "p": 0.0
+   }
+  },
+  "B1": {
+   "insufficient": {
+    "S_only": 32,
+    "B2_only": 0,
+    "p": 0.0
+   },
+   "sufficient": {
+    "S_only": 26,
+    "B2_only": 16,
+    "p": 0.164149
+   }
+  },
+  "B2": {
+   "insufficient": {
+    "S_only": 24,
+    "B2_only": 1,
+    "p": 2e-06
+   },
+   "sufficient": {
+    "S_only": 26,
+    "B2_only": 18,
+    "p": 0.291215
+   }
+  },
+  "B1_sel_scope": {
+   "insufficient": {
+    "S_only": 30,
+    "B2_only": 1,
+    "p": 0.0
+   },
+   "sufficient": {
+    "S_only": 20,
+    "B2_only": 20,
+    "p": 1.0
+   }
+  },
+  "B2_sel_scope": {
+   "insufficient": {
+    "S_only": 9,
+    "B2_only": 1,
+    "p": 0.021484
+   },
+   "sufficient": {
+    "S_only": 33,
+    "B2_only": 18,
+    "p": 0.048874
+   }
+  },
+  "B2_sel_table": {
+   "insufficient": {
+    "S_only": 11,
+    "B2_only": 1,
+    "p": 0.006348
+   },
+   "sufficient": {
+    "S_only": 33,
+    "B2_only": 17,
+    "p": 0.032839
+   }
+  }
+ }
+}

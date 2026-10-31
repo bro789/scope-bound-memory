@@ -1,0 +1,6 @@
+{"qid": "df9dd2e1-q1", "question": "In the session where you had to read the '#INC059302208' dashboard chart of incidents per agent and create problems for the agents at or below the mode, how many agents (bars) did the chart show?"}
+{"qid": "df9dd2e1-q2", "question": "In the session about the '#INC059302208' incidents-per-agent chart, which agents had a number of incidents less than or equal to the mode (most frequent value)?"}
+{"qid": "df9dd2e1-q3", "question": "In the session about the '#INC059302208' dashboard task, how did the number of incidents in the Incidents list change when you filtered for Number greater than or equal to INC059302208?"}
+{"qid": "df9dd2e1-q4", "question": "In the session about the '#INC059302208' dashboard task, was the private task PTSK29012592 marked as Closed Complete?"}
+{"qid": "df9dd2e1-q5", "question": "In the session about the '#INC059302208' dashboard task, who was the incident DCP59301052 assigned to?"}
+{"qid": "df9dd2e1-q6", "question": "In the session about the '#INC059302208' dashboard task, which agent had the most incidents assigned across the whole Incidents table?"}

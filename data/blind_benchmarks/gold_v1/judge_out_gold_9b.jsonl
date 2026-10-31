@@ -1,0 +1,137 @@
+{"id": "0b61a795-q1|\"February 22, 2026 at 1:37:08 AM EST\"", "correct": true}
+{"id": "0b61a795-q2|false", "correct": true}
+{"id": "0b61a795-q3|10", "correct": false}
+{"id": "1248ae49-q1|\"lahwaacz\"", "correct": true}
+{"id": "1248ae49-q2|1", "correct": false}
+{"id": "1248ae49-q3|[\"Abishek S\", \"yjlou\"]", "correct": true}
+{"id": "13641ac5-q1|[40.4576002, -79.9293299]", "correct": true}
+{"id": "13641ac5-q2|\"5855 Ellsworth Avenue\"", "correct": true}
+{"id": "13641ac5-q3|false", "correct": true}
+{"id": "13641ac5-q6|[7, 19]", "correct": true}
+{"id": "1f3c3afb-q2|[\"Calendar integration\", \"First name\", \"Prefix\"]", "correct": true}
+{"id": "1f3c3afb-q3|[\"survey user\"]", "correct": false}
+{"id": "1f3c3afb-q4|[\"William Martin\", \"William Mahmud\", \"William Potter\", \"William Reyes\", \"William Thomas\", \"William Olson\", \"William Haney\"]", "correct": true}
+{"id": "20271c2e-q1|3", "correct": true}
+{"id": "20271c2e-q2|[\"Min\", \"Nadene\", \"Leonia\"]", "correct": true}
+{"id": "20271c2e-q4|[348, 3]", "correct": true}
+{"id": "22f883f0-q1|[\"PRB0040288\"]", "correct": true}
+{"id": "22f883f0-q1|\"PRB0040288\"", "correct": true}
+{"id": "22f883f0-q2|[\"The Related Search panel displayed results related to the 'Problem statement' field, which was identical to the Description field value ('Issue in connecting to internet using modem.')\", \"The panel showed a list of knowledge articles including 'Managing Settings in Internet Explore...', 'Article 3', 'Sales Force Automation is DOWN', 'Article 2', and 'Article 80'.\"]", "correct": false}
+{"id": "22f883f0-q2|[\"No results to display\", \"Related Search Results\"]", "correct": false}
+{"id": "22f883f0-q4|[\"Managing Settings in Internet Explore...\", \"Sales Force Automation is DOWN\"]", "correct": true}
+{"id": "25bbc2b3-q2|\"No\"", "correct": true}
+{"id": "25bbc2b3-q4|\"Apr 24, 2023, 2:55:10 PM\"", "correct": false}
+{"id": "25bbc2b3-q4|[\"Apr 24, 2023, 2:55:10 PM\"]", "correct": false}
+{"id": "27b83e24-q1|184", "correct": true}
+{"id": "27b83e24-q3|[102, 113]", "correct": true}
+{"id": "27b83e24-q3|[113]", "correct": false}
+{"id": "27b83e24-q4|\"yes\"", "correct": false}
+{"id": "27b83e24-q6|[\"container_scanning\", \"nodejs-scan-sast\", \"secret_detection\", \"semgrep-sast\"]", "correct": true}
+{"id": "2bcf0d8d-q1|\"PRB0040300\"", "correct": true}
+{"id": "2bcf0d8d-q2|20", "correct": false}
+{"id": "2bcf0d8d-q2|40", "correct": true}
+{"id": "2bcf0d8d-q3|[\"Network\", \"Network\"]", "correct": false}
+{"id": "2bcf0d8d-q3|[\"-- None --\", \"Network\"]", "correct": true}
+{"id": "3d7e50de-q1|419400.0", "correct": true}
+{"id": "3d7e50de-q1|\"$419,400.00\"", "correct": true}
+{"id": "3d7e50de-q2|[\"Cost center\"]", "correct": false}
+{"id": "3d7e50de-q2|[\"Cost\"]", "correct": true}
+{"id": "3d7e50de-q6|[\"SW000001 - Microsoft MSDN 2010\"]", "correct": true}
+{"id": "53260a23-q1|26", "correct": true}
+{"id": "53260a23-q2|[\"Walmart, Pittsburgh, PA\", \"Walmart Supercenter, 250, Summit Park Drive, RIDC Park West, Beechcliff, Pittsburgh, Allegheny County, Pennsylvania, 15275, United States\"]", "correct": true}
+{"id": "53260a23-q3|13", "correct": true}
+{"id": "584b53f3-q1|1", "correct": false}
+{"id": "584b53f3-q6|[\"Bans\", \"Moderation log\"]", "correct": true}
+{"id": "5df9d521-q1|2", "correct": false}
+{"id": "5df9d521-q6|true", "correct": false}
+{"id": "5df9d521-q6|false", "correct": true}
+{"id": "67e5df3d-q1|[11679, null]", "correct": false}
+{"id": "67e5df3d-q1|[1]", "correct": false}
+{"id": "67e5df3d-q2|\"arena.user.0216\"", "correct": true}
+{"id": "67e5df3d-q2|\"7719330328671887969\"", "correct": false}
+{"id": "67f0b21a-q1|2825", "correct": true}
+{"id": "67f0b21a-q2|\"Dell Inc. Precision T5500 Workstation\"", "correct": true}
+{"id": "67f0b21a-q3|[\"Apple iPhone X\", \"Logitech Desktop Optical Wireless Mouse\"]", "correct": false}
+{"id": "6cae7979-q1|[\"CHG0000034\", \"CHG0000034\"]", "correct": false}
+{"id": "6cae7979-q1|[\"CHG0030504\", \"CHG0000034\"]", "correct": true}
+{"id": "6cae7979-q2|\"Invalid update\"", "correct": true}
+{"id": "6cae7979-q3|[\"bond_trade_aus\", \"bond_trade_ny\", \"bond_trade_uk\"]", "correct": true}
+{"id": "7282d361-q1|\"Human Resources\"", "correct": true}
+{"id": "7282d361-q2|[\"Customer Support\", \"Development\", \"Finance\", \"HR\", \"IT\", \"Product Management\", \"Sales\"]", "correct": true}
+{"id": "7282d361-q3|\"The Department field was reset to its original value because the lookup failed.\"", "correct": true}
+{"id": "7282d361-q3|\"The Department field was reset to its original value (empty) because the selected value 'HR' was not found in the reference list.\"", "correct": true}
+{"id": "7584e6a6-q1|216", "correct": true}
+{"id": "7584e6a6-q3|\"robert1003 / dotfiles\"", "correct": true}
+{"id": "7584e6a6-q3|\"Byte Blaze / nolan_old_fans\"", "correct": false}
+{"id": "7584e6a6-q4|[\"planner\"]", "correct": true}
+{"id": "75c77677-q1|0.08", "correct": false}
+{"id": "75c77677-q1|\"0:37\"", "correct": true}
+{"id": "75c77677-q2|[\"0:08\", \"0:37\"]", "correct": false}
+{"id": "75c77677-q2|[\"0:37\", \"0:08\"]", "correct": true}
+{"id": "75c77677-q3|36", "correct": true}
+{"id": "75c77677-q4|[\"Western Avenue\"]", "correct": true}
+{"id": "77eec181-q1|\"REQ0013089\"", "correct": true}
+{"id": "77eec181-q3|[\"Developer Laptop (Mac)\", \"iPad pro\", \"Loaner Laptop\", \"Standard Laptop\"]", "correct": false}
+{"id": "7a7f1e38-q1|\"CHG0030056\"", "correct": true}
+{"id": "7a7f1e38-q2|\"Linux Server\"", "correct": true}
+{"id": "7a7f1e38-q3|[2]", "correct": false}
+{"id": "7a7f1e38-q3|[735]", "correct": false}
+{"id": "7acd627b-q1|\"2023-09-05 03:55:20\"", "correct": true}
+{"id": "7acd627b-q2|\"Taylor Williams\"", "correct": true}
+{"id": "807b666f-q1|\"PO100004\"", "correct": true}
+{"id": "807b666f-q4|true", "correct": true}
+{"id": "83cb7f13-q3|\"B06XY74TLV\"", "correct": true}
+{"id": "83cb7f13-q4|[\"HAFLINGER Men's Wool Felt Open Back Slippers, Beige 550 Peat, US:7\", \"Klogs Footwear Hadley Black/White 9.5 M (C)\", \"MARC JOSEPH NEW YORK Mens Lightweight Fashion Slip On Sockless Sneakers Non Slip Breathable Comfortable Walking Athletic Sports Shoes\", \"Cole Haan Men's Lionel Dress Chukka Boot\"]", "correct": false}
+{"id": "83cb7f13-q4|[\"Reef Men's Twinpin Prints Sandals\", \"Nike Victori One Slide Mens Style : Dd9559-300\", \"Mens Snow Boots Retro Warm Lined Winter Ankle Boot Casual Comfortable Antiskid Hand Stitching Leather Loafers Shoes Warm Outdoor Driving Shoes\", \"HAFLINGER Men's Wool Felt Open Back Slippers, Beige 550 Peat, US:7\"]", "correct": false}
+{"id": "a5c33477-q1|[\"000000193\"]", "correct": true}
+{"id": "a5c33477-q2|6", "correct": false}
+{"id": "a5c33477-q2|5", "correct": false}
+{"id": "a5c33477-q3|\"Roasemal Back Scrubber for Shower,Silicone Back Scrubber for Shower, Dual Sided Natural Soft and Stiff Massage Bristles for Body Exfoliating(Purple)\"", "correct": true}
+{"id": "a644f429-q1|\"http://localhost:9080/6\"", "correct": true}
+{"id": "a644f429-q1|[\"http://localhost:9080/6\"]", "correct": true}
+{"id": "a644f429-q2|[\"Anker Soundcore Q45\", \"Anker Soundcore Space One\", \"Sony WH-CH720N\", \"Sennheiser Accentum\"]", "correct": true}
+{"id": "a644f429-q3|\"I do use Spotify more nowadays\"", "correct": true}
+{"id": "a644f429-q3|[\"Raycon has entered the chat\"]", "correct": false}
+{"id": "ba01a652-q1|\"December 4, 2022\"", "correct": true}
+{"id": "ba01a652-q1|\"2022-12-04\"", "correct": true}
+{"id": "ba01a652-q2|37", "correct": true}
+{"id": "ba01a652-q3|[754.99]", "correct": false}
+{"id": "ba01a652-q3|[189]", "correct": false}
+{"id": "be348af9-q2|\"No\"", "correct": false}
+{"id": "be348af9-q3|1060", "correct": false}
+{"id": "be7ffff3-q1|[\"REQ0010241\", \"REQ0010242\", \"REQ0010243\"]", "correct": true}
+{"id": "be7ffff3-q2|[\"P7\"]", "correct": false}
+{"id": "be7ffff3-q2|[1947.0]", "correct": false}
+{"id": "be7ffff3-q6|[\"$499.00\", \"$649.00\"]", "correct": true}
+{"id": "c9316878-q1|\"May 23, 2023 9:20:01 PM\"", "correct": true}
+{"id": "c9316878-q2|142", "correct": true}
+{"id": "c9316878-q3|[153, 142]", "correct": true}
+{"id": "c9da1cbc-q1|\"ssh://git@localhost:2222/convexegg/super_awesome_robot.git\"", "correct": true}
+{"id": "c9da1cbc-q2|1", "correct": true}
+{"id": "c9da1cbc-q4|\"Meta / create-react-app\"", "correct": true}
+{"id": "ccac8300-q2|[\"Asset function\"]", "correct": true}
+{"id": "cff5d90b-q1|\"PTSK22691120\"", "correct": true}
+{"id": "cff5d90b-q1|[\"PTSK22691120\"]", "correct": true}
+{"id": "cff5d90b-q2|[1]", "correct": false}
+{"id": "cff5d90b-q3|true", "correct": true}
+{"id": "cff5d90b-q3|\"Yes\"", "correct": true}
+{"id": "cff5d90b-q6|[\"Russell-Susan Mccoy-Johnson\"]", "correct": false}
+{"id": "d1a784f5-q1|\"B08Y5PMFBZ\"", "correct": true}
+{"id": "d1a784f5-q2|false", "correct": true}
+{"id": "d1a784f5-q3|31190", "correct": true}
+{"id": "d1b20309-q1|12731", "correct": true}
+{"id": "d1b20309-q5|10", "correct": false}
+{"id": "db962508-q1|\"PTSK34267024\"", "correct": true}
+{"id": "db962508-q3|[\"Open\", \"Closed Complete\"]", "correct": true}
+{"id": "eb43df7f-q1|\"1111 Airport Boulevard\"", "correct": true}
+{"id": "eb43df7f-q2|[null, \"supermarket, Pittsburgh, PA\"]", "correct": false}
+{"id": "eb43df7f-q2|[null, null]", "correct": false}
+{"id": "eb43df7f-q3|\"Continue on Penn-Lincoln Parkway West (I 376; US 22; US 30)\"", "correct": true}
+{"id": "f0738845-q2|[\"Senior employee\", \"State\", \"Purchased\"]", "correct": false}
+{"id": "f1e9eb9f-q1|\"WP04\"", "correct": true}
+{"id": "f1e9eb9f-q2|[\"No\", \"Yes\"]", "correct": false}
+{"id": "f1e9eb9f-q3|[\"Cora Parachute Pant-28-Black\", \"Cora Parachute Pant-28-Blue\", \"Cora Parachute Pant-28-White\", \"Cora Parachute Pant-29-Black\", \"Cora Parachute Pant-29-Blue\", \"Cora Parachute Pant-29-White\"]", "correct": false}
+{"id": "ff0a0ede-q1|\"Adults reading to each other out loud?\"", "correct": true}
+{"id": "ff0a0ede-q2|[1]", "correct": true}
+{"id": "ff0a0ede-q4|[\"Ads in audiobooks? Audible has gone to far\", \"Book lover or not?\", \"What is one book quote you would get tattooed and why?\"]", "correct": false}
+{"id": "ff0a0ede-q4|[\"Adults reading to each other out loud?\", \"Book lover or not?\", \"Why is Brandon Sanderson so Divisive?\", \"Anyone else not like Wheel of Time?\", \"How well can you visualize things when you read?\", \"Just finished \\\"The Expanse\\\", loved the whole series.\", \"Missouri House gives initial approval to state budget that defunds libraries\", \"Why are fantasy books written by women aimed at women/girls so damn horny?\", \"Welcome to Brandon Sanderson's Fantasy Empire. The genre's most popular writer is determined to upend how books get made. We visited his mind-blowing headquarters in suburban Utah, where he and dozens of employees are working to restore power to the reader.\", \"For over a decade, Kristin Loberg has quietly co-authored a long list of bestselling books for medical superstars like David Agus and Sanjay Gupta. Now she's embroiled in a growing plagiarism scandal that has her celebrity clients worried sick\", \"Judge sides with publishers in lawsuit over Internet Archive's online library : NPR\", \"What Books did You Start or Finish Reading this Week?: March 27, 2023\", \"Red Rising the series. Wow.\", \"What's a book that unsettled you? How did it do that?\", \"Agatha Christie classics latest to be rewritten for modern sensitivities\", \"Who are the living rockstars of literature?\", \"Best literary dads?\", \"The Diary of Anne Frank\", \"Why isn't sci-fi author Brandon Sanderson taken seriously?\", \"At 83, The Handmaid's Tale author Margaret Atwood shows no signs of slowing down\", \"What's something you hate about modern books/ pet peeves\", \"Illinois House passes bill prohibiting book bans\"]", "correct": false}

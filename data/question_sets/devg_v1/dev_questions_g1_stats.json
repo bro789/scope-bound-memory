@@ -1,0 +1,45 @@
+{
+ "candidates": 2019,
+ "chosen": 40,
+ "by_type": {
+  "count": 10,
+  "enumeration": 8,
+  "existence": 8,
+  "set_difference": 4,
+  "single_fact": 5,
+  "version": 5
+ },
+ "insufficient": 15,
+ "tables": {
+  "Reports": 7,
+  "Incidents": 4,
+  "Expense Lines": 10,
+  "Knowledge": 3,
+  "Problems": 10,
+  "Tasks": 1,
+  "Task SLAs": 4,
+  "Duplicate Problems": 1
+ },
+ "families": {
+  "assign": 15,
+  "investment": 13,
+  "problem_cleanup": 8,
+  "filter": 4
+ },
+ "split": {
+  "dev": 5,
+  "confirm": 10
+ },
+ "candidates_by_type_sufficiency": {
+  "existence:True": 367,
+  "count:True": 432,
+  "enumeration:True": 243,
+  "existence:False": 129,
+  "single_fact:True": 263,
+  "enumeration:False": 317,
+  "count:False": 215,
+  "version:True": 11,
+  "set_difference:True": 36,
+  "set_difference:False": 6
+ }
+}

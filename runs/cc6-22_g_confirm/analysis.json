@@ -1,0 +1,334 @@
+{
+ "all": {
+  "R": {
+   "suff_n": 106,
+   "suff_correct": 35,
+   "unsupported": 8,
+   "wrong_refusal": 64,
+   "insuff_n": 94,
+   "insuff_correct": 86
+  },
+  "R+G": {
+   "suff_n": 106,
+   "suff_correct": 70,
+   "unsupported": 12,
+   "wrong_refusal": 26,
+   "insuff_n": 94,
+   "insuff_correct": 82
+  },
+  "R+E": {
+   "suff_n": 106,
+   "suff_correct": 39,
+   "unsupported": 13,
+   "wrong_refusal": 60,
+   "insuff_n": 94,
+   "insuff_correct": 81
+  },
+  "R+Goracle": {
+   "suff_n": 106,
+   "suff_correct": 72,
+   "unsupported": 12,
+   "wrong_refusal": 25,
+   "insuff_n": 94,
+   "insuff_correct": 82
+  }
+ },
+ "anchor_in_confirm_v1": {
+  "R": {
+   "suff_n": 62,
+   "suff_correct": 20,
+   "unsupported": 5,
+   "wrong_refusal": 37,
+   "insuff_n": 55,
+   "insuff_correct": 50
+  },
+  "R+G": {
+   "suff_n": 62,
+   "suff_correct": 40,
+   "unsupported": 9,
+   "wrong_refusal": 15,
+   "insuff_n": 55,
+   "insuff_correct": 46
+  },
+  "R+E": {
+   "suff_n": 62,
+   "suff_correct": 22,
+   "unsupported": 10,
+   "wrong_refusal": 35,
+   "insuff_n": 55,
+   "insuff_correct": 45
+  },
+  "R+Goracle": {
+   "suff_n": 62,
+   "suff_correct": 41,
+   "unsupported": 9,
+   "wrong_refusal": 15,
+   "insuff_n": 55,
+   "insuff_correct": 46
+  }
+ },
+ "anchor_new": {
+  "R": {
+   "insuff_n": 39,
+   "insuff_correct": 36,
+   "unsupported": 3,
+   "wrong_refusal": 27,
+   "suff_n": 44,
+   "suff_correct": 15
+  },
+  "R+G": {
+   "insuff_n": 39,
+   "insuff_correct": 36,
+   "unsupported": 3,
+   "wrong_refusal": 11,
+   "suff_n": 44,
+   "suff_correct": 30
+  },
+  "R+E": {
+   "insuff_n": 39,
+   "insuff_correct": 36,
+   "unsupported": 3,
+   "wrong_refusal": 25,
+   "suff_n": 44,
+   "suff_correct": 17
+  },
+  "R+Goracle": {
+   "insuff_n": 39,
+   "insuff_correct": 36,
+   "unsupported": 3,
+   "wrong_refusal": 10,
+   "suff_n": 44,
+   "suff_correct": 31
+  }
+ },
+ "paraphrased_ok": {
+  "R": {
+   "suff_n": 104,
+   "suff_correct": 34,
+   "unsupported": 8,
+   "wrong_refusal": 63,
+   "insuff_n": 87,
+   "insuff_correct": 79
+  },
+  "R+G": {
+   "suff_n": 104,
+   "suff_correct": 69,
+   "unsupported": 11,
+   "wrong_refusal": 25,
+   "insuff_n": 87,
+   "insuff_correct": 76
+  },
+  "R+E": {
+   "suff_n": 104,
+   "suff_correct": 38,
+   "unsupported": 13,
+   "wrong_refusal": 59,
+   "insuff_n": 87,
+   "insuff_correct": 74
+  },
+  "R+Goracle": {
+   "suff_n": 104,
+   "suff_correct": 71,
+   "unsupported": 11,
+   "wrong_refusal": 24,
+   "insuff_n": 87,
+   "insuff_correct": 76
+  }
+ },
+ "by_type": {
+  "count": {
+   "R": {
+    "suff_n": 32,
+    "suff_correct": 9,
+    "unsupported": 6,
+    "wrong_refusal": 22,
+    "insuff_n": 26,
+    "insuff_correct": 20
+   },
+   "R+G": {
+    "suff_n": 32,
+    "suff_correct": 23,
+    "unsupported": 9,
+    "wrong_refusal": 7,
+    "insuff_n": 26,
+    "insuff_correct": 17
+   },
+   "R+E": {
+    "suff_n": 32,
+    "suff_correct": 9,
+    "unsupported": 9,
+    "wrong_refusal": 22,
+    "insuff_n": 26,
+    "insuff_correct": 17
+   },
+   "R+Goracle": {
+    "suff_n": 32,
+    "suff_correct": 23,
+    "unsupported": 10,
+    "wrong_refusal": 8,
+    "insuff_n": 26,
+    "insuff_correct": 16
+   }
+  },
+  "enumeration": {
+   "R": {
+    "suff_n": 23,
+    "suff_correct": 10,
+    "unsupported": 2,
+    "wrong_refusal": 10,
+    "insuff_n": 23,
+    "insuff_correct": 21
+   },
+   "R+G": {
+    "suff_n": 23,
+    "suff_correct": 17,
+    "unsupported": 2,
+    "wrong_refusal": 3,
+    "insuff_n": 23,
+    "insuff_correct": 21
+   },
+   "R+E": {
+    "suff_n": 23,
+    "suff_correct": 11,
+    "unsupported": 2,
+    "wrong_refusal": 9,
+    "insuff_n": 23,
+    "insuff_correct": 21
+   },
+   "R+Goracle": {
+    "suff_n": 23,
+    "suff_correct": 17,
+    "unsupported": 2,
+    "wrong_refusal": 3,
+    "insuff_n": 23,
+    "insuff_correct": 21
+   }
+  },
+  "existence": {
+   "R": {
+    "suff_n": 22,
+    "suff_correct": 9,
+    "unsupported": 0,
+    "wrong_refusal": 11,
+    "insuff_n": 20,
+    "insuff_correct": 20
+   },
+   "R+G": {
+    "suff_n": 22,
+    "suff_correct": 15,
+    "unsupported": 0,
+    "wrong_refusal": 5,
+    "insuff_n": 20,
+    "insuff_correct": 20
+   },
+   "R+E": {
+    "suff_n": 22,
+    "suff_correct": 11,
+    "unsupported": 1,
+    "wrong_refusal": 9,
+    "insuff_n": 20,
+    "insuff_correct": 19
+   },
+   "R+Goracle": {
+    "suff_n": 22,
+    "suff_correct": 16,
+    "unsupported": 0,
+    "wrong_refusal": 4,
+    "insuff_n": 20,
+    "insuff_correct": 20
+   }
+  },
+  "set_difference": {
+   "R": {
+    "suff_n": 9,
+    "suff_correct": 1,
+    "unsupported": 0,
+    "wrong_refusal": 8,
+    "insuff_n": 25,
+    "insuff_correct": 25
+   },
+   "R+G": {
+    "suff_n": 9,
+    "suff_correct": 3,
+    "unsupported": 1,
+    "wrong_refusal": 6,
+    "insuff_n": 25,
+    "insuff_correct": 24
+   },
+   "R+E": {
+    "suff_n": 9,
+    "suff_correct": 2,
+    "unsupported": 1,
+    "wrong_refusal": 7,
+    "insuff_n": 25,
+    "insuff_correct": 24
+   },
+   "R+Goracle": {
+    "suff_n": 9,
+    "suff_correct": 2,
+    "unsupported": 0,
+    "wrong_refusal": 7,
+    "insuff_n": 25,
+    "insuff_correct": 25
+   }
+  },
+  "single_fact": {
+   "R": {
+    "suff_n": 20,
+    "suff_correct": 6,
+    "unsupported": 0,
+    "wrong_refusal": 13
+   },
+   "R+G": {
+    "suff_n": 20,
+    "suff_correct": 12,
+    "unsupported": 0,
+    "wrong_refusal": 5
+   },
+   "R+E": {
+    "suff_n": 20,
+    "suff_correct": 6,
+    "unsupported": 0,
+    "wrong_refusal": 13
+   },
+   "R+Goracle": {
+    "suff_n": 20,
+    "suff_correct": 14,
+    "unsupported": 0,
+    "wrong_refusal": 3
+   }
+  }
+ },
+ "mcnemar_G_vs_E": {
+  "sufficient": {
+   "S_only": 31,
+   "B2_only": 0,
+   "p": 0.0
+  },
+  "insufficient": {
+   "S_only": 5,
+   "B2_only": 4,
+   "p": 1.0
+  },
+  "fetch_hit_on_triggered": {
+   "S_only": 86,
+   "B2_only": 1,
+   "p": 0.0
+  }
+ },
+ "fetch": {
+  "triggered": 150,
+  "G_hit": 110,
+  "E_hit": 25,
+  "ctx_already_hit": 17,
+  "G_fetched_any": 138
+ },
+ "preregistered_decision": {
+  "G_suff": 0.6604,
+  "E_suff": 0.3679,
+  "G_insuff": 0.8723,
+  "E_insuff": 0.8617,
+  "pass": true,
+  "mechanism_pass": true
+ }
+}

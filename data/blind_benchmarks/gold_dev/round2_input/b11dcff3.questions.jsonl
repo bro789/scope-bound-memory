@@ -1,0 +1,6 @@
+{"qid": "b11dcff3-q1", "question": "In the session where you cleaned up duplicate problems whose problem statement contains \"#SERIES-7f44dcb1-e\", how many problems in total carried that series tag?"}
+{"qid": "b11dcff3-q2", "question": "In the session where you cleaned up duplicate problems tagged \"#SERIES-7f44dcb1-e\", which problems on the first page of the Problems list had the identical statement 'Simply work. #SERIES-7f44dcb1-e'?"}
+{"qid": "b11dcff3-q3", "question": "In the session where you cleaned up duplicate problems tagged \"#SERIES-7f44dcb1-e\", what error message came up after you clicked OK in the Mark Duplicate dialog for PRB0040445?"}
+{"qid": "b11dcff3-q4", "question": "In the session where you cleaned up duplicate problems tagged \"#SERIES-7f44dcb1-e\", how did PRB0040445's State and Resolution code differ between the Problems list and the Mark Duplicate dialog?"}
+{"qid": "b11dcff3-q5", "question": "In the session where you cleaned up duplicate problems tagged \"#SERIES-7f44dcb1-e\", what was the description of PRB0040445 before it was supposed to be changed to 'duplicate'?"}
+{"qid": "b11dcff3-q6", "question": "In the session where you cleaned up duplicate problems tagged \"#SERIES-7f44dcb1-e\", which of the two duplicated problems, PRB0040445 or PRB0040446, was opened earlier?"}

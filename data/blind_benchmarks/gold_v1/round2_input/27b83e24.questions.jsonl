@@ -1,0 +1,6 @@
+{"qid": "27b83e24-q1", "question": "In the session where you were updating the gimmiethat.space site title to \"Welcome to my site\", what was the project ID of the gimmiethat.space project?"}
+{"qid": "27b83e24-q2", "question": "In the session where you were updating the site title to \"Welcome to my site\", which merge request's pipeline finished first, !1 or !2?"}
+{"qid": "27b83e24-q3", "question": "In the session where you were updating the gimmiethat.space site title, how did the project storage figure change between your first and second visit to the project page?"}
+{"qid": "27b83e24-q4", "question": "In the session where you were updating the site title to \"Welcome to my site\", was merge request !2 actually merged into main?"}
+{"qid": "27b83e24-q5", "question": "In the session where you were updating the gimmiethat.space site title, what was the source branch of merge request !1?"}
+{"qid": "27b83e24-q6", "question": "In the session where you were updating the site title, which jobs of pipeline #1832 were in 'created' status (not yet pending)?"}

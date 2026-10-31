@@ -1,0 +1,439 @@
+{
+ "all": {
+  "B0": {
+   "insuff_n": 84,
+   "insuff_correct": 79,
+   "unsupported": 3,
+   "wrong_refusal": 70,
+   "parse_fail": 13,
+   "suff_n": 116,
+   "suff_correct": 24
+  },
+  "B1": {
+   "insuff_n": 84,
+   "insuff_correct": 50,
+   "unsupported": 32,
+   "wrong_refusal": 16,
+   "parse_fail": 11,
+   "suff_n": 116,
+   "suff_correct": 79
+  },
+  "B2": {
+   "insuff_n": 84,
+   "insuff_correct": 59,
+   "unsupported": 22,
+   "wrong_refusal": 18,
+   "parse_fail": 14,
+   "suff_n": 116,
+   "suff_correct": 78
+  },
+  "S": {
+   "insuff_n": 84,
+   "insuff_correct": 83,
+   "unsupported": 1,
+   "wrong_refusal": 13,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 96
+  },
+  "S_oracle": {
+   "insuff_n": 84,
+   "insuff_correct": 84,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "suff_n": 116,
+   "suff_correct": 116
+  }
+ },
+ "paraphrased_ok": {
+  "B0": {
+   "insuff_n": 80,
+   "insuff_correct": 75,
+   "unsupported": 3,
+   "wrong_refusal": 69,
+   "parse_fail": 13,
+   "suff_n": 113,
+   "suff_correct": 22
+  },
+  "B1": {
+   "insuff_n": 80,
+   "insuff_correct": 46,
+   "unsupported": 32,
+   "wrong_refusal": 16,
+   "parse_fail": 11,
+   "suff_n": 113,
+   "suff_correct": 76
+  },
+  "B2": {
+   "insuff_n": 80,
+   "insuff_correct": 55,
+   "unsupported": 22,
+   "wrong_refusal": 18,
+   "parse_fail": 14,
+   "suff_n": 113,
+   "suff_correct": 75
+  },
+  "S": {
+   "insuff_n": 80,
+   "insuff_correct": 79,
+   "unsupported": 1,
+   "wrong_refusal": 13,
+   "parse_fail": 0,
+   "suff_n": 113,
+   "suff_correct": 93
+  },
+  "S_oracle": {
+   "insuff_n": 80,
+   "insuff_correct": 80,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "suff_n": 113,
+   "suff_correct": 113
+  }
+ },
+ "template_fallback": {
+  "B0": {
+   "insuff_n": 4,
+   "insuff_correct": 4,
+   "unsupported": 0,
+   "wrong_refusal": 1,
+   "parse_fail": 0,
+   "suff_n": 3,
+   "suff_correct": 2
+  },
+  "B1": {
+   "insuff_n": 4,
+   "insuff_correct": 4,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "suff_n": 3,
+   "suff_correct": 3
+  },
+  "B2": {
+   "insuff_n": 4,
+   "insuff_correct": 4,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "suff_n": 3,
+   "suff_correct": 3
+  },
+  "S": {
+   "insuff_n": 4,
+   "insuff_correct": 4,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "suff_n": 3,
+   "suff_correct": 3
+  },
+  "S_oracle": {
+   "insuff_n": 4,
+   "insuff_correct": 4,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "suff_n": 3,
+   "suff_correct": 3
+  }
+ },
+ "tables_unseen_in_dev": {
+  "B0": {
+   "suff_n": 10,
+   "suff_correct": 1,
+   "unsupported": 0,
+   "wrong_refusal": 3,
+   "parse_fail": 1,
+   "insuff_n": 1,
+   "insuff_correct": 1
+  },
+  "B1": {
+   "suff_n": 10,
+   "suff_correct": 6,
+   "unsupported": 0,
+   "wrong_refusal": 3,
+   "parse_fail": 0,
+   "insuff_n": 1,
+   "insuff_correct": 1
+  },
+  "B2": {
+   "suff_n": 10,
+   "suff_correct": 7,
+   "unsupported": 0,
+   "wrong_refusal": 2,
+   "parse_fail": 0,
+   "insuff_n": 1,
+   "insuff_correct": 1
+  },
+  "S": {
+   "suff_n": 10,
+   "suff_correct": 7,
+   "unsupported": 0,
+   "wrong_refusal": 2,
+   "parse_fail": 0,
+   "insuff_n": 1,
+   "insuff_correct": 1
+  },
+  "S_oracle": {
+   "suff_n": 10,
+   "suff_correct": 10,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "insuff_n": 1,
+   "insuff_correct": 1
+  }
+ },
+ "by_type": {
+  "count": {
+   "B0": {
+    "insuff_n": 25,
+    "insuff_correct": 22,
+    "unsupported": 2,
+    "wrong_refusal": 17,
+    "parse_fail": 1,
+    "suff_n": 28,
+    "suff_correct": 7
+   },
+   "B1": {
+    "insuff_n": 25,
+    "insuff_correct": 7,
+    "unsupported": 17,
+    "wrong_refusal": 2,
+    "parse_fail": 1,
+    "suff_n": 28,
+    "suff_correct": 24
+   },
+   "B2": {
+    "insuff_n": 25,
+    "insuff_correct": 15,
+    "unsupported": 8,
+    "wrong_refusal": 5,
+    "parse_fail": 3,
+    "suff_n": 28,
+    "suff_correct": 21
+   },
+   "S": {
+    "insuff_n": 25,
+    "insuff_correct": 25,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 0,
+    "suff_n": 28,
+    "suff_correct": 28
+   },
+   "S_oracle": {
+    "insuff_n": 25,
+    "insuff_correct": 25,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 0,
+    "suff_n": 28,
+    "suff_correct": 28
+   }
+  },
+  "enumeration": {
+   "B0": {
+    "suff_n": 20,
+    "suff_correct": 4,
+    "unsupported": 1,
+    "wrong_refusal": 13,
+    "parse_fail": 2,
+    "insuff_n": 29,
+    "insuff_correct": 27
+   },
+   "B1": {
+    "suff_n": 20,
+    "suff_correct": 14,
+    "unsupported": 9,
+    "wrong_refusal": 3,
+    "parse_fail": 1,
+    "insuff_n": 29,
+    "insuff_correct": 19
+   },
+   "B2": {
+    "suff_n": 20,
+    "suff_correct": 16,
+    "unsupported": 3,
+    "wrong_refusal": 1,
+    "parse_fail": 3,
+    "insuff_n": 29,
+    "insuff_correct": 26
+   },
+   "S": {
+    "suff_n": 20,
+    "suff_correct": 9,
+    "unsupported": 1,
+    "wrong_refusal": 9,
+    "parse_fail": 0,
+    "insuff_n": 29,
+    "insuff_correct": 28
+   },
+   "S_oracle": {
+    "suff_n": 20,
+    "suff_correct": 20,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 0,
+    "insuff_n": 29,
+    "insuff_correct": 29
+   }
+  },
+  "existence": {
+   "B0": {
+    "insuff_n": 20,
+    "insuff_correct": 20,
+    "unsupported": 0,
+    "wrong_refusal": 20,
+    "parse_fail": 1,
+    "suff_n": 33,
+    "suff_correct": 10
+   },
+   "B1": {
+    "insuff_n": 20,
+    "insuff_correct": 15,
+    "unsupported": 5,
+    "wrong_refusal": 6,
+    "parse_fail": 2,
+    "suff_n": 33,
+    "suff_correct": 22
+   },
+   "B2": {
+    "insuff_n": 20,
+    "insuff_correct": 14,
+    "unsupported": 5,
+    "wrong_refusal": 9,
+    "parse_fail": 3,
+    "suff_n": 33,
+    "suff_correct": 20
+   },
+   "S": {
+    "insuff_n": 20,
+    "insuff_correct": 20,
+    "unsupported": 0,
+    "wrong_refusal": 3,
+    "parse_fail": 0,
+    "suff_n": 33,
+    "suff_correct": 30
+   },
+   "S_oracle": {
+    "insuff_n": 20,
+    "insuff_correct": 20,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 0,
+    "suff_n": 33,
+    "suff_correct": 33
+   }
+  },
+  "set_difference": {
+   "B0": {
+    "suff_n": 10,
+    "suff_correct": 0,
+    "unsupported": 0,
+    "wrong_refusal": 9,
+    "parse_fail": 0,
+    "insuff_n": 10,
+    "insuff_correct": 10
+   },
+   "B1": {
+    "suff_n": 10,
+    "suff_correct": 1,
+    "unsupported": 1,
+    "wrong_refusal": 5,
+    "parse_fail": 1,
+    "insuff_n": 10,
+    "insuff_correct": 9
+   },
+   "B2": {
+    "suff_n": 10,
+    "suff_correct": 2,
+    "unsupported": 6,
+    "wrong_refusal": 3,
+    "parse_fail": 0,
+    "insuff_n": 10,
+    "insuff_correct": 4
+   },
+   "S": {
+    "suff_n": 10,
+    "suff_correct": 10,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 0,
+    "insuff_n": 10,
+    "insuff_correct": 10
+   },
+   "S_oracle": {
+    "suff_n": 10,
+    "suff_correct": 10,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 0,
+    "insuff_n": 10,
+    "insuff_correct": 10
+   }
+  },
+  "single_fact": {
+   "B0": {
+    "suff_n": 25,
+    "suff_correct": 3,
+    "unsupported": 0,
+    "wrong_refusal": 11,
+    "parse_fail": 9
+   },
+   "B1": {
+    "suff_n": 25,
+    "suff_correct": 18,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 6
+   },
+   "B2": {
+    "suff_n": 25,
+    "suff_correct": 19,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 5
+   },
+   "S": {
+    "suff_n": 25,
+    "suff_correct": 19,
+    "unsupported": 0,
+    "wrong_refusal": 1,
+    "parse_fail": 0
+   },
+   "S_oracle": {
+    "suff_n": 25,
+    "suff_correct": 25,
+    "unsupported": 0,
+    "wrong_refusal": 0,
+    "parse_fail": 0
+   }
+  }
+ },
+ "mcnemar_S_vs_B2": {
+  "insufficient_judgement": {
+   "S_only": 25,
+   "B2_only": 1,
+   "p": 1e-06
+  },
+  "sufficient_accuracy": {
+   "S_only": 34,
+   "B2_only": 16,
+   "p": 0.015347
+  }
+ },
+ "S_error_source": {
+  "intent_parse": 21
+ },
+ "preregistered_decision": {
+  "S_insuff_acc": 0.9881,
+  "B2_insuff_acc": 0.7024,
+  "S_suff_acc": 0.8276,
+  "B2_suff_acc": 0.6724,
+  "pass": true
+ }
+}

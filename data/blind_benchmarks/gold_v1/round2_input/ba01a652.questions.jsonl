@@ -1,0 +1,6 @@
+{"qid": "ba01a652-q1", "question": "In the session where you were asked when I last ordered my toothpaste, what date was that toothpaste order placed?"}
+{"qid": "ba01a652-q2", "question": "In the session where you were looking up my last toothpaste order, how many orders in total did my order history have?"}
+{"qid": "ba01a652-q3", "question": "In the session where you were looking up my last toothpaste order, which order on the first page of my order history had the largest total?"}
+{"qid": "ba01a652-q4", "question": "In the session where you were looking up my last toothpaste order, had I ordered toothpaste in any order before the December 4, 2022 one?"}
+{"qid": "ba01a652-q5", "question": "In the session where you were looking up my last toothpaste order, which of my orders were canceled?"}
+{"qid": "ba01a652-q6", "question": "In the session where you were looking up my last toothpaste order, what was the shipping charge on order 000000176?"}

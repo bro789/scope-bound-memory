@@ -1,0 +1,6 @@
+{"qid": "eb43df7f-q1", "question": "In the session where you looked for a Hyatt hotel near Pittsburgh Airport, what street address did the map search give for the Hyatt hotel it found?"}
+{"qid": "eb43df7f-q2", "question": "In the session where you looked for a Hyatt near Pittsburgh Airport and the driving time to a supermarket, what did the destination resolve to when you first typed just 'supermarket', and what did it resolve to after you changed the query to 'supermarket, Pittsburgh, PA'?"}
+{"qid": "eb43df7f-q3", "question": "In the session where you got driving directions from the Hyatt at Pittsburgh Airport to a supermarket, which single step of the route covered the longest distance?"}
+{"qid": "eb43df7f-q4", "question": "In the session where you searched for a Hyatt hotel near Pittsburgh Airport, how many Hyatt hotels in total does the map have in that area?"}
+{"qid": "eb43df7f-q5", "question": "In the session about the Hyatt near Pittsburgh Airport, which supermarket is the closest by driving time to the hotel?"}
+{"qid": "eb43df7f-q6", "question": "In the session where you routed from the Hyatt at Pittsburgh Airport to Community Supermarket, how long would the trip take by bicycle?"}

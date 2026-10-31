@@ -1,0 +1,6 @@
+{"qid": "5df9d521-q1", "question": "In the session where you were asked to sort the ServiceNow users list by LDAP server (ascending), how did the total number of user records shown in the list footer change from the start of the session to the end?"}
+{"qid": "5df9d521-q2", "question": "In the session where you were asked to sort the ServiceNow users list by LDAP server (ascending), which user appeared in the first row after the list was sorted by LDAP server?"}
+{"qid": "5df9d521-q3", "question": "In the session where you were asked to sort the ServiceNow users list by LDAP server (ascending), how many users in the users list belong to the Customer Support department?"}
+{"qid": "5df9d521-q4", "question": "In the session where you were asked to sort the ServiceNow users list by LDAP server (ascending), which users have a non-empty LDAP server value?"}
+{"qid": "5df9d521-q5", "question": "In the session where you were asked to sort the ServiceNow users list by LDAP server (ascending), which user comes last when the list is sorted by LDAP server ascending?"}
+{"qid": "5df9d521-q6", "question": "In the session where you were asked to sort the ServiceNow users list by LDAP server (ascending), was the LDAP server column already displayed in the users list when you started?"}

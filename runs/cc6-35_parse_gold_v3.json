@@ -1,0 +1,2402 @@
+{
+ "0180607e-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "0180607e-q2": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "assets in the assets list",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"assets in the assets list\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "0180607e-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "rows of the assets list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n  \"operator\": \"extreme\",\n  \"collection\": \"rows of the assets list\",\n  \"scope\": \"seen\",\n  \"answer_source\": \"enumerated\",\n  \"top_of_sorted\": true\n}"
+ },
+ "0180607e-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the assets list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the assets list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "0180607e-q5": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "assets in the assets list",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"assets in the assets list\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "0180607e-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "03f61666-q1": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "03f61666-q2": {
+  "parse": {
+   "operator": "list",
+   "collection": "submissions on CameronKelsey's submissions page",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"submissions on CameronKelsey's submissions page\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "03f61666-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "submissions by CameronKelsey in the earthporn forum",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"submissions by CameronKelsey in the earthporn forum\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "03f61666-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "comments by CameronKelsey",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"comments by CameronKelsey\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "03f61666-q5": {
+  "parse": {
+   "operator": "count",
+   "collection": "submissions in the EarthPorn forum",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"submissions in the EarthPorn forum\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "03f61666-q6": {
+  "parse": {
+   "operator": "exists",
+   "collection": "posts in the EarthPorn forum listing",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"posts in the EarthPorn forum listing\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "074d7685-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "074d7685-q2": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "074d7685-q3": {
+  "parse": {
+   "operator": "change",
+   "collection": "map's scale bar",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"map's scale bar\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "074d7685-q4": {
+  "parse": {
+   "operator": "list",
+   "collection": "US states bordering Connecticut",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"US states bordering Connecticut\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "074d7685-q5": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the Nominatim result list",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the Nominatim result list\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "074d7685-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "US states bordering Connecticut",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"US states bordering Connecticut\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "0ef90792-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "0ef90792-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "search results for 'pittsburgh'",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"search results for 'pittsburgh'\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "0ef90792-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "posts returned by the pittsburgh search",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"posts returned by the pittsburgh search\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "0ef90792-q4": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "0ef90792-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "forums on the forum list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"forums on the forum list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "0ef90792-q6": {
+  "parse": {
+   "operator": "count",
+   "collection": "comments in the Chat GPT headlines thread",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"comments in the Chat GPT headlines thread\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "1035a06b-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "1035a06b-q2": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "rows of the hardware list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"rows of the hardware list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "1035a06b-q3": {
+  "parse": {
+   "operator": "exists",
+   "collection": "columns of the hardware list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"columns of the hardware list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "1035a06b-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "hardware records",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"hardware records\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "1035a06b-q5": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "hardware list",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"hardware list\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "1035a06b-q6": {
+  "parse": {
+   "operator": "list",
+   "collection": "hardware assets in the sorted list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"hardware assets in the sorted list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "11685915-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "11685915-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "branches of the metaseq project",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"branches of the metaseq project\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "11685915-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "files or folders of the repository",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"files or folders of the repository\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "11685915-q4": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "commits on main",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"commits on main\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "11685915-q5": {
+  "parse": {
+   "operator": "count",
+   "collection": "open issues of the metaseq project",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"open issues of the metaseq project\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "11685915-q6": {
+  "parse": {
+   "operator": "exists",
+   "collection": "branches of the metaseq repository",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"branches of the metaseq repository\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "15628871-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "15628871-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "15628871-q3": {
+  "parse": {
+   "operator": "count",
+   "collection": "numbered steps in the turn-by-turn directions",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"numbered steps in the turn-by-turn directions\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "15628871-q4": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "15628871-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "interstate highways in the car directions",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"interstate highways in the car directions\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "15628871-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "1fafa4f8-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "1fafa4f8-q2": {
+  "parse": {
+   "operator": "list",
+   "collection": "agents",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"agents\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "1fafa4f8-q3": {
+  "parse": {
+   "operator": "count",
+   "collection": "problems assigned to Matthew-Edward Nash-Garcia",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"problems assigned to Matthew-Edward Nash-Garcia\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "1fafa4f8-q4": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "incidents tagged #INC094755104",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"incidents tagged #INC094755104\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "1fafa4f8-q5": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "1fafa4f8-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "251a08f5-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "251a08f5-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "251a08f5-q3": {
+  "parse": {
+   "operator": "count",
+   "collection": "active requested items in the list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"active requested items in the list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "251a08f5-q4": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "Developer Laptop (Mac) requests",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"Developer Laptop (Mac) requests\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "251a08f5-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "records of the keyword search for Crystal-Dana Garcia-Mann",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"records of the keyword search for Crystal-Dana Garcia-Mann\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "251a08f5-q6": {
+  "parse": {
+   "operator": "list",
+   "collection": "Optional Software boxes",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"Optional Software boxes\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "2d37d4f7-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "2d37d4f7-q2": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "dotfiles projects",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"dotfiles projects\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "2d37d4f7-q3": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "2d37d4f7-q4": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "2d37d4f7-q5": {
+  "parse": {
+   "operator": "count",
+   "collection": "projects on the GitLab Explore page",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"projects on the GitLab Explore page\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "2d37d4f7-q6": {
+  "parse": {
+   "operator": "list",
+   "collection": "branches of the gimmiethat.space project",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"branches of the gimmiethat.space project\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "34c33200-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "incidents in the chart",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"incidents in the chart\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "34c33200-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "agents in the chart",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"agents in the chart\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "34c33200-q3": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "34c33200-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the Requested Items list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the Requested Items list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "34c33200-q5": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "active requested items",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"active requested items\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "34c33200-q6": {
+  "parse": {
+   "operator": "exists",
+   "collection": "Apple Watch item requests",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"Apple Watch item requests\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3bdbee95-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "expense lines",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"expense lines\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3bdbee95-q2": {
+  "parse": {
+   "operator": "list",
+   "collection": "expense lines",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"expense lines\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3bdbee95-q3": {
+  "parse": {
+   "operator": "change",
+   "collection": "rows of the Expense Lines list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"rows of the Expense Lines list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3bdbee95-q4": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "3bdbee95-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "expense lines",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"expense lines\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3bdbee95-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "matching expense lines",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"matching expense lines\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3d7ddc93-q1": {
+  "parse": {
+   "operator": "list",
+   "collection": "orders placed in July 2022",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"orders placed in July 2022\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3d7ddc93-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "individual items purchased",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"individual items purchased\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3d7ddc93-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "orders in the account's history",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"orders in the account's history\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3d7ddc93-q4": {
+  "parse": {
+   "operator": "list",
+   "collection": "products in order 000000167",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"products in order 000000167\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3d7ddc93-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "orders",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"orders\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3d7ddc93-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "3f5d1771-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "orders on her customer account",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"orders on her customer account\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3f5d1771-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "3f5d1771-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "orders of Sarah Miller",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"orders of Sarah Miller\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3f5d1771-q4": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "3f5d1771-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "orders of Sarah Miller",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"orders of Sarah Miller\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "3f5d1771-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "4d5e561e-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "private task",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"private task\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "4d5e561e-q2": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "sort order of the hardware asset list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"sort order of the hardware asset list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "4d5e561e-q3": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the hardware asset list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the hardware asset list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "4d5e561e-q4": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "4d5e561e-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "rows of the hardware asset list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"rows of the hardware asset list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "4d5e561e-q6": {
+  "parse": {
+   "operator": "list",
+   "collection": "hardware assets in the list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"hardware assets in the list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "62029ca3-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the user list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the user list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "62029ca3-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "rows of the user list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"rows of the user list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "62029ca3-q3": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "62029ca3-q4": {
+  "parse": {
+   "operator": "list",
+   "collection": "users on the first page of the unfiltered list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"users on the first page of the unfiltered list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "62029ca3-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "rows of the user table",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"rows of the user table\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "62029ca3-q6": {
+  "parse": {
+   "operator": "count",
+   "collection": "users in the user list",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"users in the user list\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "64489170-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "64489170-q2": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "64489170-q3": {
+  "parse": {
+   "operator": "count",
+   "collection": "results of the OpenStreetMap search",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"results of the OpenStreetMap search\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "64489170-q4": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "64489170-q5": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "Bing results for 'Western Pennsylvania Hospital phone'",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"Bing results for 'Western Pennsylvania Hospital phone'\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "64489170-q6": {
+  "parse": {
+   "operator": "change",
+   "collection": "map scale",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"map scale\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "64ca88ae-q1": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "64ca88ae-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "issue counts",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"issue counts\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "64ca88ae-q3": {
+  "parse": {
+   "operator": "list",
+   "collection": "issues",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"issues\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "64ca88ae-q4": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "64ca88ae-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "labels in the issue history",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"labels in the issue history\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "64ca88ae-q6": {
+  "parse": {
+   "operator": "count",
+   "collection": "closed issues assigned to me",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"closed issues assigned to me\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "70b722a7-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "expense lines",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"expense lines\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "70b722a7-q2": {
+  "parse": {
+   "operator": "list",
+   "collection": "expense lines",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"expense lines\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "70b722a7-q3": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "expense lines",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"expense lines\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "70b722a7-q4": {
+  "parse": {
+   "operator": "change",
+   "collection": "rows of the expense lines list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"rows of the expense lines list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "70b722a7-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "matching expense lines",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"matching expense lines\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "70b722a7-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "matching expense lines",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"matching expense lines\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "72480e7a-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the expense lines list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the expense lines list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "72480e7a-q2": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "72480e7a-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "allocations of the 150000 $ budget across expense lines tagged #741a4bc3-d",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"allocations of the 150000 $ budget across expense lines tagged #741a4bc3-d\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "72480e7a-q4": {
+  "parse": {
+   "operator": "list",
+   "collection": "expense lines",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"expense lines\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "72480e7a-q5": {
+  "parse": {
+   "operator": "change",
+   "collection": "articles in the Knowledge list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"articles in the Knowledge list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "72480e7a-q6": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the knowledge list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the knowledge list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "75adc32d-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "items in the store search results",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"items in the store search results\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "75adc32d-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "search results for children dental care",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"search results for children dental care\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "75adc32d-q3": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "75adc32d-q4": {
+  "parse": {
+   "operator": "exists",
+   "collection": "categories",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"categories\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "75adc32d-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "products in the children dental care category",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"products in the children dental care category\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "75adc32d-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "products in the children dental care search results",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"products in the children dental care search results\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "83497a1f-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "83497a1f-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "products in the 2023 bestsellers report",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"products in the 2023 bestsellers report\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "83497a1f-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "products in the Bestsellers tab",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"products in the Bestsellers tab\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "83497a1f-q4": {
+  "parse": {
+   "operator": "change",
+   "collection": "records in the bestsellers report",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"records in the bestsellers report\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "83497a1f-q5": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "83497a1f-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "best-selling products",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"best-selling products\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "872ad90e-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "personal projects in the facebook (Meta) account list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"personal projects in the facebook (Meta) account list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "872ad90e-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "872ad90e-q3": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "872ad90e-q4": {
+  "parse": {
+   "operator": "exists",
+   "collection": "groups associated with the facebook account",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"groups associated with the facebook account\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "872ad90e-q5": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "872ad90e-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "the two new forks",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"the two new forks\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "947acfd7-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "947acfd7-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "947acfd7-q3": {
+  "parse": {
+   "operator": "count",
+   "collection": "Development Laptop (PC) units",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"Development Laptop (PC) units\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "947acfd7-q4": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "items in the Hardware catalog",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"items in the Hardware catalog\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "947acfd7-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "947acfd7-q6": {
+  "parse": {
+   "operator": "list",
+   "collection": "operating system options for the Development Laptop",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"operating system options for the Development Laptop\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "9e1e9640-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "hardware assets",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"hardware assets\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "9e1e9640-q2": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "9e1e9640-q3": {
+  "parse": {
+   "operator": "list",
+   "collection": "related records",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"related records\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "9e1e9640-q4": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "hardware assets in the Hardware list",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"hardware assets in the Hardware list\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "9e1e9640-q5": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "9e1e9640-q6": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "a4f18365-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "expense lines",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"expense lines\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "a4f18365-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "rows of the expense list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"rows of the expense list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "a4f18365-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "expense lines with description 'Congress expect region lay.'",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"expense lines with description 'Congress expect region lay.'\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "a4f18365-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "expense lines",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"expense lines\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "a4f18365-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "articles in the Company Protocols knowledge base",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"articles in the Company Protocols knowledge base\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "a4f18365-q6": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "aabc3e03-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "aabc3e03-q2": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "aabc3e03-q3": {
+  "parse": {
+   "operator": "count",
+   "collection": "stages in the stage tracker",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"stages in the stage tracker\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "aabc3e03-q4": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "aabc3e03-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "items in the Hardware category",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"items in the Hardware category\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "aabc3e03-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "laptops in the catalog",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"laptops in the catalog\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ac99dd6f-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "steps in the walking directions",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"steps in the walking directions\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ac99dd6f-q2": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ac99dd6f-q3": {
+  "parse": {
+   "operator": "list",
+   "collection": "stores returned by Nominatim search",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n  \"operator\": \"list\",\n  \"collection\": \"stores returned by Nominatim search\",\n  \"scope\": \"whole\",\n  \"answer_source\": \"enumerated\",\n  \"top_of_sorted\": false\n}"
+ },
+ "ac99dd6f-q4": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "walks to grocery stores",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"walks to grocery stores\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ac99dd6f-q5": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "ac99dd6f-q6": {
+  "parse": {
+   "operator": "exists",
+   "collection": "grocery stores",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"grocery stores\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "c050a8c1-q1": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "c050a8c1-q2": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "the newest post in the DIY subreddit",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"the newest post in the DIY subreddit\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "c050a8c1-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "posts in the DIY forum's default Hot listing",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"posts in the DIY forum's default Hot listing\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "c050a8c1-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "submissions in the DIY forum",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"submissions in the DIY forum\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "c050a8c1-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "posts by the author of the newest DIY post",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"posts by the author of the newest DIY post\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "c050a8c1-q6": {
+  "parse": {
+   "operator": "list",
+   "collection": "posts in the DIY forum",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"posts in the DIY forum\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "c60ce2dc-q1": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "c60ce2dc-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the incident list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the incident list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "c60ce2dc-q3": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "c60ce2dc-q4": {
+  "parse": {
+   "operator": "list",
+   "collection": "active incidents",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"active incidents\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "c60ce2dc-q5": {
+  "parse": {
+   "operator": "count",
+   "collection": "configuration items",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"configuration items\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "c60ce2dc-q6": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9974077-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9974077-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "items in the hardware stock chart #CAT003076640",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"items in the hardware stock chart #CAT003076640\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9974077-q3": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "items in the hardware stock chart #CAT003076640",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"items in the hardware stock chart #CAT003076640\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9974077-q4": {
+  "parse": {
+   "operator": "change",
+   "collection": "price of the Development Laptop (PC)",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"price of the Development Laptop (PC)\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9974077-q5": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9974077-q6": {
+  "parse": {
+   "operator": "list",
+   "collection": "items in the Hardware category",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"items in the Hardware category\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9ccde3e-q1": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9ccde3e-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "products returned by the keyword search 'Sahara 28'",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"products returned by the keyword search 'Sahara 28'\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9ccde3e-q3": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9ccde3e-q4": {
+  "parse": {
+   "operator": "list",
+   "collection": "color variants of size 28 Sahara leggings",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"color variants of size 28 Sahara leggings\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9ccde3e-q5": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "products in the full product catalog",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"products in the full product catalog\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "d9ccde3e-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "e1f5b037-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the change requests list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the change requests list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "e1f5b037-q2": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "rows of the change requests list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n  \"operator\": \"extreme\",\n  \"collection\": \"rows of the change requests list\",\n  \"scope\": \"seen\",\n  \"answer_source\": \"enumerated\",\n  \"top_of_sorted\": true\n}"
+ },
+ "e1f5b037-q3": {
+  "parse": {
+   "operator": "list",
+   "collection": "change requests on the first page",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"change requests on the first page\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "e1f5b037-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "change requests in the change requests list",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"change requests in the change requests list\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "e1f5b037-q5": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "change requests in the list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"change requests in the list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "e1f5b037-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "change request CHG0000050",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"change request CHG0000050\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "e33455ce-q1": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "e33455ce-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "rows of the incident list",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"rows of the incident list\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "e33455ce-q3": {
+  "parse": {
+   "operator": "exists",
+   "collection": "active incidents from Rick Berzle",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"active incidents from Rick Berzle\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "e33455ce-q4": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "e33455ce-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "active incidents",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"active incidents\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "e33455ce-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "active incidents",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": true
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"active incidents\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": true\n}"
+ },
+ "eeece60c-q1": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "eeece60c-q2": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "eeece60c-q3": {
+  "parse": {
+   "operator": "list",
+   "collection": "forums",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"forums\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "eeece60c-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "submissions by MarvelsGrantMan136",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"submissions by MarvelsGrantMan136\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "eeece60c-q5": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "user's two posts",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"user's two posts\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "eeece60c-q6": {
+  "parse": {
+   "operator": "exists",
+   "collection": "posts in the space forum",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"posts in the space forum\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f02eb6ae-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "records in the coupons report",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"records in the coupons report\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f02eb6ae-q2": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "products in the Bestsellers list",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"products in the Bestsellers list\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f02eb6ae-q3": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "f02eb6ae-q4": {
+  "parse": {
+   "operator": "count",
+   "collection": "distinct search terms",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"distinct search terms\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f02eb6ae-q5": {
+  "parse": {
+   "operator": "exists",
+   "collection": "coupon records in the report",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"coupon records in the report\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f02eb6ae-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "f78dba10-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f78dba10-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "products in the shoe storage results",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"products in the shoe storage results\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f78dba10-q3": {
+  "parse": {
+   "operator": "change",
+   "collection": "shoe storage results",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"shoe storage results\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f78dba10-q4": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f78dba10-q5": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "shoe storage products holding at least 12 pairs",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"shoe storage products holding at least 12 pairs\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f78dba10-q6": {
+  "parse": {
+   "operator": "exists",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "f845c59d-q1": {
+  "parse": {
+   "operator": "count",
+   "collection": "items in the Women > Clothing category",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"items in the Women > Clothing category\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f845c59d-q2": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "products in the Woman clothing category",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"products in the Woman clothing category\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "f845c59d-q3": {
+  "parse": {
+   "operator": "change",
+   "collection": "items in the Women page",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"items in the Women page\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f845c59d-q4": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "products in the Woman clothing category",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"products in the Woman clothing category\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f845c59d-q5": {
+  "parse": {
+   "operator": "list",
+   "collection": "products in the Woman clothing category",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"products in the Woman clothing category\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "f845c59d-q6": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "products in the Woman clothing category",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"products in the Woman clothing category\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "fe2c05f8-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "fe2c05f8-q2": {
+  "parse": {
+   "operator": "list",
+   "collection": "agents",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"agents\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "fe2c05f8-q3": {
+  "parse": {
+   "operator": "count",
+   "collection": "results of the global search for the hashtag",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"results of the global search for the hashtag\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "fe2c05f8-q4": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "fe2c05f8-q5": {
+  "parse": {
+   "operator": "change",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "fe2c05f8-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "agents in the chart",
+   "scope": "seen",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"agents in the chart\",\n\"scope\": \"seen\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ffd2a97f-q1": {
+  "parse": {
+   "operator": "lookup",
+   "collection": "",
+   "scope": "whole",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"lookup\",\n\"collection\": \"\",\n\"scope\": \"whole\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ffd2a97f-q2": {
+  "parse": {
+   "operator": "count",
+   "collection": "results of the global search",
+   "scope": "seen",
+   "answer_source": "stated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"count\",\n\"collection\": \"results of the global search\",\n\"scope\": \"seen\",\n\"answer_source\": \"stated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ffd2a97f-q3": {
+  "parse": {
+   "operator": "list",
+   "collection": "roles of Marissa-Ashley Wallace-Griffith's user account",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"list\",\n\"collection\": \"roles of Marissa-Ashley Wallace-Griffith's user account\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ffd2a97f-q4": {
+  "parse": {
+   "operator": "exists",
+   "collection": "hardware assets",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"exists\",\n\"collection\": \"hardware assets\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ },
+ "ffd2a97f-q5": {
+  "parse": {
+   "operator": "change",
+   "collection": "private task",
+   "scope": "whole",
+   "answer_source": "single_record",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"change\",\n\"collection\": \"private task\",\n\"scope\": \"whole\",\n\"answer_source\": \"single_record\",\n\"top_of_sorted\": false\n}"
+ },
+ "ffd2a97f-q6": {
+  "parse": {
+   "operator": "extreme",
+   "collection": "hardware assets in the Hardware list",
+   "scope": "whole",
+   "answer_source": "enumerated",
+   "top_of_sorted": false
+  },
+  "raw": "{\n\"operator\": \"extreme\",\n\"collection\": \"hardware assets in the Hardware list\",\n\"scope\": \"whole\",\n\"answer_source\": \"enumerated\",\n\"top_of_sorted\": false\n}"
+ }
+}

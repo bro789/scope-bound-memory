@@ -1,0 +1,118 @@
+{"id": "01ef7178-q1|11", "correct": true}
+{"id": "01ef7178-q2|[11, 2828]", "correct": false}
+{"id": "01ef7178-q2|[2828, 11]", "correct": true}
+{"id": "01ef7178-q3|[\"EXP-0a9324af3-8\", \"EXP-10a9324af3-8\", \"EXP-1a9324af3-8\", \"EXP-2a9324af3-8\", \"EXP-3a9324af3-8\", \"EXP-4a9324af3-8\", \"EXP-5a9324af3-8\", \"EXP-6a9324af3-8\", \"EXP-7a9324af3-8\", \"EXP-8a9324af3-8\", \"EXP-9a9324af3-8\"]", "correct": true}
+{"id": "022a18ad-q1|31.74", "correct": true}
+{"id": "022a18ad-q3|4", "correct": false}
+{"id": "022a18ad-q4|[2004.99]", "correct": false}
+{"id": "153aa0ce-q1|\"privacy-policy-cookie-restriction-mode\"", "correct": true}
+{"id": "153aa0ce-q3|[\"Bruh bro you clicked the wrong page\", \"This is the home page!! Leave here!!\", \"Cookie monster coming to your place\"]", "correct": false}
+{"id": "153aa0ce-q3|[\"Bruh bro you clicked the wrong page\", \"This is the home page!! Leave here!!\"]", "correct": false}
+{"id": "153aa0ce-q6|\"Grace Nguyen\"", "correct": true}
+{"id": "1992620b-q1|[\"Donne Martin / system-design-primer\"]", "correct": false}
+{"id": "1992620b-q1|[\"Umano: News Read To You / AndroidSlidingUpPanel\"]", "correct": true}
+{"id": "1992620b-q2|[\"create-react-app\", \"buck\"]", "correct": true}
+{"id": "1992620b-q2|[\"Meta / create-react-app\", \"Meta / buck\"]", "correct": true}
+{"id": "1992620b-q3|[\"Open Source Diversity / opensourcediversity.org\"]", "correct": false}
+{"id": "1992620b-q3|[\"Meta / buck\"]", "correct": false}
+{"id": "2012e41e-q1|\"2027-03-25\"", "correct": true}
+{"id": "2012e41e-q2|0", "correct": true}
+{"id": "2012e41e-q4|\"P1000479\"", "correct": true}
+{"id": "2bbddb13-q1|172", "correct": true}
+{"id": "2bbddb13-q1|2.52", "correct": false}
+{"id": "2bbddb13-q2|\"Princeton University to Harvard University\"", "correct": true}
+{"id": "2bbddb13-q2|[\"Princeton University to Harvard University\"]", "correct": true}
+{"id": "2bbddb13-q4|52", "correct": false}
+{"id": "2bbddb13-q4|22", "correct": true}
+{"id": "2bbddb13-q6|27", "correct": false}
+{"id": "2bbddb13-q6|[192]", "correct": false}
+{"id": "35747a68-q1|false", "correct": true}
+{"id": "35747a68-q2|\"I made a makeup table for my girlfriend's birthday out of an old bar cabinet\"", "correct": true}
+{"id": "35747a68-q2|5649", "correct": false}
+{"id": "35747a68-q6|[187]", "correct": false}
+{"id": "35747a68-q6|[\"Used drywall compound instead of tile adhesive. How screwed am I ?\", \"Leaky ceiling, poked a hole in the ceiling with a screwdriver, and after 15 minutes the dripping stopped. What's going on?\"]", "correct": true}
+{"id": "4b4ffad1-q1|126266.0", "correct": true}
+{"id": "4b4ffad1-q2|[2822, 2825]", "correct": true}
+{"id": "4b4ffad1-q3|0", "correct": true}
+{"id": "4fc319c1-q1|[\"EXP-4615f82fa-5\"]", "correct": true}
+{"id": "4fc319c1-q1|\"Build Sense.\"", "correct": false}
+{"id": "4fc319c1-q2|5", "correct": true}
+{"id": "4fc319c1-q4|[\"Open\", \"Closed Complete\"]", "correct": true}
+{"id": "532afa79-q1|1671", "correct": true}
+{"id": "532afa79-q2|\"Every planet in the solar system visible in rare \\\"planet parade\\\"\"", "correct": true}
+{"id": "532afa79-q2|\"During WW1, a self-taught Ukrainian calculated the trajectory and method to get to the Moon and back. Almost 50 years later, NASA used his work and now the route of Apollo-11 wears his name - Kondratyuk Route\"", "correct": false}
+{"id": "532afa79-q3|3", "correct": false}
+{"id": "55d914b9-q1|[\"4.7km\", \"0:10\"]", "correct": true}
+{"id": "55d914b9-q1|\"4.7km, 0:10\"", "correct": true}
+{"id": "55d914b9-q2|[4.7, null]", "correct": false}
+{"id": "55d914b9-q2|[\"596km/7:23\", \"4.7km/0:10\"]", "correct": true}
+{"id": "55d914b9-q3|11", "correct": true}
+{"id": "5ace80cb-q1|\"Amanda.Winters.7039\"", "correct": true}
+{"id": "5ace80cb-q2|[907, 62]", "correct": false}
+{"id": "5ace80cb-q2|[907, 325]", "correct": true}
+{"id": "5ace80cb-q3|[\"Abigail Jenkins\", \"Adriana Bird\", \"Alexander Reese\", \"Alicia Santana\", \"Allen Hamilton\", \"Allen Stephens\", \"Allison Miller\"]", "correct": true}
+{"id": "5d2a6e9e-q1|6", "correct": true}
+{"id": "5d2a6e9e-q2|[\"PRB0042413\", \"PRB0042414\", \"PRB0042415\", \"PRB0042416\", \"PRB0042417\"]", "correct": true}
+{"id": "5d2a6e9e-q3|[\"Open\", \"Closed Complete\"]", "correct": true}
+{"id": "67bd1fdc-q3|0", "correct": true}
+{"id": "67bd1fdc-q4|[\"Bicycle (OSRM)\", \"Car (OSRM)\", \"Foot (OSRM)\"]", "correct": true}
+{"id": "67bd1fdc-q5|[\"Car (OSRM)\", \"Foot (OSRM)\"]", "correct": true}
+{"id": "756f7b4b-q1|[\"a323cbb6\"]", "correct": false}
+{"id": "756f7b4b-q2|[\"Eric Bailey\", \"Philip Wong\"]", "correct": true}
+{"id": "757f2ca7-q1|[\"Development Laptop (PC)\"]", "correct": true}
+{"id": "757f2ca7-q6|\"RITM0014314\"", "correct": true}
+{"id": "7a3d19a6-q1|[\"321 Maple Avenue, Oakland, California, 94602\", \"456 Oak Avenue, Apartment 5B, New York, NY, 10001\"]", "correct": false}
+{"id": "7a3d19a6-q1|[\"321 Maple Avenue, Oakland, California, 94602, United States\", \"456 Oak Avenue, Apartment 5B, New York, New York, 10001, United States\"]", "correct": true}
+{"id": "7a3d19a6-q2|\"no\"", "correct": true}
+{"id": "7a3d19a6-q2|false", "correct": true}
+{"id": "7a3d19a6-q3|219.4", "correct": true}
+{"id": "887e27c4-q1|6", "correct": true}
+{"id": "887e27c4-q2|[\"PRB0041744\", \"PRB0041743\"]", "correct": true}
+{"id": "887e27c4-q2|[\"PRB0041743\", \"PRB0041744\"]", "correct": true}
+{"id": "887e27c4-q6|[\"Assess\", \"Duplicate\"]", "correct": false}
+{"id": "887e27c4-q6|[\"Assess\", \"Closed\"]", "correct": true}
+{"id": "8fa0712e-q1|1534", "correct": true}
+{"id": "8fa0712e-q4|610", "correct": true}
+{"id": "8fa0712e-q5|[\"#1478\"]", "correct": true}
+{"id": "8fa0712e-q5|\"1478\"", "correct": true}
+{"id": "a89e54f4-q2|2", "correct": true}
+{"id": "a89e54f4-q3|[\"INC0000059\"]", "correct": true}
+{"id": "a89e54f4-q3|[\"INC0000060\"]", "correct": false}
+{"id": "b11dcff3-q2|[\"PRB0040446\", \"PRB0040445\"]", "correct": true}
+{"id": "b11dcff3-q3|\"The following mandatory fields are not filled in: Duplicate of\"", "correct": true}
+{"id": "b11dcff3-q4|[\"Assess\", \"Duplicate\"]", "correct": false}
+{"id": "b11dcff3-q4|[\"Assess\", \"Fix Applied\"]", "correct": false}
+{"id": "b2b61424-q1|\"B09NBW5FB6\"", "correct": true}
+{"id": "b2b61424-q2|[\"NCRD Wireless Earbuds Bluetooth Headphones, Ear-Hook Headphones, Wireless Earbuds Subwoofer Earphones Noise Cancelling Lightweight Sweatproof for Gym/Running/Workout in-Ear Headsets (Color : Gray)\"]", "correct": true}
+{"id": "b2b61424-q3|[14539, 631]", "correct": true}
+{"id": "bc5c8cc2-q1|[\"Apr 19, 2023 11:41:33 AM\", \"Feb 17, 2026 3:43:17 PM\"]", "correct": true}
+{"id": "bc5c8cc2-q2|6", "correct": false}
+{"id": "bc5c8cc2-q3|[]", "correct": true}
+{"id": "c39db8e4-q1|8", "correct": true}
+{"id": "c39db8e4-q2|[\"Lashonda Derouen\", \"Bernard Laboy\"]", "correct": true}
+{"id": "c39db8e4-q3|[\"P1000579 - Apple MacBook Pro 15\\\"\"]", "correct": true}
+{"id": "ca14c967-q1|8", "correct": true}
+{"id": "ca14c967-q2|\"EXP-01541f846-6\"", "correct": true}
+{"id": "ca14c967-q2|[\"EXP-01541f846-6\"]", "correct": true}
+{"id": "ca14c967-q3|8", "correct": false}
+{"id": "ca14c967-q3|[8]", "correct": false}
+{"id": "d5f184fc-q1|[\"Philadelphia\", \"Massachusetts\", \"02110\"]", "correct": false}
+{"id": "d5f184fc-q1|[\"Boston\", \"Massachusetts\", \"02110\"]", "correct": true}
+{"id": "d5f184fc-q2|\"Yes\"", "correct": true}
+{"id": "d5f184fc-q3|[\"$58.55\"]", "correct": false}
+{"id": "d5f184fc-q3|[\"000000197\"]", "correct": true}
+{"id": "d78315d5-q1|104", "correct": false}
+{"id": "d78315d5-q1|101", "correct": true}
+{"id": "d78315d5-q3|[\"CHG0000093\", \"CHG0000089\"]", "correct": false}
+{"id": "d78315d5-q5|\"CHG0000095\"", "correct": true}
+{"id": "d8002148-q1|\"Hardware\"", "correct": true}
+{"id": "d8002148-q3|\"PAL6096318\"", "correct": true}
+{"id": "d8002148-q6|[\"Assigned to\"]", "correct": true}
+{"id": "dc45a82a-q1|\"You cannot post more. Wait a while before trying again.\"", "correct": true}
+{"id": "dc45a82a-q2|\"Need advice on making a long-distance relationship work\"", "correct": true}
+{"id": "dc45a82a-q2|[\"Need advice on making a long-distance relationship work\"]", "correct": true}
+{"id": "dc45a82a-q3|\"My gf 19f and I 20m are currently in long distance and I don't think I can do it anymore\"", "correct": false}
+{"id": "ecee9502-q1|11", "correct": true}
+{"id": "ecee9502-q2|\"EXP-1ca048e05-6\"", "correct": false}
+{"id": "ecee9502-q2|[\"EXP-0ca048e05-6\"]", "correct": false}
+{"id": "ecee9502-q3|0", "correct": true}

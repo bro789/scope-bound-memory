@@ -1,0 +1,921 @@
+{
+ "summary": {
+  "n": 240,
+  "determined_agree": 229,
+  "full_agree": 200,
+  "r1_determined": 123,
+  "r2_determined": 128,
+  "kappa_determined": 0.9082
+ },
+ "disagreements": [
+  {
+   "qid": "0b61a795-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No, it returned 404 Not Found",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "1248ae49-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 3 to 4",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P10"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From 3 members to 4 members",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "13641ac5-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "40.4576002, -79.9293299",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "lat 40.4576002, lon -79.9293299 (Nominatim JSON: lat \"40.4576002\", lon \"-79.9293299\")",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "13641ac5-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No; the way page /way/167278405 showed 'Not Found: Sorry, way #167278405 could not be found.'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3"
+    ]
+   }
+  },
+  {
+   "qid": "13641ac5-q6",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "from 7 to 19",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Zoom 7 at the start (#map=7/42.896/-75.108) to zoom 19 after the search (#map=19/40.45760/-79.92933)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "1f3c3afb-q6",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "Every Prefix cell in the rows shown (P4, P6, P8, P10; about 80 rows out of 907 users) was blank, including the first page after sorting by Prefix (P10).",
+    "evidence_pages": [
+     "P4",
+     "P6",
+     "P8",
+     "P10"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P6",
+     "P8",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "20271c2e-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "348 before, 3 after",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3",
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From 348 records found to 3 records found",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3",
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "20271c2e-q6",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The agent opened the edit pages of reviews 303, 302 and 301, each with a 'Delete Review' button, but no page shows a deletion confirmation or the review list after those visits.",
+    "evidence_pages": [
+     "P5",
+     "P7",
+     "P9"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": false,
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5",
+     "P7",
+     "P9"
+    ]
+   }
+  },
+  {
+   "qid": "22f883f0-q1",
+   "issue": "determined",
+   "r1": {
+    "determined": true,
+    "answer": "PRB0040288",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0"
+    ]
+   },
+   "r2": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The new-record form displays Number PRB0040288 on every form page (P0-P10), but the form was never shown saved; P4/P5/P10 show 'Invalid update' error and the session ends on the ServiceNow welcome page (P11, P13).",
+    "evidence_pages": [
+     "P0",
+     "P10",
+     "P11"
+    ]
+   }
+  },
+  {
+   "qid": "22f883f0-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before: 'No results to display'; after: 5 knowledge results (Managing Settings in Internet Explore..., Article 3, Sales Force Automation is DOWN, Article 2, Article 80)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before the Description was filled the Related Search panel showed 'No results to display'; after filling it, it listed five knowledge article results: Managing Settings in Internet Explore..., Article 3, Sales Force Automation is DOWN, Article 2, Article 80.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "25bbc2b3-q1",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The review grid always reported 351 records found (18 pages), even after the Created filter 04/1/2023 to 04/30/2023 was applied (P8). All 20 rows visible were from April 2023 (5 on Apr 24, 15 on Apr 19), so there were at least 20.",
+    "evidence_pages": [
+     "P2",
+     "P7",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": 351,
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "25bbc2b3-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "353",
+     "352",
+     "351",
+     "349",
+     "347"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "ID 353 Bad! (Hannah Lim)",
+     "ID 352 Good but not perfect (customer)",
+     "ID 351 won't recommand (Emma)",
+     "ID 349 OKish (seam miller)",
+     "ID 347 Quite good (Jane Smith)"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "25bbc2b3-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "353",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "ID 353, 'Bad!' by Hannah Lim, Apr 24, 2023, 2:55:10 PM",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "27b83e24-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from 102 KB to 113 KB",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P31"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It increased from 102 KB to 113 KB",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P31"
+    ]
+   }
+  },
+  {
+   "qid": "27b83e24-q4",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "Merge request !2 (byteblaze-main-patch-91175 into main) was set to merge automatically when the pipeline succeeds; on every later view it was still 'Open' with pipeline #1832 pending, and index.html on main still had the title 'GIVE ME SPACE'.",
+    "evidence_pages": [
+     "P40",
+     "P42",
+     "P43",
+     "P50"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No. !2 was still Open with an automatic merge set to happen once pipeline #1832 succeeds; the MR list showed Merged 0 and the pipeline stayed pending.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P43",
+     "P44",
+     "P50"
+    ]
+   }
+  },
+  {
+   "qid": "53260a23-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "0:26",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "0:26 (26 minutes; distance 25 km)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "584b53f3-q3",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "Among the posts visible on the front page, the highest score was 14304 for 'The Moon, Saturn and Jupiter through my 4\" telescope and smartphone'. But the page was sorted by Hot, not by score, and the list is cut off after 'Andromeda (M31)', so later posts were not seen.",
+    "evidence_pages": [
+     "P1"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "The Moon, Saturn and Jupiter through my 4\" telescope and smartphone (score 14304)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1"
+    ]
+   }
+  },
+  {
+   "qid": "5df9d521-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "907 at the start, 909 at the end",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It went from 907 at the start to 909 at the end (908 on an intermediate page)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P5",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "67e5df3d-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 11,527 to 11,528",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P20",
+     "P23"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It went up by one, from 11,527 users the first time to 11,528 the later times",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P20",
+     "P23"
+    ]
+   }
+  },
+  {
+   "qid": "67f0b21a-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": "Unknown",
+     "after": "Apple iPhone X"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P12",
+     "P15"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "before": "The asset with display name '(empty) - Unknown' (no asset tag, model category Unknown, Web Server, class Asset, state In use, updated 2024-11-25 11:00:12), first row when sorted by Display name descending",
+     "after": "Apple iPhone X (Consumable, state Consumed, assigned to System Administrator, updated 2019-04-02 10:03:37), first row when sorted by Updated ascending"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P12",
+     "P15"
+    ]
+   }
+  },
+  {
+   "qid": "6cae7979-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "CHG0030504 before, CHG0000034 after",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P1"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "before": "CHG0030504",
+     "after": "CHG0000034"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P1"
+    ]
+   }
+  },
+  {
+   "qid": "7282d361-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It was reset: before the click it held 'HR', after the click it was empty with the message 'Match not found, reset to original' (and an 'Invalid update' error appeared).",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "The Department field was emptied/reset: the form showed 'Invalid update' and 'Match not found, reset to original' and the field returned to blank",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "75c77677-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "0:37",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "37 minutes (0:37, 2.8 km)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "75c77677-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from 0:37 (2.8km) on foot to 0:08 (3.1km) by car",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It dropped from 0:37 (foot, 2.8 km) to 0:08 (car, 3.1 km)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "77eec181-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from 2 to 3",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P22",
+     "P36"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It rose from 2 to 3",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P22",
+     "P36"
+    ]
+   }
+  },
+  {
+   "qid": "7a7f1e38-q1",
+   "issue": "determined",
+   "r1": {
+    "determined": true,
+    "answer": "CHG0030056",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0"
+    ]
+   },
+   "r2": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The new change request form displays Number CHG0030056 throughout, but the last form view (P9) shows an 'Invalid update' error and no page shows a saved/submitted record.",
+    "evidence_pages": [
+     "P0",
+     "P9",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "807b666f-q2",
+   "issue": "determined",
+   "r1": {
+    "determined": true,
+    "answer": "State before (P16), Assigned to after (P23)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P16",
+     "P23"
+    ]
+   },
+   "r2": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "P16 shows the sort indicator (descending arrow) on State; P23 (after the click at step 23) shows it on Assigned to.",
+    "evidence_pages": [
+     "P16",
+     "P23"
+    ]
+   }
+  },
+  {
+   "qid": "83cb7f13-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "HAFLINGER Men's Wool Felt Open Back Slippers, Beige 550 Peat, US:7",
+     "MARC JOSEPH NEW YORK Mens Lightweight Fashion Slip On Sockless Sneakers Non Slip Breathable Comfortable Walking Athletic Sports Shoes",
+     "Cole Haan Men's Lionel Dress Chukka Boot"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P21"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "HAFLINGER Men's Wool Felt Open Back Slippers, Beige 550 Peat, US:7 (100%, 2 reviews)",
+     "MARC JOSEPH NEW YORK Mens Lightweight Fashion Slip On Sockless Sneakers Non Slip Breathable Comfortable Walking Athletic Sports Shoes (90%, 2 reviews)",
+     "Cole Haan Men's Lionel Dress Chukka Boot (92%, 10 reviews)"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P21"
+    ]
+   }
+  },
+  {
+   "qid": "a644f429-q6",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The only view of the post was right after creation ('0 seconds ago'), showing 'No comments' and 'There's nothing here…', with 1 point (+1, −0). The post was not viewed again later.",
+    "evidence_pages": [
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "be348af9-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "CHG0030490",
+     "CHG0000088"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P1"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "The form auto-assigned CHG0030490; it was changed to CHG0000088",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P1"
+    ]
+   }
+  },
+  {
+   "qid": "be348af9-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "yes",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P10"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Yes. An 'Error Message: Invalid update' appeared (with 'Match not found, reset to original' on the Configuration item field).",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "be7ffff3-q6",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "from $499.00 to $649.00",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It rose from $499.00 (64 GB, default) to $649.00 (256 GB), an increase of $150.00",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "cff5d90b-q6",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "After submitting, the list (P13, P14) showed only the first 20 rows sorted by name (an empty-name record, then Aaron Adams through Aaron Barnes); the new user's row was not among them. Only the info message about the primary email device mentions her.",
+    "evidence_pages": [
+     "P13",
+     "P14"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P13",
+     "P14"
+    ]
+   }
+  },
+  {
+   "qid": "d1b20309-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before (ascending): Aaron Allen; after (descending): Zane Sulikowski",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Zane Sulikowski moved to the top (before, with Name ascending, the top named user was Aaron Allen)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "eb43df7f-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "1111, Airport Boulevard, Findlay Township, Allegheny County, Pennsylvania, 15231, United States",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "1111 Airport Boulevard, Findlay Township, Allegheny County, Pennsylvania 15231 (Hyatt Regency Pittsburgh International Airport)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "eb43df7f-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "Supermarket, Monrovia, Greater Monrovia, Montserrado County, Liberia",
+     "Community Supermarket, 4401, Liberty Avenue, Bloomfield, Pittsburgh, Allegheny County, Pennsylvania, 15224, United States"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P10"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "'supermarket' resolved to 'Supermarket, Monrovia, Greater Monrovia, Montserrado County, Liberia' (no route found); 'supermarket, Pittsburgh, PA' resolved to 'Community Supermarket, 4401, Liberty Avenue, Bloomfield, Pittsburgh, Allegheny County, Pennsylvania, 15224, United States'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "f1e9eb9f-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It changed from Yes to No and was saved ('You saved the product.')",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Changed from Yes (enabled) to No (disabled), and it was saved: the page showed 'You saved the product.' with Enable Product = No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P7",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "f1e9eb9f-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No; after saving, all six variations (e.g. Cora Parachute Pant-28-Black, WP04-28-Black) still showed status Enabled in the configurations grid",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "f1e9eb9f-q5",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "Only admin pages were visited; the last page shows the product saved with Enable Product = No. No storefront page was opened.",
+    "evidence_pages": [
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No, no storefront page was visited or checked",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P2",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "ff0a0ede-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "0 before, 1 after",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Score went from 0 to 1",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   }
+  }
+ ]
+}

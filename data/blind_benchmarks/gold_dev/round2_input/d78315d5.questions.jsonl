@@ -1,0 +1,6 @@
+{"qid": "d78315d5-q1", "question": "In the session where you were asked to filter change requests by Requested by = System Administrator, Number = CHG0000063, or State = New, how many change requests did the unfiltered list contain?"}
+{"qid": "d78315d5-q2", "question": "In the session where you built the change request filter including Number = CHG0000063, did CHG0000063 appear in the change request list?"}
+{"qid": "d78315d5-q3", "question": "In the session where you were asked to filter the change request list, which change requests on the first page had a Risk of 'Very High'?"}
+{"qid": "d78315d5-q4", "question": "In the session where you filtered change requests by Requested by, Number, or State, how many change requests were in the 'New' state?"}
+{"qid": "d78315d5-q5", "question": "In the session where you were asked to build the change request filter, which had the later planned end date: CHG0000095 or CHG0000089?"}
+{"qid": "d78315d5-q6", "question": "In the session where you were asked to filter change requests by Requested by = System Administrator, Number = CHG0000063, or State = New, how many records did the list show after the filter was applied, compared to before?"}

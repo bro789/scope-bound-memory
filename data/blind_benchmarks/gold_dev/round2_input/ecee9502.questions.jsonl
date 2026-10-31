@@ -1,0 +1,6 @@
+{"qid": "ecee9502-q1", "question": "In the session where you were asked to filter expense lines whose short description contains \"#9423666d-c\" and allocate a 348728 $ budget, how many expense lines matched that filter?"}
+{"qid": "ecee9502-q2", "question": "In the session where you were allocating a 348728 $ budget over expense lines tagged \"#9423666d-c\", which of the matching expense lines had the earliest date?"}
+{"qid": "ecee9502-q3", "question": "In the session where you were filtering expense lines for \"#9423666d-c\", did the 'Short description starts with #9423666d-c' filter return any records?"}
+{"qid": "ecee9502-q4", "question": "In the session where you were allocating a 348728 $ budget over expense lines, which expense lines in the whole Expense Lines table had a stated return above 250,000$?"}
+{"qid": "ecee9502-q5", "question": "In the session where you were working in the Expense Lines list to allocate a 348728 $ budget, how many expense lines belonged to user Julie Powers?"}
+{"qid": "ecee9502-q6", "question": "In the session where you were allocating a 348728 $ budget over expense lines tagged \"#9423666d-c\", which cost center were those expense lines charged to?"}

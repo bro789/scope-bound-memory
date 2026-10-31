@@ -1,0 +1,531 @@
+{
+ "summary": {
+  "n": 180,
+  "determined_agree": 178,
+  "full_agree": 159,
+  "r1_determined": 91,
+  "r2_determined": 91,
+  "kappa_determined": 0.9778
+ },
+ "disagreements": [
+  {
+   "qid": "01ef7178-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "2,828 before, 11 after",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P9",
+     "P15"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "before": 2828,
+     "after": 11
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P14",
+     "P15"
+    ]
+   }
+  },
+  {
+   "qid": "1992620b-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Meta / buck (Any) -> covid19india / covid19india-react (Public)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before (visibility Any): Meta / buck; after (visibility Public): covid19india / covid19india-react",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "1992620b-q4",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "No total count was displayed. Paging through Public / Most stars showed 9 pages: pages 1-8 with 20 entries each and page 9 with 7 entries (167 listed rows), but Tristan Yang / chinese-colors appears at the end of page 4 and again at the top of page 5, so the listing has at least one duplicate and possibly skipped entries; the number of distinct public projects is not settled.",
+    "evidence_pages": [
+     "P2",
+     "P3",
+     "P4",
+     "P5",
+     "P6",
+     "P7",
+     "P8",
+     "P9",
+     "P10"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": 167,
+    "what_is_known": "Count is of the non-archived public projects in the listing (page URLs carry non_archived=true): pages 1-8 have 20 each and page 9 has 7, with no Next link on page 9.",
+    "evidence_pages": [
+     "P2",
+     "P3",
+     "P4",
+     "P5",
+     "P6",
+     "P7",
+     "P8",
+     "P9",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "2012e41e-q2",
+   "issue": "determined",
+   "r1": {
+    "determined": true,
+    "answer": 0,
+    "what_is_known": "",
+    "evidence_pages": [
+     "P11"
+    ]
+   },
+   "r2": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The only page with both conditions in the filter bar (P11) shows 'Serial number starts with' (blank value, not 'is empty') plus 'Asset function = Secondary' and displays 'No records to display' (0 records). The agent then removed the Secondary condition (P12), so no page shows a correctly configured 'serial number is empty' AND 'Secondary' list.",
+    "evidence_pages": [
+     "P11",
+     "P12"
+    ]
+   }
+  },
+  {
+   "qid": "2bbddb13-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "2:52",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "2:52 (197 km)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "2bbddb13-q6",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "416km to 224km",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It dropped from 416km (Princeton to Harvard) to 224km (Yale to Harvard); time changed from 5:36 to 2:53",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "4b4ffad1-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from 2,822 to 2,825.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P20",
+     "P21"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It rose from 2,822 to 2,825 expense lines (+3).",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P20",
+     "P21"
+    ]
+   }
+  },
+  {
+   "qid": "4b4ffad1-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P11"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No, it returned no records ('No records to display').",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P11"
+    ]
+   }
+  },
+  {
+   "qid": "4fc319c1-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": "Open",
+     "after": "Closed Complete"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P25"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From Open to Closed Complete",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P25"
+    ]
+   }
+  },
+  {
+   "qid": "55d914b9-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Distance: 4.7km. Time: 0:10.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P17"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "4.7 km, 0:10 (10 minutes) by car",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P17"
+    ]
+   }
+  },
+  {
+   "qid": "55d914b9-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": "Distance: 596km. Time: 7:23. (to AMC Empire 25, Manhattan)",
+     "after": "Distance: 4.7km. Time: 0:10. (to AMC Waterfront 22, West Homestead)"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P14",
+     "P17"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "first_route": "596km, 7:23 (Hobart Street to AMC Empire 25 in Manhattan)",
+     "final_route": "4.7km, 0:10 (to AMC Waterfront 22)"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P14",
+     "P17"
+    ]
+   }
+  },
+  {
+   "qid": "5ace80cb-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "907 before, 325 after",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P11"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "before": 907,
+     "after": 325
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P11"
+    ]
+   }
+  },
+  {
+   "qid": "5d2a6e9e-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Open -> Closed Complete",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P36"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "State changed from Open to Closed Complete (saved, activity entry 2026-02-14 12:49:58 'State Closed Complete was Open').",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P34",
+     "P35",
+     "P36"
+    ]
+   }
+  },
+  {
+   "qid": "67bd1fdc-q5",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Changed from 'Car (OSRM)' to 'Foot (OSRM)'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "initial": "Car (OSRM)",
+     "changed_to": "Foot (OSRM)"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "7a3d19a6-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before: 321 Maple Avenue, Oakland, California, 94602; after: 456 Oak Avenue, Apartment 5B, New York, New York, 10001",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "before": "Sarah Miller, 321 Maple Avenue, Oakland, California, 94602, United States, T: 5107819902",
+     "after": "Sarah Miller, 456 Oak Avenue, Apartment 5B, New York, New York, 10001, United States, T: 5107819902"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "b11dcff3-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": {
+      "State": "Assess",
+      "Resolution code": "Fix Applied"
+     },
+     "after": {
+      "State": "Closed",
+      "Resolution code": "Duplicate"
+     }
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P9"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "problems_list": {
+      "State": "Assess",
+      "Resolution code": "Fix Applied"
+     },
+     "mark_duplicate_dialog": {
+      "State": "Closed",
+      "Resolution code": "Duplicate"
+     }
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P9"
+    ]
+   }
+  },
+  {
+   "qid": "b2b61424-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from 14539 items (Electronics) to 631 items (Headphones).",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It dropped from 14539 items (Electronics) to 631 items (Headphones).",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "ca14c967-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "2,813 -> 8",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P10",
+     "P11"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It dropped from 2,813 expense lines to 8.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P10",
+     "P11"
+    ]
+   }
+  },
+  {
+   "qid": "d5f184fc-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Boston, Massachusetts, 02110",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2",
+     "P3",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "city": "Boston",
+     "state": "Massachusetts",
+     "zip": "02110"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "d5f184fc-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "yes",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "ecee9502-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P10",
+     "P11",
+     "P12"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No, it returned no records ('No records to display').",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P10",
+     "P11",
+     "P12",
+     "P22"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+[
+ {
+  "trajectory": "01ef7178",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 21
+ },
+ {
+  "trajectory": "2012e41e",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 4
+ },
+ {
+  "trajectory": "4b4ffad1",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 18
+ },
+ {
+  "trajectory": "4fc319c1",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 19
+ },
+ {
+  "trajectory": "5ace80cb",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 10
+ },
+ {
+  "trajectory": "5d2a6e9e",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 28
+ },
+ {
+  "trajectory": "757f2ca7",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 21
+ },
+ {
+  "trajectory": "887e27c4",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 9
+ },
+ {
+  "trajectory": "a89e54f4",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 10
+ },
+ {
+  "trajectory": "b11dcff3",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 10
+ },
+ {
+  "trajectory": "c39db8e4",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 5
+ },
+ {
+  "trajectory": "ca14c967",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 25
+ },
+ {
+  "trajectory": "d78315d5",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 8
+ },
+ {
+  "trajectory": "d8002148",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 21
+ },
+ {
+  "trajectory": "ecee9502",
+  "domain": "enterprise",
+  "site_port": null,
+  "pages": 14
+ },
+ {
+  "trajectory": "022a18ad",
+  "domain": "web",
+  "site_port": "9082",
+  "pages": 14
+ },
+ {
+  "trajectory": "153aa0ce",
+  "domain": "web",
+  "site_port": "9083",
+  "pages": 6
+ },
+ {
+  "trajectory": "1992620b",
+  "domain": "web",
+  "site_port": "9001",
+  "pages": 16
+ },
+ {
+  "trajectory": "2bbddb13",
+  "domain": "web",
+  "site_port": "9443",
+  "pages": 11
+ },
+ {
+  "trajectory": "35747a68",
+  "domain": "web",
+  "site_port": "9080",
+  "pages": 6
+ },
+ {
+  "trajectory": "532afa79",
+  "domain": "web",
+  "site_port": "9080",
+  "pages": 5
+ },
+ {
+  "trajectory": "55d914b9",
+  "domain": "web",
+  "site_port": "9443",
+  "pages": 10
+ },
+ {
+  "trajectory": "67bd1fdc",
+  "domain": "web",
+  "site_port": "9443",
+  "pages": 10
+ },
+ {
+  "trajectory": "756f7b4b",
+  "domain": "web",
+  "site_port": "9001",
+  "pages": 4
+ },
+ {
+  "trajectory": "7a3d19a6",
+  "domain": "web",
+  "site_port": "9083",
+  "pages": 9
+ },
+ {
+  "trajectory": "8fa0712e",
+  "domain": "web",
+  "site_port": "9001",
+  "pages": 13
+ },
+ {
+  "trajectory": "b2b61424",
+  "domain": "web",
+  "site_port": "9082",
+  "pages": 4
+ },
+ {
+  "trajectory": "bc5c8cc2",
+  "domain": "web",
+  "site_port": "9083",
+  "pages": 5
+ },
+ {
+  "trajectory": "d5f184fc",
+  "domain": "web",
+  "site_port": "9082",
+  "pages": 9
+ },
+ {
+  "trajectory": "dc45a82a",
+  "domain": "web",
+  "site_port": "9080",
+  "pages": 9
+ }
+]

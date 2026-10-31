@@ -1,0 +1,6 @@
+{"qid": "d1a784f5-q1", "determined": true, "answer": "B08Y5PMFBZ", "what_is_known": "", "evidence_pages": ["P3"], "rationale": "Product page lists SKU B08Y5PMFBZ."}
+{"qid": "d1a784f5-q2", "determined": true, "answer": "No", "what_is_known": "", "evidence_pages": ["P3", "P4"], "rationale": "Page shows 'Be the first to review this product' and only the review form."}
+{"qid": "d1a784f5-q3", "determined": true, "answer": 31190, "what_is_known": "", "evidence_pages": ["P2"], "rationale": "Search result header says Items 1-12 of 31190."}
+{"qid": "d1a784f5-q4", "determined": false, "answer": null, "what_is_known": "Echo Dot (3rd Gen) is $33.99.", "evidence_pages": ["P2", "P3"], "rationale": "The 4th gen price was never shown."}
+{"qid": "d1a784f5-q5", "determined": false, "answer": null, "what_is_known": "On page 1 only 'Echo Dot (3rd Gen) - Smart Speaker with Alexa - Charcoal ...' ($33.99) is a speaker; other items are accessories.", "evidence_pages": ["P2"], "rationale": "Only page 1 of the results was seen."}
+{"qid": "d1a784f5-q6", "determined": false, "answer": null, "what_is_known": "IN STOCK label on the product page.", "evidence_pages": ["P3"], "rationale": "The page shows only 'IN STOCK', not a quantity."}

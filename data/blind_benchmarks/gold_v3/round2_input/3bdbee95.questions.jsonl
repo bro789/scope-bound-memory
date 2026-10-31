@@ -1,0 +1,6 @@
+{"qid": "3bdbee95-q1", "question": "In the session where you were filtering expense lines whose short description contains \"#SERIES-42aa4dcb-0\" to remove duplicates, how many expense lines did that filter return?"}
+{"qid": "3bdbee95-q2", "question": "In the session where you were filtering expense lines by \"#SERIES-42aa4dcb-0\" to remove duplicates, which expense line numbers matched the filter?"}
+{"qid": "3bdbee95-q3", "question": "In the session where you were cleaning up duplicate expense lines for \"#SERIES-42aa4dcb-0\", how did the total number of rows in the Expense Lines list change between when you first opened it and the last time you looked at it?"}
+{"qid": "3bdbee95-q4", "question": "In the session where you were removing duplicate \"#SERIES-42aa4dcb-0\" expense lines, what was the short description of expense line EXP-22469839228?"}
+{"qid": "3bdbee95-q5", "question": "In the session where you were deleting duplicate \"#SERIES-42aa4dcb-0\" expense lines, was expense line EXP-32469839228 deleted by the end?"}
+{"qid": "3bdbee95-q6", "question": "In the session where you filtered expense lines by \"#SERIES-42aa4dcb-0\", which of the matching expense lines had the largest amount?"}

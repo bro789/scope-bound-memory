@@ -1,0 +1,6 @@
+{"qid": "db962508-q1", "question": "In the session where you were asked to sort the service catalog item list by fulfillment automation level (descending), what was the number of the private task?"}
+{"qid": "db962508-q2", "question": "In the session where you sorted the catalog items list by fulfillment automation level descending, which catalog item was at the top of the list after the descending sort?"}
+{"qid": "db962508-q3", "question": "In the session where you sorted the catalog items list by fulfillment automation level, what did the State field of the private task show before and after you changed it?"}
+{"qid": "db962508-q4", "question": "In the session where you sorted the catalog items list by fulfillment automation level, was the private task's Closed Complete state actually saved?"}
+{"qid": "db962508-q5", "question": "In the session where you sorted the catalog items list by fulfillment automation level, how many catalog items were in the list in total?"}
+{"qid": "db962508-q6", "question": "In the session where you sorted the catalog items list by fulfillment automation level, which catalog items have the fulfillment automation level 'Semi-automated'?"}

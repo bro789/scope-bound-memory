@@ -1,0 +1,6 @@
+{"qid": "7a7f1e38-q1", "question": "In the session where you were asked to create a change request about adding redundant name servers to lnux100, lnux101 and PS LinuxApp01, what number did the new change request have?"}
+{"qid": "7a7f1e38-q2", "question": "In the session where you were creating the change request for redundant name servers, what class was PS LinuxApp01 listed as in the configuration item list?"}
+{"qid": "7a7f1e38-q3", "question": "In the session where you were creating the change request for redundant name servers, how many records did the configuration item lookup list show before and after you filtered it to names at or after PS LinuxApp01?"}
+{"qid": "7a7f1e38-q4", "question": "In the session where you were creating the change request for redundant name servers, where is lnux100 located according to the configuration item list?"}
+{"qid": "7a7f1e38-q5", "question": "In the session where you were creating the change request for redundant name servers, was the change request successfully submitted?"}
+{"qid": "7a7f1e38-q6", "question": "In the session where you were creating the change request for redundant name servers, which configuration items are located at 322 West 52nd Street, New York,NY?"}

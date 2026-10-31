@@ -1,0 +1,51 @@
+{
+ "arms": {
+  "R": {
+   "suff_n": 106,
+   "suff_correct": 35,
+   "unsupported": 8,
+   "wrong_refusal": 64,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 86
+  },
+  "R+G": {
+   "suff_n": 106,
+   "suff_correct": 70,
+   "unsupported": 12,
+   "wrong_refusal": 26,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 82
+  },
+  "R+E": {
+   "suff_n": 106,
+   "suff_correct": 39,
+   "unsupported": 13,
+   "wrong_refusal": 60,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 81
+  },
+  "R+Goracle": {
+   "suff_n": 106,
+   "suff_correct": 72,
+   "unsupported": 12,
+   "wrong_refusal": 25,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 82
+  }
+ },
+ "fetch": {
+  "triggered": 150,
+  "triggered_sufficient": 64,
+  "G_hit": 110,
+  "E_hit": 25,
+  "ctx_already_hit": 17,
+  "G_fetched_any": 138,
+  "G_chars": 2055746,
+  "E_chars": 2055746
+ },
+ "seconds": 1741.1965010166168
+}

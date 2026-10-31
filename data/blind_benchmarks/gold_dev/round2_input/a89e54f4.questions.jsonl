@@ -1,0 +1,6 @@
+{"qid": "a89e54f4-q1", "question": "In the session where you were asked to filter incidents with Category Software, Number INC0012256, Priority 4 - Low or State New, how many incidents were in the incident list?"}
+{"qid": "a89e54f4-q2", "question": "In the session where you were building an OR filter on incidents (Category Software, Number INC0012256, Priority 4 - Low, State New), how many incidents on the first page of the incident list had Category 'Software'?"}
+{"qid": "a89e54f4-q3", "question": "In the session where you were building an OR filter on incidents, which incident on the first page of the incident list had the earliest Created timestamp?"}
+{"qid": "a89e54f4-q4", "question": "In the session where you were asked to filter incidents including Number INC0012256, what was the priority of incident INC0012256?"}
+{"qid": "a89e54f4-q5", "question": "In the session where you were building an OR filter on incidents, which incidents had Priority '4 - Low'?"}
+{"qid": "a89e54f4-q6", "question": "In the session where you were building an OR filter on incidents (Category Software, Number INC0012256, Priority 4 - Low, State New), how did the number of incidents in the list change once the filter was applied?"}

@@ -1,0 +1,6 @@
+{"qid": "2bcf0d8d-q1", "question": "In the session where you were asked to create a new problem 'Unable to connect to Wifi' with configuration item WIRELESS, what record number did the new problem form show?"}
+{"qid": "2bcf0d8d-q2", "question": "In the session where you were creating the 'Unable to connect to Wifi' problem, when you looked up configuration items with names at or after WIRELESS, how many records did that filtered list contain?"}
+{"qid": "2bcf0d8d-q3", "question": "In the session where you were creating the 'Unable to connect to Wifi' problem, what was the Category field on the form before you set it, and what was it after?"}
+{"qid": "2bcf0d8d-q4", "question": "In the session where you were asked to create the 'Unable to connect to Wifi' problem, was the problem record actually saved?"}
+{"qid": "2bcf0d8d-q5", "question": "In the session where you were creating the 'Unable to connect to Wifi' problem, which of the knowledge articles suggested in the related search had the most views?"}
+{"qid": "2bcf0d8d-q6", "question": "In the session where you were creating the 'Unable to connect to Wifi' problem, how many configuration items of class Software exist in the CMDB?"}

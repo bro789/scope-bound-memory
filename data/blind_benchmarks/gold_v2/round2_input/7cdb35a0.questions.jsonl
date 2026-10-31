@@ -1,0 +1,6 @@
+{"qid": "7cdb35a0-q1", "question": "In the session where you built a change request filter for \"Assigned to\" is Bow Ruggeri or \"Risk\" is Low, how many change requests did the filtered list contain?"}
+{"qid": "7cdb35a0-q2", "question": "In the session where you filtered change requests by Bow Ruggeri or Low risk, how did the number of change requests in the list change once the filter was applied?"}
+{"qid": "7cdb35a0-q3", "question": "In the session where you filtered change requests by Bow Ruggeri or Low risk, which change requests did the filter return?"}
+{"qid": "7cdb35a0-q4", "question": "In the session where you filtered change requests by Bow Ruggeri or Low risk, did any change request with Low risk show up in the filtered results?"}
+{"qid": "7cdb35a0-q5", "question": "In the session where you filtered change requests by Bow Ruggeri or Low risk, how many change requests in the table have Low risk?"}
+{"qid": "7cdb35a0-q6", "question": "In the session where you built the Bow Ruggeri / Low risk filter on change requests, which change request on the first page of the unfiltered list had the latest planned end date?"}

@@ -1,0 +1,6 @@
+{"qid": "f5c42c59-q1", "question": "In the session where you cleaned up duplicate problems tagged #SERIES-b83d4c21-c, how many active problems were assigned to you before the cleanup and how many after?"}
+{"qid": "f5c42c59-q2", "question": "In the problem list cleanup for #SERIES-b83d4c21-c, which problem did you mark PRB0042379 as a duplicate of?"}
+{"qid": "f5c42c59-q3", "question": "In the session where you cleaned up your #SERIES-b83d4c21-c duplicate problems, which problems dropped out of your active problem list?"}
+{"qid": "f5c42c59-q4", "question": "In the duplicate problem cleanup session for #SERIES-b83d4c21-c, was the private task PTSK61309072 set to 'Closed Complete'?"}
+{"qid": "f5c42c59-q5", "question": "In the session where you cleaned up #SERIES-b83d4c21-c duplicates, how many problems in the whole instance (not only those assigned to you) carry the hashtag #SERIES-b83d4c21-c?"}
+{"qid": "f5c42c59-q6", "question": "In the problem list cleanup session for #SERIES-b83d4c21-c, when was problem PRB0042379 opened?"}

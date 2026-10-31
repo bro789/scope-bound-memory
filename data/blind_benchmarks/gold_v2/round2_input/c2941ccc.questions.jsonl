@@ -1,0 +1,6 @@
+{"qid": "c2941ccc-q1", "question": "In the session where you generated a sales order report for last month (today being 3/15/2023), what Sales Total did the report show for that month?"}
+{"qid": "c2941ccc-q2", "question": "In the session where you generated a sales order report for last month (today being 3/15/2023), how many orders did the report show for that month?"}
+{"qid": "c2941ccc-q3", "question": "In the session where you generated a sales order report for last month (today being 3/15/2023), how did the number of records found change after you clicked Show Report with the February date range?"}
+{"qid": "c2941ccc-q4", "question": "In the session where you generated a sales order report for last month (today being 3/15/2023), which customers placed the orders counted in that month's report?"}
+{"qid": "c2941ccc-q5", "question": "In the session where you generated a sales order report for last month (today being 3/15/2023), did the store have more orders in February 2023 than in January 2023?"}
+{"qid": "c2941ccc-q6", "question": "In the session where you generated a sales order report for last month (today being 3/15/2023), was the report exported to a CSV file?"}

@@ -1,0 +1,6 @@
+02065a54bd5c89d69d308d9ac3a6c58b5b30571f6af69f3ad5ded80e17d3a87d *code/gold_eval.py
+840faa974e6abc9d0ac851e8503a859b927dd1f9f562bf4d2008fc96ce599967 *code/page_coverage.py
+ad3b96990720ee30c43955167b238dc065c028f9e43944d546d458dd27706237 *gold_v2_preregistration.md
+69905beb213bb91b34ba776f424f74909d94e8d2160e1291166e7835ff637efa *annotation_v2/pages/_index.json
+# 2026-10-24: gold_eval.py re-hashed after adding the '+gate2' output columns to main(); gate_v2 itself unchanged; no gold_v2 run had started.
+ff81830879ec4e0b650cc02a73a65b0e6c872b9d6e57c3588726c495bebcd8b2 *annotation_v2/gold.jsonl

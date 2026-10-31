@@ -1,0 +1,6 @@
+{"qid": "4b4ffad1-q1", "question": "In the session where you were asked to filter expense lines containing \"#a2b4f433-6\" and allocate a 150000 $ budget, what was the Amount of expense line EXP-01541f846-6 that you previewed?"}
+{"qid": "4b4ffad1-q2", "question": "In the session where you were allocating a 150000 $ budget over expense lines tagged \"#a2b4f433-6\", how did the total number of expense lines in the unfiltered list change during the session?"}
+{"qid": "4b4ffad1-q3", "question": "In the session where you were filtering expense lines for \"#a2b4f433-6\", did the 'Short description starts with #a2b4f433-6' filter return any records?"}
+{"qid": "4b4ffad1-q4", "question": "In the session where you were allocating a 150000 $ budget, how many expense lines had \"#a2b4f433-6\" in their short description?"}
+{"qid": "4b4ffad1-q5", "question": "In the session where you were allocating a 150000 $ budget over expense lines, which expense lines had a stated return above 200,000$?"}
+{"qid": "4b4ffad1-q6", "question": "In the session where you were allocating a 150000 $ budget over expense lines, which had the larger Amount: EXP-01541f846-6 or EXP-11541f846-6?"}

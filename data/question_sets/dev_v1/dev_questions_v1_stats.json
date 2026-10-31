@@ -1,0 +1,47 @@
+{
+ "candidates": 3392,
+ "chosen": 38,
+ "by_type": {
+  "count": 10,
+  "enumeration": 8,
+  "existence": 8,
+  "set_difference": 4,
+  "single_fact": 5,
+  "version": 3
+ },
+ "insufficient": 15,
+ "tables": {
+  "Problems": 10,
+  "Expense Lines": 8,
+  "Assets": 1,
+  "Reports": 2,
+  "Duplicate Problems": 2,
+  "Incidents": 6,
+  "Knowledge": 1,
+  "Hardware": 1,
+  "Task SLAs": 6,
+  "Users": 1
+ },
+ "families": {
+  "problem_cleanup": 9,
+  "investment": 9,
+  "filter": 4,
+  "assign": 16
+ },
+ "split": {
+  "dev": 5,
+  "confirm": 10
+ },
+ "candidates_by_type_sufficiency": {
+  "count:True": 742,
+  "existence:True": 639,
+  "enumeration:False": 488,
+  "single_fact:True": 446,
+  "enumeration:True": 444,
+  "existence:False": 208,
+  "count:False": 351,
+  "set_difference:True": 46,
+  "set_difference:False": 10,
+  "version:True": 18
+ }
+}

@@ -1,0 +1,6 @@
+{"qid": "c9316878-q1", "question": "In the session where you were asked to get the date of the most recent cancelled order, what was the purchase date of the most recent canceled order?"}
+{"qid": "c9316878-q2", "question": "In the session where you looked up the most recent cancelled order, how many canceled orders were there in total?"}
+{"qid": "c9316878-q3", "question": "In the session where you looked up the most recent cancelled order, how many records did the orders grid report before and after you switched the status filter from Complete to Canceled?"}
+{"qid": "c9316878-q4", "question": "In the session where you looked up the most recent cancelled order, which canceled orders had a grand total above $200?"}
+{"qid": "c9316878-q5", "question": "In the session where you looked up the most recent cancelled order, which canceled order had the largest grand total?"}
+{"qid": "c9316878-q6", "question": "In the session where you looked up the most recent cancelled order, what items were in that most recent canceled order?"}

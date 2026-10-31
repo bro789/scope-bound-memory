@@ -1,0 +1,69 @@
+{
+ "arms": {
+  "R": {
+   "suff_n": 106,
+   "suff_correct": 39,
+   "unsupported": 14,
+   "wrong_refusal": 59,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 80
+  },
+  "R+G": {
+   "suff_n": 106,
+   "suff_correct": 85,
+   "unsupported": 28,
+   "wrong_refusal": 9,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 66
+  },
+  "R+E": {
+   "suff_n": 106,
+   "suff_correct": 46,
+   "unsupported": 23,
+   "wrong_refusal": 49,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 71
+  },
+  "R+Goracle": {
+   "suff_n": 106,
+   "suff_correct": 90,
+   "unsupported": 28,
+   "wrong_refusal": 5,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 66
+  },
+  "S@R": {
+   "suff_n": 106,
+   "suff_correct": 33,
+   "unsupported": 12,
+   "wrong_refusal": 58,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 82
+  },
+  "S+G": {
+   "suff_n": 106,
+   "suff_correct": 76,
+   "unsupported": 18,
+   "wrong_refusal": 4,
+   "parse_fail": 0,
+   "insuff_n": 94,
+   "insuff_correct": 76
+  }
+ },
+ "fetch": {
+  "triggered": 139,
+  "triggered_sufficient": 59,
+  "G_hit": 104,
+  "E_hit": 21,
+  "ctx_already_hit": 9,
+  "G_fetched_any": 130,
+  "G_chars": 2083164,
+  "E_chars": 2083164
+ },
+ "seconds": 2053.932724714279
+}

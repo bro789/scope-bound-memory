@@ -1,0 +1,55 @@
+{
+ "B0": {
+  "insuff_correct": 79,
+  "insuff_n": 84,
+  "unsupported": 3,
+  "wrong_refusal": 70,
+  "parse_fail": 13,
+  "prompt_tokens": 3274639,
+  "prompt_chars": 0,
+  "suff_correct": 24,
+  "suff_n": 116
+ },
+ "B1": {
+  "insuff_correct": 50,
+  "insuff_n": 84,
+  "unsupported": 32,
+  "wrong_refusal": 16,
+  "parse_fail": 11,
+  "prompt_tokens": 3821846,
+  "prompt_chars": 0,
+  "suff_correct": 79,
+  "suff_n": 116
+ },
+ "B2": {
+  "insuff_correct": 59,
+  "insuff_n": 84,
+  "unsupported": 22,
+  "wrong_refusal": 18,
+  "parse_fail": 14,
+  "prompt_tokens": 3846246,
+  "prompt_chars": 0,
+  "suff_correct": 78,
+  "suff_n": 116
+ },
+ "S": {
+  "insuff_correct": 83,
+  "insuff_n": 84,
+  "unsupported": 1,
+  "wrong_refusal": 13,
+  "parse_fail": 0,
+  "prompt_tokens": 184968,
+  "prompt_chars": 0,
+  "suff_correct": 96,
+  "suff_n": 116
+ },
+ "S_oracle": {
+  "insuff_correct": 84,
+  "insuff_n": 84,
+  "unsupported": 0,
+  "wrong_refusal": 0,
+  "parse_fail": 0,
+  "suff_correct": 116,
+  "suff_n": 116
+ }
+}

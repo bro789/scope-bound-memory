@@ -1,0 +1,897 @@
+{
+ "summary": {
+  "n": 240,
+  "determined_agree": 238,
+  "full_agree": 203,
+  "r1_determined": 122,
+  "r2_determined": 124,
+  "kappa_determined": 0.9833
+ },
+ "disagreements": [
+  {
+   "qid": "0180607e-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "P1000493",
+     "P1000419",
+     "P1000830",
+     "P1000407"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "P1000493 - Apple MacBook Pro 15\"",
+     "P1000419 - Lenovo ThinkStation D20",
+     "P1000830 - Apple MacBook Pro 17\"",
+     "P1000407 - Apple MacBook Pro 17\""
+    ],
+    "what_is_known": "The date is 2024-11-21 00:00:00 for all four.",
+    "evidence_pages": [
+     "P7"
+    ]
+   }
+  },
+  {
+   "qid": "0180607e-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "P1000479 - Apple MacBook Pro 15\"",
+     "Samsung SyncMaster 24\" Class BackLight LED (assigned to Lashawn Hasty, no asset tag)"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "first_at_start": "P1000479 - Apple MacBook Pro 15\"",
+     "first_after_ascending_sort": "Samsung SyncMaster 24\" Class BackLight LED (consumable, assigned to Lashawn Hasty, Order received empty, no asset tag)"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "03f61666-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "30104 before; 1 after",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "before": "30104",
+     "after": "1"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "074d7685-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 50 km / 50 mi to 20 km / 10 mi",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From 50 km / 50 mi (P0, P1) to 20 km / 10 mi (P2)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "1035a06b-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before: P1000479 - Apple MacBook Pro 15\"; after: P1000143 - iBUYPOWER Gamer Supreme",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P7"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before sorting: P1000479 (Apple MacBook Pro 15\"); right after sorting by Eligible for refresh: P1000143 (iBUYPOWER Gamer Supreme)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P6",
+     "P7"
+    ]
+   }
+  },
+  {
+   "qid": "1035a06b-q5",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "P1000637 - Apple MacBook Air 13\"",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "MacBook Air 13\" P1000637 (2027-11-17), later than MacBook Pro 17\" P1000807 (2027-03-25)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "15628871-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "5:48",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "5:48 (5 hours 48 minutes); distance 492 km",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "15628871-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "Pittsburgh, PA",
+     "Pittsburgh, Allegheny County, Pennsylvania, United States"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "First 'Pittsburgh, PA'; then 'Pittsburgh, Allegheny County, Pennsylvania, United States'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3"
+    ]
+   }
+  },
+  {
+   "qid": "251a08f5-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from $1,499.00 + $100.00 Annually (quantity 1) to $7,495.00 + $500.00 Annually (quantity 5)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P16",
+     "P17"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Subtotal went from $1,499.00 (quantity 1) to $7,495.00 (quantity 5), i.e. 5 x $1,499.00",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P16",
+     "P17"
+    ]
+   }
+  },
+  {
+   "qid": "251a08f5-q5",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P7"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No, it returned no records ('No records to display')",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P7"
+    ]
+   }
+  },
+  {
+   "qid": "2d37d4f7-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Initially 'dotfiles'; last set to 'dotfiles-mit-2'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P6",
+     "P16",
+     "P17"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "At first 'dotfiles'; last set to 'dotfiles-mit-2'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P16",
+     "P17"
+    ]
+   }
+  },
+  {
+   "qid": "34c33200-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "RITM0013802 changed to RITM5611757",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P9"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "before": "RITM0013802",
+     "after": "RITM5611757"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P9"
+    ]
+   }
+  },
+  {
+   "qid": "34c33200-q6",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The only Apple Watch request seen was RITM5611757, requested for Austin-Jacob Huang-Wilson and opened by Melinda Atkins. No form or list row for Brittney-Shannon Clarke-Rodriguez appeared, and the Requested Items list after creation is cut off.",
+    "evidence_pages": [
+     "P11",
+     "P12"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P11",
+     "P12"
+    ]
+   }
+  },
+  {
+   "qid": "3bdbee95-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from 2,796 to 2,819 rows",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P42"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Increased from 2,796 rows (first opened) to 2,819 rows (last view)",
+    "what_is_known": "The count was 2,796 in P3 through P11-era views, 2,807 in P30, and 2,819 from P34 to P42.",
+    "evidence_pages": [
+     "P3",
+     "P30",
+     "P34",
+     "P42"
+    ]
+   }
+  },
+  {
+   "qid": "3d7ddc93-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "000000149",
+     "000000167"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "000000149 (7/25/22)",
+     "000000167 (7/8/22)"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3",
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "3d7ddc93-q5",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Yes",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Yes, order 000000182 on 6/30/22 ($173.56, Canceled)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3"
+    ]
+   }
+  },
+  {
+   "qid": "3f5d1771-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before submitting there were no entries. Afterwards there was one entry: Feb 20, 2026 8:51:38 PM, Complete, Customer Notified, 'the order is ready to be shipped soon!'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P6",
+     "P7"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It went from no comments (empty history) to one entry: 'the order is ready to be shipped soon!' with status Complete, Customer Notified (dated Feb 20, 2026 8:51:38 PM)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P7"
+    ]
+   }
+  },
+  {
+   "qid": "62029ca3-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 907 rows to no records (the applied filter was First name = Denice and Cost center = (empty), which showed 'No records to display')",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P11",
+     "P12"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From 907 users (rows 1 to 20 shown) to no results: 'No records to display'",
+    "what_is_known": "The filter that was actually applied in the final page reads 'First name = Denice' > 'Cost center = (empty)', not Cost center = IT.",
+    "evidence_pages": [
+     "P0",
+     "P12"
+    ]
+   }
+  },
+  {
+   "qid": "64489170-q6",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 50 km / 50 mi to 50 m / 200 ft",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From 50 km / 50 mi (zoom 7 view) to 50 m / 200 ft (zoom 17 view)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "70b722a7-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     2819,
+     2811
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P50"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "at_start": 2819,
+     "last_unfiltered_list": 2811
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P50"
+    ]
+   }
+  },
+  {
+   "qid": "70b722a7-q5",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The filtered list showed only line numbers. Previews of two lines showed Source IDs ('Change Request: CHG0030091' for EXP-02074715047, 'User: Colleen Garrett' for EXP-102074715047) but no Task field. The Task value of the other lines was never displayed.",
+    "evidence_pages": [
+     "P13",
+     "P14",
+     "P16"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Yes",
+    "what_is_known": "EXP-02074715047 has Source ID 'Change Request: CHG0030091' (Inherited checked); EXP-102074715047 has Source ID 'User: Colleen Garrett'. The other ten matching lines were not opened.",
+    "evidence_pages": [
+     "P14",
+     "P16"
+    ]
+   }
+  },
+  {
+   "qid": "72480e7a-q5",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before: KB0010143; after: KB0000001",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P45",
+     "P46"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: KB0010143 (Maximizing total investment return); after: KB0000001 (Sales Force Automation is DOWN)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P45",
+     "P46"
+    ]
+   }
+  },
+  {
+   "qid": "83497a1f-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 0 records found to 1 record found",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It went from 0 records found to 1 records found",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "872ad90e-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "0",
+     "1"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P18",
+     "P29"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "before": 0,
+     "after": 1
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P18",
+     "P29"
+    ]
+   }
+  },
+  {
+   "qid": "947acfd7-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from $1,000.00 to $1,300.00",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Price rose from $1,000.00 to $1,300.00 (+$300.00)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3"
+    ]
+   }
+  },
+  {
+   "qid": "ac99dd6f-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "Giant Eagle, 5550, Centre Avenue, Shadyside, Pittsburgh, Allegheny County, Pennsylvania, 15232, United States",
+     "Giant Eagle, 6401, Penn Avenue, East Liberty, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States",
+     "Market District, Penn Avenue, Shadyside, Pittsburgh, Allegheny County, Pennsylvania, 15206, United States"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P16"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "Giant Eagle, 5550 Centre Avenue, Shadyside",
+     "Giant Eagle, 6401 Penn Avenue, East Liberty",
+     "Market District, Penn Avenue, Shadyside"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P16"
+    ]
+   }
+  },
+  {
+   "qid": "ac99dd6f-q5",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no; it stayed 'Distance: 233km. Time: 51:53.'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7",
+     "P8",
+     "P10",
+     "P11",
+     "P12"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No; it stayed at Distance: 233km. Time: 51:53 for every destination query",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7",
+     "P8",
+     "P10",
+     "P11",
+     "P12"
+    ]
+   }
+  },
+  {
+   "qid": "c60ce2dc-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "INC0018501 changed to INC0000601",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P20",
+     "P47",
+     "P48"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Default INC0018501 (in the form opened in the new tab and filled in); changed to INC0000601",
+    "what_is_known": "An earlier, abandoned new-incident form (opened from the Active incidents list) showed INC0018500 by default.",
+    "evidence_pages": [
+     "P20",
+     "P48",
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "c60ce2dc-q6",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "yes",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P50",
+     "P51"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Yes, the State was set to Closed Complete and Update clicked; the form then showed State Closed Complete",
+    "what_is_known": "The activity stream on the reloaded form still listed only the initial entry.",
+    "evidence_pages": [
+     "P50",
+     "P51"
+    ]
+   }
+  },
+  {
+   "qid": "d9974077-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "$1,100.00 in the search results vs $1,000.00 on the order page",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P29",
+     "P30"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Catalog search results showed $1,100.00; the item's order page showed $1,000.00 (also $1,000.00 subtotal), i.e. $100 lower on the order page",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P29",
+     "P30",
+     "P32"
+    ]
+   }
+  },
+  {
+   "qid": "d9ccde3e-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "75.00 before, 64.88 after",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7",
+     "P8",
+     "P9"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: $75.00; after: $64.88",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7",
+     "P8",
+     "P9"
+    ]
+   }
+  },
+  {
+   "qid": "e1f5b037-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "CHG0000001",
+     "CHG0040007"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": {
+     "after_first_click": "CHG0000001",
+     "after_second_click": "CHG0040007"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "e33455ce-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before: 5 - Planning; after: 3 - Moderate",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P13"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Priority was 5 - Planning when the form opened; after setting Impact and Urgency to 2 - Medium it was 3 - Moderate",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P9",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "e33455ce-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "yes (INC0000059)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "yes",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P17"
+    ]
+   }
+  },
+  {
+   "qid": "f02eb6ae-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From '05/01/2021' to '5/1/21'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From '05/01/2021' (as typed) to '5/1/21'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "f845c59d-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 9769 items to 5245 items",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P9"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It went from 9769 items (all Women) to 5245 items (Clothing)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P9"
+    ]
+   }
+  },
+  {
+   "qid": "ffd2a97f-q5",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P6",
+     "P7"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No change: State stayed 'Open' and Activities stayed at 1",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P6",
+     "P7"
+    ]
+   }
+  }
+ ]
+}

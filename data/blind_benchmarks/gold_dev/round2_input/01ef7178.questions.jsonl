@@ -1,0 +1,6 @@
+{"qid": "01ef7178-q1", "question": "In the session where you were asked to filter expense lines whose short description contains \"#ff1ca941-0\" and allocate a 150000 $ budget, how many expense lines did the filter return?"}
+{"qid": "01ef7178-q2", "question": "In the session where you allocated the investment budget for the \"#ff1ca941-0\" expense lines, how many rows did the Expense Lines list show before and after you applied the short description filter?"}
+{"qid": "01ef7178-q3", "question": "In the session where you were asked to maximize investment returns for the \"#ff1ca941-0\" project, which expense line numbers matched the filter?"}
+{"qid": "01ef7178-q4", "question": "In the session where you allocated the 150000 $ budget across the \"#ff1ca941-0\" expense lines, what was the amount of expense line EXP-0a9324af3-8?"}
+{"qid": "01ef7178-q5", "question": "In the session where you reviewed the \"#ff1ca941-0\" investment expense lines, did any of the 11 matching expense lines have child expense lines?"}
+{"qid": "01ef7178-q6", "question": "In the session where you were asked to report the total return of the \"#ff1ca941-0\" investments, which matching expense line had the highest return?"}

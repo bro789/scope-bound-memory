@@ -1,0 +1,6531 @@
+[
+ {
+  "qid": "S02H001",
+  "type": "count",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": true, \"answer\": 1, \"observed_lower_bound\": 1, \"reason\": \"The Hardware table grid shows exactly one record where the Assigned to field matches 'Alexandra-Dylan Johnson-Martinez'.\"}",
+    "finish": "stop",
+    "prompt_tokens": 5465,
+    "output_tokens": 51,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "f9a23d3a",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to Name starts with Alexandra-Dylan Johnson-Martinez"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "f9a23d3a",
+       "state": 100,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "f9a23d3a",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to Name starts with Alexandra-Dylan Johnson-Martinez"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "f9a23d3a",
+       "state": 100,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H002",
+  "type": "count",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": true, \"answer\": 1, \"observed_lower_bound\": 1, \"reason\": \"The Catalog Items table displayed exactly one record matching the filter criteria: 'Development Laptop (PC)'.\"}",
+    "finish": "stop",
+    "prompt_tokens": 8440,
+    "output_tokens": 47,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "018f5b68",
+     "table": "Catalog Items",
+     "conditions": [
+      "Keywords = Service Catalog",
+      "Active = true",
+      "No search = false",
+      "Category is not empty",
+      "Name starts with Development Laptop (PC)"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "018f5b68",
+       "state": 43,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "018f5b68",
+     "table": "Catalog Items",
+     "conditions": [
+      "Keywords = Service Catalog",
+      "Active = true",
+      "No search = false",
+      "Category is not empty",
+      "Name starts with Development Laptop (PC)"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "018f5b68",
+       "state": 43,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H003",
+  "type": "count",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": true,\n  \"answer\": 5,\n  \"observed_lower_bound\": 5,\n  \"reason\": \"The search results page explicitly states 'Knowledge & Catalog - Knowledge (5 of 5)' under the heading '6 results for \"Hardware Assets\"', indicating exactly 5 Knowledge records matched the filter criteria.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 10826,
+    "output_tokens": 77,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "f79c68f8",
+     "table": "Knowledge",
+     "conditions": [
+      "Keywords = Hardware Assets",
+      "Workflow = Published",
+      "Active = true",
+      "Valid to > 2025-11-02",
+      "Knowledge base Active = true"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 5,
+     "evidence": [
+      {
+       "trajectory": "f79c68f8",
+       "state": 11,
+       "page": {
+        "first": 1,
+        "last": 5,
+        "total": 5
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "f79c68f8",
+     "table": "Knowledge",
+     "conditions": [
+      "Keywords = Hardware Assets",
+      "Workflow = Published",
+      "Active = true",
+      "Valid to > 2025-11-02",
+      "Knowledge base Active = true"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 5,
+     "evidence": [
+      {
+       "trajectory": "f79c68f8",
+       "state": 11,
+       "page": {
+        "first": 1,
+        "last": 5,
+        "total": 5
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H004",
+  "type": "count",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": true, \"answer\": 1, \"observed_lower_bound\": 1, \"reason\": \"The Requested Items table displayed exactly one record where the 'Requested for' field contains 'Phillip-Kristen Huang-Miller'.\"}",
+    "finish": "stop",
+    "prompt_tokens": 4289,
+    "output_tokens": 55,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "018f5b68",
+     "table": "Requested Items",
+     "conditions": [
+      "Requested for Name contains Phillip-Kristen Huang-Miller"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "018f5b68",
+       "state": 38,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "018f5b68",
+     "table": "Requested Items",
+     "conditions": [
+      "Requested for Name contains Phillip-Kristen Huang-Miller"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "018f5b68",
+       "state": 38,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H005",
+  "type": "count",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"observed_lower_bound\": 0, \"reason\": \"The provided memory pages show a filter condition for 'Keywords = Requested Items' but the table displays 'No records to display', and no specific count of records matching that exact filter is explicitly stated in the text.\"}",
+    "finish": "stop",
+    "prompt_tokens": 2456,
+    "output_tokens": 69,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "a57d7b57",
+     "table": "Requested Items",
+     "filter": "Keywords = Requested Items",
+     "why": "The provided memory pages show the 'Requested Items' list, but none of them display the actual data rows (records). The tables in the memory snippets all show 'No records to display' or are filtered by different criteria (e.g., 'Requested for = Hannah Anderson'). To answer how many records exist where 'Keywords = Requested Items', the specific list view with that filter applied and the corresponding data rows visible is required."
+    }
+   ],
+   "fetched": [
+    [
+     "a57d7b57",
+     20
+    ]
+   ],
+   "g_chars": 16673,
+   "e_chars": 16673,
+   "g_hit": false,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "a57d7b57",
+     "table": "Requested Items",
+     "conditions": [
+      "Keywords = Requested Items"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Requested Items",
+      "conditions": [
+       "Keywords = Requested Items"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Keywords = Requested Items",
+       "Active = true"
+      ]
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H006",
+  "type": "count",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 0,\n  \"reason\": \"The provided memory pages show empty expense line lists with 'No records to display' and do not contain the data required to count entries matching the specific filter criteria.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 2677,
+    "output_tokens": 68,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "84ba0b95",
+     "table": "Expense Lines",
+     "filter": "Short description contains #SERIES-122f8e1d-1",
+     "why": "The provided memory pages show the dashboard and individual expense line details (EXP-02202404334, EXP-22202404334), but none of them display the list view of Expense Lines with the specific filter applied to count records matching the short description criteria."
+    }
+   ],
+   "fetched": [
+    [
+     "84ba0b95",
+     27
+    ]
+   ],
+   "g_chars": 3215,
+   "e_chars": 3215,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "84ba0b95",
+     "table": "Expense Lines",
+     "conditions": [
+      "Short description contains #SERIES-122f8e1d-1"
+     ],
+     "column": "Short description",
+     "value": "#SERIES-122f8e1d-1",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 0,
+     "evidence": [
+      {
+       "trajectory": "84ba0b95",
+       "state": 27,
+       "page": {
+        "first": 1,
+        "last": 4,
+        "total": 4
+       }
+      }
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H007",
+  "type": "count",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": true, \"answer\": 1, \"observed_lower_bound\": 1, \"reason\": \"The raw page from step 26 explicitly shows 'Showing rows 1 to 1 of 1' for the user named 'Christine-Allison Hopkins-Hill', indicating exactly one record was found.\"}",
+    "finish": "stop",
+    "prompt_tokens": 4073,
+    "output_tokens": 70,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "131132b3",
+     "table": "Users",
+     "conditions": [
+      "Name starts with Christine-Allison Hopkins-Hill"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "131132b3",
+       "state": 26,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 1
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "131132b3",
+     "table": "Users",
+     "conditions": [
+      "Name starts with Christine-Allison Hopkins-Hill"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "131132b3",
+       "state": 26,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H008",
+  "type": "count",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 0,\n  \"reason\": \"The provided memory pages show a search for 'Requested for Name starts with Jaime-Derrick Stevens-Bray' resulting in 'No records to display', but they do not contain the specific count for records where the name is 'greater than or equal' to that value under the specified filters.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 3818,
+    "output_tokens": 94,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "0cd9f6e9",
+     "table": "Requested Items",
+     "filter": "Keywords = Requested Items, Active = true, Requested for Name >= Jaime-Derrick Stevens-Bray",
+     "why": "The provided memory pages show the 'Requested Items' list filtered by the specified criteria, but the result is 'No records to display'. The question asks for the count of records matching these criteria. Since the list is empty in the provided views, the count is 0, but the user might be expecting to see the list to verify or might have a different expectation. However, the memory does not show any records, so the count is 0. The question is asking for the count, which is not directly provided as a number, but can be inferred from the 'No records to display' message. The memory does not show the list of records, so the count cannot be determined from the list view. The question is asking for the count, which is not directly provided as a number, but can be inferred from the 'No records to display' message. The memory does not show the list of records, so the count cannot be determined from the list view."
+    }
+   ],
+   "fetched": [
+    [
+     "0cd9f6e9",
+     43
+    ]
+   ],
+   "g_chars": 16639,
+   "e_chars": 16639,
+   "g_hit": true,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "0cd9f6e9",
+     "table": "Requested Items",
+     "conditions": [
+      "Keywords = Requested Items",
+      "Active = true",
+      "Requested for Name greater than or equal Jaime-Derrick Stevens-Bray"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 8,
+     "evidence": [
+      {
+       "trajectory": "0cd9f6e9",
+       "state": 43,
+       "page": {
+        "first": 1,
+        "last": 8,
+        "total": 8
+       }
+      }
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H009",
+  "type": "count",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 0,\n  \"reason\": \"The provided memory pages contain the company protocol guidelines and the final state of the task, but they do not include the specific list of expense line records or their 'Type' attributes required to count how many were 'One-time'.\n\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 4716,
+    "output_tokens": 83,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "b3551a4b",
+     "table": "Expense Lines",
+     "filter": "Type = 'One-time'",
+     "why": "The provided memory pages contain the Knowledge Portal article and the Private Task form, but they do not include the list view or table view of the 'Expense Lines' records required to count how many have 'Type' equal to 'One-time'."
+    }
+   ],
+   "fetched": [
+    [
+     "b3551a4b",
+     21
+    ],
+    [
+     "b3551a4b",
+     76
+    ]
+   ],
+   "g_chars": 17879,
+   "e_chars": 17879,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "b3551a4b",
+     "table": "Expense Lines",
+     "conditions": [],
+     "column": "Type",
+     "value": "One-time",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Expense Lines",
+      "conditions": []
+     },
+     "observed_scopes": [
+      [
+       "Short description contains #SERIES-047012a5-0"
+      ]
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H010",
+  "type": "count",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": true,\n  \"answer\": 4,\n  \"observed_lower_bound\": 4,\n  \"reason\": \"The table shows 4 records, all of which have 'Suzanne-Shelley Aguirre-Doyle' listed as the Assigned to Name, matching the filter condition.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 8722,
+    "output_tokens": 74,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "cbbc9470",
+     "table": "Incidents",
+     "conditions": [
+      "Assigned to Name starts with Suzanne-Shelley Aguirre-Doyle"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 4,
+     "evidence": [
+      {
+       "trajectory": "cbbc9470",
+       "state": 50,
+       "page": {
+        "first": 1,
+        "last": 4,
+        "total": 4
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "cbbc9470",
+     "table": "Incidents",
+     "conditions": [
+      "Assigned to Name starts with Suzanne-Shelley Aguirre-Doyle"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 4,
+     "evidence": [
+      {
+       "trajectory": "cbbc9470",
+       "state": 50,
+       "page": {
+        "first": 1,
+        "last": 4,
+        "total": 4
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   }
+  }
+ },
+ {
+  "qid": "S02H011",
+  "type": "count",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": true, \"answer\": 1, \"observed_lower_bound\": 1, \"reason\": \"The provided page content shows exactly one user record matching the name filter, and its User ID is explicitly listed as 'Christine-Allison.Hopkins-Hill.9748'.\"}",
+    "finish": "stop",
+    "prompt_tokens": 5354,
+    "output_tokens": 66,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "131132b3",
+     "table": "Users",
+     "conditions": [
+      "Name starts with Christine-Allison Hopkins-Hill"
+     ],
+     "column": "User ID",
+     "value": "Christine-Allison.Hopkins-Hill.9748"
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "131132b3",
+       "state": 26,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "131132b3",
+     "table": "Users",
+     "conditions": [
+      "Name starts with Christine-Allison Hopkins-Hill"
+     ],
+     "column": "User ID",
+     "value": "Christine-Allison.Hopkins-Hill.9748"
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 1,
+     "evidence": [
+      {
+       "trajectory": "131132b3",
+       "state": 26,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   }
+  }
+ },
+ {
+  "qid": "S02H012",
+  "type": "count",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"observed_lower_bound\": 0, \"reason\": \"The provided memory pages only display the 'Users' table and do not contain any records or data from the 'Requested Items' table.\"}",
+    "finish": "stop",
+    "prompt_tokens": 10447,
+    "output_tokens": 53,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "b6bc7143",
+     "table": "Requested Items",
+     "filter": "[Request Requested for = (empty)] AND [Active = true] AND [Short description greater than or equal onboarding]",
+     "why": "The provided memory pages only show the 'Users' table, but the question asks about the 'Requested Items' table."
+    }
+   ],
+   "fetched": [
+    [
+     "b6bc7143",
+     24
+    ]
+   ],
+   "g_chars": 16629,
+   "e_chars": 16629,
+   "g_hit": true,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "b6bc7143",
+     "table": "Requested Items",
+     "conditions": [
+      "Request Requested for = (empty)",
+      "Active = true",
+      "Short description greater than or equal onboarding"
+     ],
+     "column": "Item",
+     "value": "iPad pro",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Requested Items",
+      "conditions": [
+       "Request Requested for = (empty)",
+       "Active = true",
+       "Short description greater than or equal onboarding"
+      ]
+     },
+     "observed_scopes": []
+    },
+    "n_avail": 5
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "b6bc7143",
+     "table": "Requested Items",
+     "conditions": [
+      "Request Requested for = (empty)",
+      "Active = true",
+      "Short description greater than or equal onboarding"
+     ],
+     "column": "Item",
+     "value": "iPad pro",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 2,
+     "evidence": [
+      {
+       "trajectory": "b6bc7143",
+       "state": 24,
+       "page": {
+        "first": 1,
+        "last": 12,
+        "total": 12
+       }
+      }
+     ]
+    },
+    "n_avail": 6
+   }
+  }
+ },
+ {
+  "qid": "S02H013",
+  "type": "count",
+  "sufficient": false,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": true,\n  \"answer\": 5,\n  \"observed_lower_bound\": 5,\n  \"reason\": \"The search results page explicitly states 'Knowledge & Catalog - Knowledge (5 of 5)' under the heading '6 results for \"Hardware Assets\"', indicating exactly 5 Knowledge records matched the filter criteria.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 10820,
+    "output_tokens": 77,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "S+G": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "f79c68f8",
+     "table": "Knowledge",
+     "conditions": [
+      "Keywords = Hardware Assets",
+      "Workflow = Published",
+      "Active = true",
+      "Valid to > 2025-11-02"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Knowledge",
+      "conditions": [
+       "Keywords = Hardware Assets",
+       "Workflow = Published",
+       "Active = true",
+       "Valid to > 2025-11-02"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Keywords = Hardware Assets",
+       "Workflow = Published",
+       "Active = true",
+       "Valid to > 2025-11-02",
+       "Knowledge base Active = true"
+      ]
+     ]
+    },
+    "n_avail": 2
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "f79c68f8",
+     "table": "Knowledge",
+     "conditions": [
+      "Keywords = Hardware Assets",
+      "Workflow = Published",
+      "Active = true",
+      "Valid to > 2025-11-02"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Knowledge",
+      "conditions": [
+       "Keywords = Hardware Assets",
+       "Workflow = Published",
+       "Active = true",
+       "Valid to > 2025-11-02"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Keywords = Hardware Assets",
+       "Workflow = Published",
+       "Active = true",
+       "Valid to > 2025-11-02",
+       "Knowledge base Active = true"
+      ]
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H014",
+  "type": "enumeration",
+  "sufficient": false,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": true,\n  \"answer\": [\n    \"Apple MacBook Air 13\\\"\"\n  ],\n  \"observed_lower_bound\": 0,\n  \"reason\": \"The Hardware table filtered by 'Assigned to Name greater than or equal Angela-Holly Bishop-Miller' and 'Serial number DUC-465-A41686-SB' shows exactly one record with the display name 'Apple MacBook Air 13\\\"'.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 14475,
+    "output_tokens": 105,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "0f4ef46e",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to Name greater than or equal Angela-Holly Bishop-Miller",
+      "Serial number equals DUC-465-A41686-SB"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Display name",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Hardware",
+      "conditions": [
+       "Assigned to Name greater than or equal Angela-Holly Bishop-Miller",
+       "Serial number equals DUC-465-A41686-SB"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Assigned to Name greater than or equal Angela-Holly Bishop-Miller"
+      ]
+     ]
+    },
+    "n_avail": 2
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "0f4ef46e",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to Name greater than or equal Angela-Holly Bishop-Miller",
+      "Serial number equals DUC-465-A41686-SB"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Display name",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Hardware",
+      "conditions": [
+       "Assigned to Name greater than or equal Angela-Holly Bishop-Miller",
+       "Serial number equals DUC-465-A41686-SB"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Assigned to Name greater than or equal Angela-Holly Bishop-Miller"
+      ]
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H015",
+  "type": "enumeration",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages only show the ServiceNow dashboard and knowledge portal views, which do not contain the full unfiltered list of expense lines or their record numbers.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 3489,
+    "output_tokens": 67,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "3bdbee95",
+     "table": "Expense Lines",
+     "filter": "none",
+     "why": "The provided memory pages show the ServiceNow Admin Dashboard and Knowledge Portal, but do not contain the List View of the Expense Lines table where the record numbers would be visible."
+    }
+   ],
+   "fetched": [
+    [
+     "3bdbee95",
+     10
+    ]
+   ],
+   "g_chars": 8504,
+   "e_chars": 8504,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "3bdbee95",
+     "table": "Expense Lines",
+     "conditions": [],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage",
+     "observed_lower_bound": 20,
+     "observed_members": [
+      "EXP-01171069665",
+      "EXP-01632075872",
+      "EXP-01773870531",
+      "EXP-02469839228",
+      "EXP-07612416094",
+      "EXP-101171069665",
+      "EXP-111171069665",
+      "EXP-11171069665",
+      "EXP-11632075872",
+      "EXP-11773870531",
+      "EXP-12469839228",
+      "EXP-21171069665",
+      "EXP-21632075872",
+      "EXP-21773870531",
+      "EXP-22469839228",
+      "EXP-31171069665",
+      "EXP-31632075872",
+      "EXP-31773870531",
+      "EXP-32469839228",
+      "EXP-41171069665"
+     ],
+     "gap": {
+      "fetch": "pages",
+      "table": "Expense Lines",
+      "conditions": [],
+      "rows": [
+       21,
+       2796
+      ],
+      "unparsed_rows_in_container": 0
+     }
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H016",
+  "type": "enumeration",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 0,\n  \"reason\": \"The provided memory pages show that the filtered lists for the specified expense lines contain 'No records to display', but they do not show the initial unfiltered list or the specific records matching the '#SERIES-122f8e1d-1' filter before deletion, so the numbers of matching records cannot be determined.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 1582,
+    "output_tokens": 102,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "84ba0b95",
+     "table": "Expense Lines",
+     "filter": "Short description contains #SERIES-122f8e1d-1",
+     "why": "The provided memory pages show the Expense Lines list in a 'read mode' with 'No records to display' and do not contain the actual data rows (records) required to list the 'Number' of the matching entries."
+    }
+   ],
+   "fetched": [
+    [
+     "84ba0b95",
+     27
+    ]
+   ],
+   "g_chars": 3215,
+   "e_chars": 3215,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "84ba0b95",
+     "table": "Expense Lines",
+     "conditions": [
+      "Short description contains #SERIES-122f8e1d-1"
+     ],
+     "column": "Number",
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": 0,
+     "evidence": [
+      {
+       "trajectory": "84ba0b95",
+       "state": 27,
+       "page": {
+        "first": 1,
+        "last": 4,
+        "total": 4
+       }
+      }
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H017",
+  "type": "enumeration",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 0,\n  \"reason\": \"The provided memory pages show empty lists or confirmation dialogs for deletion but do not contain any visible records with Display names or Model categories for hardware assigned to Kristina-Ashley Jennings-Frank.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 2618,
+    "output_tokens": 74,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "1d4038be",
+     "table": "Hardware",
+     "filter": "Assigned to is Kristina-Ashley Jennings-Frank and Model category is Computer",
+     "why": "The provided memory pages show the 'Entitled Custom Tables' list (which is empty) and a specific 'Assets' list for a single workstation (P39348528) which is also empty. None of the pages display the main Hardware list view required to filter by 'Assigned to' and 'Model category' to find the Display names of the relevant records."
+    }
+   ],
+   "fetched": [
+    [
+     "1d4038be",
+     19
+    ]
+   ],
+   "g_chars": 3936,
+   "e_chars": 3936,
+   "g_hit": true,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "lookup",
+     "anchor_trajectory": "1d4038be",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to = Kristina-Ashley Jennings-Frank",
+      "Model category = Computer"
+     ],
+     "column": "Display name",
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Hardware",
+      "conditions": [
+       "Assigned to = Kristina-Ashley Jennings-Frank",
+       "Model category = Computer"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Assigned to = Kristina-Ashley Jennings-Frank"
+      ]
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H018",
+  "type": "enumeration",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 1,\n  \"reason\": \"The provided memory only shows one record opened by Hannah Anderson with a quantity of 1, but it does not confirm if this record meets the specific filter criteria of 'Keywords = Requested Items' and 'Requested for Name starts with Nicholas-Yolanda Herman-Ali' simultaneously, nor does it show other records that might match.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 6524,
+    "output_tokens": 102,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "a57d7b57",
+     "table": "Requested Items",
+     "filter": "Keywords = Requested Items, Requested for Name starts with Nicholas-Yolanda Herman-Ali, Opened by is Hannah Anderson",
+     "why": "The current list view shows only one record (RITM0014465) opened by 'Hannah Anderson', but the question asks for the number of *every* record matching the criteria. The current view does not confirm if there are more records or if this is the complete set, and the 'Opened by' column for the visible record shows 'Hannah Anderson' but the task description implies a search for multiple items or a specific count. The user needs to see the full filtered list to count them accurately."
+    }
+   ],
+   "fetched": [],
+   "g_chars": 0,
+   "e_chars": 0,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": true
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "a57d7b57",
+     "table": "Requested Items",
+     "conditions": [
+      "Keywords = Requested Items",
+      "Requested for Name starts with Nicholas-Yolanda Herman-Ali",
+      "Opened by = Hannah Anderson"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "RITM0014465"
+     ],
+     "evidence": [
+      {
+       "trajectory": "a57d7b57",
+       "state": 34,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "a57d7b57",
+     "table": "Requested Items",
+     "conditions": [
+      "Keywords = Requested Items",
+      "Requested for Name starts with Nicholas-Yolanda Herman-Ali",
+      "Opened by = Hannah Anderson"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "RITM0014465"
+     ],
+     "evidence": [
+      {
+       "trajectory": "a57d7b57",
+       "state": 34,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   }
+  }
+ },
+ {
+  "qid": "S02H019",
+  "type": "enumeration",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": true,\n  \"answer\": [\n    58169481,\n    58168957,\n    58169761,\n    58166456\n  ],\n  \"observed_lower_bound\": 58166456,\n  \"reason\": \"The table displays four incident records matching the filter criteria, with the 'Number' column values being 58169481, 58168957, 58169761, and 58166456.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 8744,
+    "output_tokens": 152,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "cbbc9470",
+     "table": "Incidents",
+     "conditions": [
+      "Assigned to Name starts with Suzanne-Shelley Aguirre-Doyle",
+      "Short description = #INC058161504"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "DIF58166456",
+      "DIF58168957",
+      "DIF58169481",
+      "DIF58169761"
+     ],
+     "evidence": [
+      {
+       "trajectory": "cbbc9470",
+       "state": 50,
+       "page": {
+        "first": 1,
+        "last": 4,
+        "total": 4
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "cbbc9470",
+     "table": "Incidents",
+     "conditions": [
+      "Assigned to Name starts with Suzanne-Shelley Aguirre-Doyle",
+      "Short description = #INC058161504"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "DIF58166456",
+      "DIF58168957",
+      "DIF58169481",
+      "DIF58169761"
+     ],
+     "evidence": [
+      {
+       "trajectory": "cbbc9470",
+       "state": 50,
+       "page": {
+        "first": 1,
+        "last": 4,
+        "total": 4
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   }
+  }
+ },
+ {
+  "qid": "S02H020",
+  "type": "enumeration",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages show that the filter conditions 'Active = true' and 'Number greater than or equal Schneider' resulted in 'No records to display', but the specific numeric value of the lower bound for the 'Number' field is not explicitly stated in the text.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 4770,
+    "output_tokens": 89,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "9c7ef20c",
+     "table": "Catalog Tasks",
+     "filter": "Active is true and Number is greater than or equal to Schneider",
+     "why": "The provided memory pages show the Catalog Tasks list view, but the filter conditions in the question (Active = true, Number >= Schneider) do not match the filters currently applied in the visible pages (which show 'Assigned to is Angela Cooke' or 'Short description starts with Schneider'). The specific list view matching the question's criteria is missing."
+    }
+   ],
+   "fetched": [
+    [
+     "9c7ef20c",
+     47
+    ]
+   ],
+   "g_chars": 13300,
+   "e_chars": 13300,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "count",
+     "anchor_trajectory": "9c7ef20c",
+     "table": "Catalog Tasks",
+     "conditions": [
+      "Active is true",
+      "Number greater than or equal Schneider"
+     ],
+     "column": null,
+     "value": null,
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Catalog Items",
+      "conditions": [
+       "Active is true",
+       "Number greater than or equal Schneider"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Name greater than or equal Offboard"
+      ]
+     ]
+    },
+    "n_avail": 2
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "9c7ef20c",
+     "table": "Catalog Tasks",
+     "conditions": [
+      "Active = true",
+      "Number greater than or equal Schneider"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage",
+     "observed_lower_bound": 20,
+     "observed_members": [
+      "SCTASK0010043",
+      "SCTASK0010050",
+      "SCTASK0010063",
+      "SCTASK0010072",
+      "SCTASK0010081",
+      "SCTASK0010082",
+      "SCTASK0010085",
+      "SCTASK0010088",
+      "SCTASK0010091",
+      "SCTASK0010118",
+      "SCTASK0010121",
+      "SCTASK0010126",
+      "SCTASK0010131",
+      "SCTASK0010136",
+      "SCTASK0010151",
+      "SCTASK0010152",
+      "SCTASK0010167",
+      "SCTASK0010168",
+      "SCTASK0010177",
+      "SCTASK0010178"
+     ],
+     "gap": {
+      "fetch": "pages",
+      "table": "Catalog Tasks",
+      "conditions": [
+       "Active = true",
+       "Number greater than or equal Schneider"
+      ],
+      "rows": [
+       21,
+       140
+      ],
+      "unparsed_rows_in_container": 0
+     }
+    },
+    "n_avail": 3
+   }
+  }
+ },
+ {
+  "qid": "S02H021",
+  "type": "enumeration",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"reason\": \"The provided memory pages only contain the company protocol guidelines and search results, but do not include the actual list of expense lines or their record numbers.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 3777,
+    "output_tokens": 54,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "b3551a4b",
+     "table": "Expense Lines",
+     "filter": "short description contains #SERIES-047012a5-0",
+     "why": "The memory contains the Knowledge Portal article explaining the protocol, but it does not include the actual list or table view of the Expense Lines records with their numbers."
+    }
+   ],
+   "fetched": [
+    [
+     "b3551a4b",
+     21
+    ],
+    [
+     "b3551a4b",
+     76
+    ]
+   ],
+   "g_chars": 17879,
+   "e_chars": 17879,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "enumerate",
+     "anchor_trajectory": "b3551a4b",
+     "table": "Expense Lines",
+     "conditions": [],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Expense Lines",
+      "conditions": []
+     },
+     "observed_scopes": [
+      [
+       "Short description contains #SERIES-047012a5-0"
+      ]
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H022",
+  "type": "existence",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"observed_lower_bound\": null, \"reason\": \"The provided memory pages contain a different task regarding incident counts and hardware filtering by agents with the greatest number of incidents, not the specific task about Angela-Holly Bishop-Miller's laptop warranty or stock status.\"}",
+    "finish": "stop",
+    "prompt_tokens": 8572,
+    "output_tokens": 66,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "378fd336",
+     "table": "Hardware Assets",
+     "filter": "assigned_to >= 'Angela-Holly Bishop-Miller'",
+     "why": "The question asks to check the 'State' field for hardware records assigned to agents with names greater than or equal to 'Angela-Holly Bishop-Miller'. The provided memory pages only show a Private Task form and do not contain the 'Hardware Assets' list view required to retrieve and filter these records."
+    }
+   ],
+   "fetched": [
+    [
+     "378fd336",
+     87
+    ]
+   ],
+   "g_chars": 3843,
+   "e_chars": 3843,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "378fd336",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to >= Angela-Holly Bishop-Miller"
+     ],
+     "column": "State",
+     "value": "In stock",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Hardware",
+      "conditions": [
+       "Assigned to >= Angela-Holly Bishop-Miller"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Assigned to = Justin-Anthony Rios-Horn"
+      ]
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H023",
+  "type": "existence",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 0,\n  \"reason\": \"The provided memory pages show that the filtered view for 'Requested Items' with the specified criteria returned 'No records to display', meaning no records were found to evaluate the 'Approval' status.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 3979,
+    "output_tokens": 74,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "0cd9f6e9",
+     "table": "Requested Items",
+     "filter": "Keywords = Requested Items, Active = true, Requested for Name >= Jaime-Derrick Stevens-Bray",
+     "why": "The provided memory pages show the 'Requested Items' list with filters for 'Keywords = Requested Items', 'Active = true', and 'Requested for Name starts with Jaime-Derrick Stevens-Bray', but the results are 'No records to display'. The question asks about records where 'Approval is Approved', which requires viewing the 'Approval' column. The current view either hides the 'Approval' column or shows no records, so the specific approval status cannot be verified from the provided text."
+    }
+   ],
+   "fetched": [
+    [
+     "0cd9f6e9",
+     43
+    ]
+   ],
+   "g_chars": 16639,
+   "e_chars": 16639,
+   "g_hit": true,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "0cd9f6e9",
+     "table": "Requested Items",
+     "conditions": [
+      "Keywords = Requested Items",
+      "Active = true",
+      "Requested for Name greater than or equal Jaime-Derrick Stevens-Bray"
+     ],
+     "column": "Approval",
+     "value": "Approved",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "yes",
+     "evidence": [
+      {
+       "trajectory": "0cd9f6e9",
+       "state": 43,
+       "row_node": "a340"
+      }
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H024",
+  "type": "existence",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": true,\n  \"answer\": true,\n  \"observed_lower_bound\": 1,\n  \"reason\": \"The Hardware table view shows exactly one record where the 'Assigned to' field is 'Alexandra-Dylan Johnson-Martinez'.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 5210,
+    "output_tokens": 62,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "f9a23d3a",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to Name starts with Alexandra-Dylan Johnson-Martinez"
+     ],
+     "column": "Assigned to",
+     "value": "Alexandra-Dylan Johnson-Martinez",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "yes",
+     "evidence": [
+      {
+       "trajectory": "f9a23d3a",
+       "state": 100,
+       "row_node": "a325"
+      }
+     ]
+    },
+    "n_avail": 1
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "f9a23d3a",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to Name starts with Alexandra-Dylan Johnson-Martinez"
+     ],
+     "column": "Assigned to",
+     "value": "Alexandra-Dylan Johnson-Martinez",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "yes",
+     "evidence": [
+      {
+       "trajectory": "f9a23d3a",
+       "state": 100,
+       "row_node": "a325"
+      }
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H025",
+  "type": "existence",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages show a filter for 'Assigned to = Stephanie-Ashley Roberts-Garcia' on the Hardware table resulting in 'No records to display', but they do not contain any specific record data to verify the 'State' field value.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 2398,
+    "output_tokens": 86,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "99e29a2d",
+     "table": "Hardware",
+     "filter": "Assigned to = Stephanie-Ashley Roberts-Garcia",
+     "why": "The memory shows the filter was applied but the list view contained 'No records to display', making it impossible to verify if any records with State = In stock existed. The question requires seeing the actual data rows to confirm the presence of such a record."
+    }
+   ],
+   "fetched": [
+    [
+     "99e29a2d",
+     17
+    ]
+   ],
+   "g_chars": 3879,
+   "e_chars": 3879,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "99e29a2d",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to = Stephanie-Ashley Roberts-Garcia"
+     ],
+     "column": "State",
+     "value": "In stock",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "no",
+     "evidence": [
+      {
+       "trajectory": "99e29a2d",
+       "state": 17,
+       "page": {
+        "first": 1,
+        "last": 1,
+        "total": 1
+       }
+      }
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H026",
+  "type": "existence",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"observed_lower_bound\": null, \"reason\": \"The provided memory pages show that the filter criteria resulted in 'No records to display', so no records were visible to check for the 'Closed Incomplete' state.\"}",
+    "finish": "stop",
+    "prompt_tokens": 4778,
+    "output_tokens": 58,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "9c7ef20c",
+     "table": "Catalog Tasks",
+     "filter": "Active is true and Number is greater than or equal to Schneider",
+     "why": "The memory for step 48 shows the filter conditions applied, but the resulting table view displays 'No records to display'. To confirm if there was at least one record with State 'Closed Incomplete' (which would be impossible if the list is empty, but the question asks about the existence in the filtered list), the actual data rows of that specific filtered view are needed to verify the state of any records present. However, since the view explicitly says 'No records to display', the answer is likely 'no', but the specific list view data is technically what is referenced to confirm the absence or presence of such a record in that specific query result."
+    }
+   ],
+   "fetched": [
+    [
+     "9c7ef20c",
+     47
+    ]
+   ],
+   "g_chars": 13300,
+   "e_chars": 13300,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": true
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "9c7ef20c",
+     "table": "Catalog Tasks",
+     "conditions": [
+      "Active is true",
+      "Number greater than or equal to Schneider"
+     ],
+     "column": "State",
+     "value": "Closed Incomplete",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Catalog Items",
+      "conditions": [
+       "Active is true",
+       "Number greater than or equal to Schneider"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Name greater than or equal Offboard"
+      ]
+     ]
+    },
+    "n_avail": 2
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "9c7ef20c",
+     "table": "Catalog Tasks",
+     "conditions": [
+      "Active = true",
+      "Number greater than or equal Schneider"
+     ],
+     "column": "State",
+     "value": "Closed Incomplete",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_witness_and_partial_coverage",
+     "observed_lower_bound": 0,
+     "gap": {
+      "fetch": "pages",
+      "table": "Catalog Tasks",
+      "conditions": [
+       "Active = true",
+       "Number greater than or equal Schneider"
+      ],
+      "rows": [
+       21,
+       140
+      ],
+      "unparsed_rows_in_container": 0
+     }
+    },
+    "n_avail": 3
+   }
+  }
+ },
+ {
+  "qid": "S02H027",
+  "type": "existence",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"reason\": \"The provided memory pages show that no records were found matching the specified filters, and the specific item 'Project Pro for Office 365' was not observed in any displayed results.\"}",
+    "finish": "stop",
+    "prompt_tokens": 7021,
+    "output_tokens": 54,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "b6bc7143",
+     "table": "Requested Items",
+     "filter": "Request Requested for = (empty) AND Active = true AND Short description greater than or equal onboarding",
+     "why": "The provided memory pages for the Requested Items table (step 25) show a filtered view with 'No records to display', but the specific filter conditions mentioned in the question (particularly 'Short description greater than or equal onboarding') are not explicitly visible in the filter UI text provided in the memory, and the full unfiltered list or a list matching the exact question's criteria is not present to confirm the absence of the 'Project Pro for Office 365' item."
+    }
+   ],
+   "fetched": [
+    [
+     "b6bc7143",
+     24
+    ]
+   ],
+   "g_chars": 16629,
+   "e_chars": 16629,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "b6bc7143",
+     "table": "Requested Items",
+     "conditions": [
+      "Request Requested for = (empty)",
+      "Active = true",
+      "Short description greater than or equal onboarding"
+     ],
+     "column": "Item",
+     "value": "Project Pro for Office 365",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "no",
+     "evidence": [
+      {
+       "trajectory": "b6bc7143",
+       "state": 24,
+       "page": {
+        "first": 1,
+        "last": 12,
+        "total": 12
+       }
+      }
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H028",
+  "type": "existence",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 0,\n  \"reason\": \"The provided memory pages show a hardware asset list with 'No records to display' and do not contain any data rows to verify the 'State' field value.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 3226,
+    "output_tokens": 68,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "99e29a2d",
+     "table": "Assets",
+     "filter": "Parent = P05006544 - Cyberpower Gamer Xtreme 1311",
+     "why": "The current memory shows a list view for a specific hardware record (P05006544) with no records displayed, but the question asks about all hardware records assigned to the user. The memory is missing the list view for the 'Assigned to' filter on the Hardware table to check the 'State' field across all relevant records."
+    }
+   ],
+   "fetched": [
+    [
+     "99e29a2d",
+     9
+    ]
+   ],
+   "g_chars": 16618,
+   "e_chars": 16618,
+   "g_hit": false,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "99e29a2d",
+     "table": "Hardware",
+     "conditions": [
+      "Assigned to = Stephanie-Ashley Roberts-Garcia"
+     ],
+     "column": "State",
+     "value": "In use",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Hardware",
+      "conditions": [
+       "Assigned to = Stephanie-Ashley Roberts-Garcia"
+      ]
+     },
+     "observed_scopes": [
+      []
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H029",
+  "type": "existence",
+  "sufficient": true,
+  "triggered": false,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": true, \"answer\": true, \"observed_lower_bound\": 0, \"reason\": \"The table contains a record with the Created timestamp '2025-11-03 00:42:35' that matches the specified filters.\"}",
+    "finish": "stop",
+    "prompt_tokens": 9662,
+    "output_tokens": 62,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "93adcd1a",
+     "table": "Incidents",
+     "conditions": [
+      "Keywords = Incidents",
+      "Assigned to Name starts with Jeremiah-Joshua Burns-Hill"
+     ],
+     "column": "Created",
+     "value": "2025-11-03 00:42:35",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "yes",
+     "evidence": [
+      {
+       "trajectory": "93adcd1a",
+       "state": 50,
+       "row_node": "a387"
+      }
+     ]
+    },
+    "n_avail": 5
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "93adcd1a",
+     "table": "Incidents",
+     "conditions": [
+      "Keywords = Incidents",
+      "Assigned to Name starts with Jeremiah-Joshua Burns-Hill"
+     ],
+     "column": "Created",
+     "value": "2025-11-03 00:42:35",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "yes",
+     "evidence": [
+      {
+       "trajectory": "93adcd1a",
+       "state": 50,
+       "row_node": "a387"
+      }
+     ]
+    },
+    "n_avail": 5
+   }
+  }
+ },
+ {
+  "qid": "S02H030",
+  "type": "existence",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": 2025,\n  \"reason\": \"The provided records show creation dates in November 2025, and no record with a creation date of 2026-02-02 12:49:32 is visible in the current view.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 9662,
+    "output_tokens": 88,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "93adcd1a",
+     "table": "Incidents",
+     "filter": "Keywords = Incidents AND Assigned to Name starts with Jeremiah-Joshua Burns-Hill",
+     "why": "The current view only shows 4 records (DIF77154848, DIF77152200, DIF77151383, DIF77151155) with creation dates in November 2025. The question asks about a record created on 2026-02-02, which is not visible in the current page. Pagination controls indicate there might be more records, but the specific record in question is not present in the visible rows."
+    }
+   ],
+   "fetched": [],
+   "g_chars": 0,
+   "e_chars": 0,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": true
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "93adcd1a",
+     "table": "Incidents",
+     "conditions": [
+      "Keywords = Incidents",
+      "Assigned to Name starts with Jeremiah-Joshua Burns-Hill"
+     ],
+     "column": "Created",
+     "value": "2026-02-02 12:49:32",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "no",
+     "evidence": [
+      {
+       "trajectory": "93adcd1a",
+       "state": 50,
+       "page": {
+        "first": 1,
+        "last": 4,
+        "total": 4
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "exists",
+     "anchor_trajectory": "93adcd1a",
+     "table": "Incidents",
+     "conditions": [
+      "Keywords = Incidents",
+      "Assigned to Name starts with Jeremiah-Joshua Burns-Hill"
+     ],
+     "column": "Created",
+     "value": "2026-02-02 12:49:32",
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": "no",
+     "evidence": [
+      {
+       "trajectory": "93adcd1a",
+       "state": 50,
+       "page": {
+        "first": 1,
+        "last": 4,
+        "total": 4
+       }
+      }
+     ]
+    },
+    "n_avail": 5
+   }
+  }
+ },
+ {
+  "qid": "S02H031",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages only contain a single view of the Incidents list (from trajectory 9615d964, step 11) and do not include the 'full unfiltered list' seen in the earlier session mentioned in the question, making it impossible to compare the two sets of records.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 25068,
+    "output_tokens": 99,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "9615d964",
+     "table": "Incidents",
+     "filter": "none",
+     "why": "The question asks to compare the full unfiltered list of Incidents seen in an earlier session with the current view to find missing records. The current memory only contains the first page of the sorted list (rows 1-20 of 69), which is insufficient to determine which records from the 'full unfiltered list' are missing. The full list or a view showing all 69 records is needed."
+    }
+   ],
+   "fetched": [
+    [
+     "9615d964",
+     0
+    ],
+    [
+     "9615d964",
+     15
+    ]
+   ],
+   "g_chars": 29367,
+   "e_chars": 29367,
+   "g_hit": true,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "9615d964",
+     "table": "Incidents",
+     "conditions": [],
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [],
+       "rows": [
+        21,
+        69
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 11
+      },
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [],
+       "rows": [
+        21,
+        69
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 11
+      }
+     ]
+    },
+    "n_avail": 1
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "9615d964",
+     "table": "Incidents",
+     "conditions": [],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [],
+       "rows": [
+        21,
+        69
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 0
+      },
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [],
+       "rows": [
+        21,
+        69
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 15
+      }
+     ]
+    },
+    "n_avail": 3
+   }
+  }
+ },
+ {
+  "qid": "S02H032",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"observed_lower_bound\": null, \"reason\": \"The provided memory pages only show the task form and description but do not contain any records of the full, unfiltered Problems list or any changes to that list between views.\"}",
+    "finish": "stop",
+    "prompt_tokens": 8974,
+    "output_tokens": 59,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "f56b49b4",
+     "table": "Problem",
+     "filter": "none",
+     "why": "The question asks to compare the list of 'Problem' record Numbers between two views of the full, unfiltered list. The provided memory pages only show the 'Private Task' form (PTSK24783072) and its description, but do not contain the actual list view of the 'Problem' table required to answer the question."
+    }
+   ],
+   "fetched": [
+    [
+     "f56b49b4",
+     28
+    ],
+    [
+     "f56b49b4",
+     49
+    ]
+   ],
+   "g_chars": 27783,
+   "e_chars": 27783,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "f56b49b4",
+     "table": "Problems",
+     "conditions": [],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Problems",
+       "conditions": [],
+       "rows": [
+        21,
+        169
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 28
+      },
+      {
+       "fetch": "pages",
+       "table": "Problems",
+       "conditions": [],
+       "rows": [
+        21,
+        171
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 49
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H033",
+  "type": "set_difference",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n\"sufficient\": false,\n\"answer\": null,\n\"observed_lower_bound\": null,\n\"reason\": \"The provided memory pages contain the task definition and the knowledge protocol article, but do not include the actual data view or list of expense lines where the records were displayed.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 4997,
+    "output_tokens": 63,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "5d37bd9f",
+     "table": "Expense Lines",
+     "filter": "Short description contains #SERIES-304d6c98-6 and Number >= EXP-12970611939",
+     "why": "The provided memory pages contain the Knowledge Portal article and the Private Task form, but they do not include the specific list or table view of 'Expense Lines' required to identify which records appeared first but not last."
+    }
+   ],
+   "fetched": [
+    [
+     "5d37bd9f",
+     18
+    ],
+    [
+     "5d37bd9f",
+     44
+    ]
+   ],
+   "g_chars": 14752,
+   "e_chars": 14752,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "5d37bd9f",
+     "table": "Expense Lines",
+     "conditions": [
+      "Short description contains #SERIES-304d6c98-6",
+      "Number greater than or equal EXP-12970611939"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "EXP-12970611939",
+      "EXP-22970611939"
+     ],
+     "evidence": [
+      {
+       "trajectory": "5d37bd9f",
+       "state": 18
+      },
+      {
+       "trajectory": "5d37bd9f",
+       "state": 44,
+       "page": {
+        "first": 1,
+        "last": 5,
+        "total": 5
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H034",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages show the creation of specific problem records (PRB0041817, PRB0041818, PRB0041819) and a reports page, but do not contain a full, unfiltered Problems list viewed at different times to compare record numbers.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 5467,
+    "output_tokens": 102,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "23e9e30d",
+     "table": "Problem",
+     "filter": "none",
+     "why": "The question asks to compare the list of Problem record Numbers between two views of the full, unfiltered Problems list. The provided memory pages show the 'Create' form for specific Problems (PRB0041819, PRB0041818, PRB0041817) and a 'Reports' page, but none of them display a list view of Problems that would allow comparing the full list of record numbers."
+    }
+   ],
+   "fetched": [
+    [
+     "23e9e30d",
+     10
+    ],
+    [
+     "23e9e30d",
+     31
+    ]
+   ],
+   "g_chars": 28149,
+   "e_chars": 28149,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "23e9e30d",
+     "table": "Problems",
+     "conditions": [],
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Problems",
+       "conditions": [],
+       "rows": [
+        21,
+        125
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 10
+      },
+      {
+       "fetch": "pages",
+       "table": "Problems",
+       "conditions": [],
+       "rows": [
+        21,
+        128
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 31
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H035",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"observed_lower_bound\": null, \"reason\": \"The provided memory pages contain data for task #INC076432976 and do not include any records or sessions related to task #INC084205840.\"}",
+    "finish": "stop",
+    "prompt_tokens": 24808,
+    "output_tokens": 67,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "531c9498",
+     "table": "Incidents",
+     "filter": "Active is true",
+     "why": "The provided memory pages show search results for 'Reports' and 'Service Desk' with specific incident records, but none of them display a list view or chart with the title '#INC084205840' or a column/field indicating 'Active' status to filter the records as requested in the question."
+    }
+   ],
+   "fetched": [
+    [
+     "531c9498",
+     25
+    ]
+   ],
+   "g_chars": 11229,
+   "e_chars": 11229,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "531c9498",
+     "table": "Incidents",
+     "conditions": [
+      "State = Active"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Incidents",
+      "conditions": [
+       "State = Active"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Keywords = Service Desk"
+      ]
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H036",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n\"answer\": null,\n\"observed_lower_bound\": null,\n\"reason\": \"The provided memory pages only show the initial state of the filtered list and do not contain a subsequent view of the list after any deletions were performed, making it impossible to identify which records disappeared.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 14248,
+    "output_tokens": 63,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "8d15c1b3",
+     "table": "Expense Lines",
+     "filter": "Number greater than or equal #SERIES-6be3e1c2-8",
+     "why": "The provided memory pages show the list view with the filter applied, but they do not contain the 'Short description' column values. To identify which records had a 'Short description' containing '#SERIES-6be3e1c2-8' and subsequently determine which of those specific records were removed (duplicates), the column data for 'Short description' is required."
+    }
+   ],
+   "fetched": [],
+   "g_chars": 0,
+   "e_chars": 0,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": true
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": true,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "8d15c1b3",
+     "table": "Expense Lines",
+     "conditions": [
+      "Number greater than or equal #SERIES-6be3e1c2-8"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Expense Lines",
+       "conditions": [
+        "Number greater than or equal #SERIES-6be3e1c2-8"
+       ],
+       "rows": [
+        21,
+        2795
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 32
+      },
+      {
+       "fetch": "pages",
+       "table": "Expense Lines",
+       "conditions": [
+        "Number greater than or equal #SERIES-6be3e1c2-8"
+       ],
+       "rows": [
+        21,
+        2807
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 37
+      }
+     ]
+    },
+    "n_avail": 3
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "8d15c1b3",
+     "table": "Expense Lines",
+     "conditions": [
+      "Number greater than or equal #SERIES-6be3e1c2-8"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Expense Lines",
+       "conditions": [
+        "Number greater than or equal #SERIES-6be3e1c2-8"
+       ],
+       "rows": [
+        21,
+        2795
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 32
+      },
+      {
+       "fetch": "pages",
+       "table": "Expense Lines",
+       "conditions": [
+        "Number greater than or equal #SERIES-6be3e1c2-8"
+       ],
+       "rows": [
+        21,
+        2807
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 37
+      }
+     ]
+    },
+    "n_avail": 3
+   }
+  }
+ },
+ {
+  "qid": "S02H037",
+  "type": "set_difference",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n\"sufficient\": false,\n\"answer\": null,\n\"observed_lower_bound\": null,\n\"reason\": \"The provided memory pages show the filter being applied and resulting in 'No records to display', but they do not contain the historical list of records that were visible before the filter was applied or during the process, making it impossible to identify which specific records disappeared.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 4214,
+    "output_tokens": 81,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "3a5453c3",
+     "table": "Expense Lines",
+     "filter": "Short description contains #SERIES-9aa1dd3b-1",
+     "why": "The provided memory pages show the filter being applied and resulting in 'No records to display', but they do not contain the initial list view showing the records that were present before the filter was applied or before they were deleted. To identify which records appeared first but are missing later, the initial state of the list with the matching records is required."
+    }
+   ],
+   "fetched": [
+    [
+     "3a5453c3",
+     11
+    ],
+    [
+     "3a5453c3",
+     36
+    ]
+   ],
+   "g_chars": 18722,
+   "e_chars": 18722,
+   "g_hit": true,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "3a5453c3",
+     "table": "Expense Lines",
+     "conditions": [
+      "Short description contains #SERIES-9aa1dd3b-1"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "EXP-13355943615",
+      "EXP-23355943615",
+      "EXP-33355943615",
+      "EXP-43355943615",
+      "EXP-53355943615"
+     ],
+     "evidence": [
+      {
+       "trajectory": "3a5453c3",
+       "state": 11
+      },
+      {
+       "trajectory": "3a5453c3",
+       "state": 36,
+       "page": {
+        "first": 1,
+        "last": 7,
+        "total": 7
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H038",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"reason\": \"The provided memory pages only show the final state of the chart with incident counts and do not contain the historical sequence of records or the specific list of incidents where 'Active' is true required to determine which records appeared first but disappeared later.\"}",
+    "finish": "stop",
+    "prompt_tokens": 2437,
+    "output_tokens": 64,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "f6bb5906",
+     "table": "incident",
+     "filter": "Active = true",
+     "why": "The provided memory pages contain a bar chart view of incidents, but the question specifically asks about a list view to identify records that appeared first but not last. The list view containing the 'Number' field and 'Active' status is missing from the memory."
+    }
+   ],
+   "fetched": [
+    [
+     "f6bb5906",
+     9
+    ],
+    [
+     "f6bb5906",
+     35
+    ]
+   ],
+   "g_chars": 29912,
+   "e_chars": 29912,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "f6bb5906",
+     "table": "Incidents",
+     "conditions": [
+      "Active = true"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        85
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 9
+      },
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        112
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 35
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H039",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"reason\": \"The provided memory pages do not contain the full, unfiltered list of Change Requests or any record numbers to compare between views.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 2233,
+    "output_tokens": 50,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "c5085e90",
+     "table": "Change Request",
+     "filter": "Short description contains #SERIES-763c127d-e",
+     "why": "The question asks to compare two views of a full, unfiltered list of Change Requests to find missing records. The provided memory only contains views of specific individual records (CHG0030087, CHG0030088) and a loading screen, but lacks the list view showing all records matching the filter."
+    }
+   ],
+   "fetched": [
+    [
+     "c5085e90",
+     3
+    ],
+    [
+     "c5085e90",
+     19
+    ]
+   ],
+   "g_chars": 28914,
+   "e_chars": 28914,
+   "g_hit": true,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "c5085e90",
+     "table": "Change Requests",
+     "conditions": [
+      "\"Short description\" contains \"#SERIES-763c127d-e\""
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Change Requests",
+      "conditions": [
+       "\"Short description\" contains \"#SERIES-763c127d-e\""
+      ]
+     },
+     "observed_scopes": [
+      []
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H040",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"reason\": \"The provided memory pages show static snapshots of incident lists and forms but do not contain a chronological history or sequence of views required to determine which records appeared in an earlier view but were absent in a later view.\"}",
+    "finish": "stop",
+    "prompt_tokens": 12238,
+    "output_tokens": 58,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "4f22f44f",
+     "table": "Incidents",
+     "filter": "Active = true",
+     "why": "The memory for trajectory 4f22f44f contains the Incidents list view with the filter 'Active = true', which is required to identify records that appeared in the first page but are missing from the last page of the list."
+    }
+   ],
+   "fetched": [
+    [
+     "4f22f44f",
+     16
+    ]
+   ],
+   "g_chars": 14912,
+   "e_chars": 14912,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": true
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "4f22f44f",
+     "table": "Incidents",
+     "conditions": [
+      "Active = true"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        78
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 8
+      },
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        78
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 8
+      }
+     ]
+    },
+    "n_avail": 1
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "4f22f44f",
+     "table": "Incidents",
+     "conditions": [
+      "Active = true"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        78
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 8
+      },
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        76
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 16
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H041",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages only show the creation of specific problem records (PRB0040567, PRB0040568, PRB0040570) and a reports list page, but do not contain the full, unfiltered Problems list or any comparison between two views of that list to identify missing record numbers.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 6016,
+    "output_tokens": 110,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "31ba7266",
+     "table": "problem",
+     "filter": "none",
+     "why": "The question asks to compare the list of Problem record Numbers between two views of the full, unfiltered Problems list. The provided memory pages only show the 'Create Problem' form pages (PRB0040570, PRB0040568, PRB0040567) and a 'Reports' list page, but do not contain any page displaying the full list of existing Problems records."
+    }
+   ],
+   "fetched": [
+    [
+     "31ba7266",
+     21
+    ],
+    [
+     "31ba7266",
+     39
+    ]
+   ],
+   "g_chars": 27942,
+   "e_chars": 27942,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "31ba7266",
+     "table": "Problems",
+     "conditions": [],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Problems",
+       "conditions": [],
+       "rows": [
+        21,
+        116
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 21
+      },
+      {
+       "fetch": "pages",
+       "table": "Problems",
+       "conditions": [],
+       "rows": [
+        21,
+        117
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 39
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H042",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages only contain a bar chart with incident counts and do not display a list of incident numbers or show any views where incidents appear or disappear.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 2599,
+    "output_tokens": 66,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "199799c4",
+     "table": "Incident",
+     "filter": "Active = true",
+     "why": "The question asks about Incident Numbers in a list view, but the provided memory only contains a bar chart view of incidents, not a list view."
+    }
+   ],
+   "fetched": [
+    [
+     "199799c4",
+     8
+    ],
+    [
+     "199799c4",
+     16
+    ]
+   ],
+   "g_chars": 29747,
+   "e_chars": 29747,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "199799c4",
+     "table": "Incidents",
+     "conditions": [
+      "Active = true"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        115
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 8
+      },
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        107
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 16
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H043",
+  "type": "set_difference",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"reason\": \"The provided memory pages only contain the company protocol documentation and the final task form state, but do not include the historical views of the Expense Lines list required to identify which records appeared initially but were later removed.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 3828,
+    "output_tokens": 66,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "ffd8ad67",
+     "table": "Expense Lines",
+     "filter": "Short description contains #SERIES-0da2e3f1-f",
+     "why": "The question asks for specific records from an 'Expense Lines list' that appeared in an earlier view but not in a later one. The provided memory pages only contain the Knowledge Portal article and the Private Task form, neither of which displays the Expense Lines list or its records."
+    }
+   ],
+   "fetched": [
+    [
+     "ffd8ad67",
+     30
+    ],
+    [
+     "ffd8ad67",
+     100
+    ]
+   ],
+   "g_chars": 9943,
+   "e_chars": 9943,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "ffd8ad67",
+     "table": "Expense Lines",
+     "conditions": [
+      "Short description contains #SERIES-0da2e3f1-f"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "EXP-01362903276"
+     ],
+     "evidence": [
+      {
+       "trajectory": "ffd8ad67",
+       "state": 30
+      },
+      {
+       "trajectory": "ffd8ad67",
+       "state": 100,
+       "page": {
+        "first": 1,
+        "last": 3,
+        "total": 3
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H044",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages show the creation of a single new incident (INC0012899) but do not contain any views of an 'Incidents list' or a comparison of records appearing and disappearing over time.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 9753,
+    "output_tokens": 81,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "trajectory e33455ce",
+     "table": "Incidents list",
+     "filter": "Active is true",
+     "why": "The provided memory pages show the 'Create Incident' form and related search results, but do not contain the 'Incidents list' view required to identify which records appeared initially and then disappeared."
+    }
+   ],
+   "fetched": [
+    [
+     "e33455ce",
+     3
+    ],
+    [
+     "e33455ce",
+     24
+    ]
+   ],
+   "g_chars": 30622,
+   "e_chars": 30622,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "e33455ce",
+     "table": "Incidents",
+     "conditions": [
+      "Active = true"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Number",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        139
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 3
+      },
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        140
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 24
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H045",
+  "type": "set_difference",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n\"sufficient\": false,\n\"answer\": null,\n\"observed_lower_bound\": null,\n\"reason\": \"The provided memory pages contain the task form and the knowledge article but do not include any view of the Expense Lines list or the specific records (Number) associated with the hashtag #SERIES-e474747a-b.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 5214,
+    "output_tokens": 77,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "2151c11a",
+     "table": "Expense Lines",
+     "filter": "Short description contains #SERIES-e474747a-b",
+     "why": "The provided memory pages show the Knowledge Portal article and the Private Task form, but they do not contain the actual list view or table of Expense Lines where the records with the specific hashtag would be displayed to identify which ones appeared first and then disappeared."
+    }
+   ],
+   "fetched": [
+    [
+     "2151c11a",
+     10
+    ],
+    [
+     "2151c11a",
+     47
+    ]
+   ],
+   "g_chars": 18722,
+   "e_chars": 18722,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "2151c11a",
+     "table": "Expense Lines",
+     "conditions": [
+      "Short description contains #SERIES-e474747a-b"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "EXP-13400887936",
+      "EXP-23400887936",
+      "EXP-33400887936",
+      "EXP-43400887936",
+      "EXP-53400887936"
+     ],
+     "evidence": [
+      {
+       "trajectory": "2151c11a",
+       "state": 10
+      },
+      {
+       "trajectory": "2151c11a",
+       "state": 47,
+       "page": {
+        "first": 1,
+        "last": 7,
+        "total": 7
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H046",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n\"sufficient\": false,\n\"answer\": null,\n\"observed_lower_bound\": null,\n\"reason\": \"The provided memory pages only show filtered views with 'No records to display' or dashboard summaries, and do not contain the full, unfiltered lists of Expense Lines required to compare which records were present initially but missing later.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 3362,
+    "output_tokens": 74,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "8d15c1b3",
+     "table": "Expense Lines",
+     "filter": "none",
+     "why": "The memory for trajectory 8d15c1b3 only contains filtered views (steps 1, 38, 47) showing 'No records to display' or the filter setup. It is missing the full, unfiltered list view required to compare which records appeared initially but were missing later."
+    }
+   ],
+   "fetched": [
+    [
+     "8d15c1b3",
+     23
+    ],
+    [
+     "8d15c1b3",
+     36
+    ]
+   ],
+   "g_chars": 16826,
+   "e_chars": 16826,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "8d15c1b3",
+     "table": "Expense Lines",
+     "conditions": [],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Expense Lines",
+       "conditions": [],
+       "rows": [
+        21,
+        2787
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 23
+      },
+      {
+       "fetch": "pages",
+       "table": "Expense Lines",
+       "conditions": [],
+       "rows": [
+        21,
+        2795
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 36
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H047",
+  "type": "set_difference",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n\"sufficient\": false,\n\"answer\": null,\n\"observed_lower_bound\": null,\n\"reason\": \"The provided memory pages only contain the company protocol documentation and the final task form state, but do not include the historical list of expense lines or the specific records shown during the session to identify which ones appeared initially and were later removed.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 3823,
+    "output_tokens": 76,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "5d37bd9f",
+     "table": "Expense Lines",
+     "filter": "Short description contains #SERIES-304d6c98-6",
+     "why": "The memory pages provided are Knowledge Portal articles and a Task form, but they do not contain the actual list or table view of Expense Lines required to identify which records appeared first and then disappeared."
+    }
+   ],
+   "fetched": [
+    [
+     "5d37bd9f",
+     13
+    ],
+    [
+     "5d37bd9f",
+     38
+    ]
+   ],
+   "g_chars": 14298,
+   "e_chars": 14298,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "5d37bd9f",
+     "table": "Expense Lines",
+     "conditions": [
+      "Short description contains #SERIES-304d6c98-6"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "EXP-12970611939",
+      "EXP-22970611939"
+     ],
+     "evidence": [
+      {
+       "trajectory": "5d37bd9f",
+       "state": 13
+      },
+      {
+       "trajectory": "5d37bd9f",
+       "state": 38,
+       "page": {
+        "first": 1,
+        "last": 6,
+        "total": 6
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H048",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\"sufficient\": false, \"answer\": null, \"reason\": \"The provided memory pages do not contain a list of incident numbers or a sequence of records showing which numbers appeared first but not last.\"}",
+    "finish": "stop",
+    "prompt_tokens": 3483,
+    "output_tokens": 43,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "42442496",
+     "table": "incident",
+     "filter": "Active = true",
+     "why": "The provided memory pages show a 'Reports' list view and a 'Shared admin dashboard' with summary metrics, but none of them display the detailed 'Incidents' list view required to analyze the sequence of record numbers."
+    }
+   ],
+   "fetched": [
+    [
+     "42442496",
+     8
+    ],
+    [
+     "42442496",
+     17
+    ]
+   ],
+   "g_chars": 29889,
+   "e_chars": 29889,
+   "g_hit": true,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor_insufficient",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "42442496",
+     "table": "Incidents",
+     "conditions": [
+      "Active = true"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "partial_coverage_of_a_version",
+     "gap": [
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        78
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 8
+      },
+      {
+       "fetch": "pages",
+       "table": "Incidents",
+       "conditions": [
+        "Active = true"
+       ],
+       "rows": [
+        21,
+        79
+       ],
+       "unparsed_rows_in_container": 0,
+       "state": 17
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H049",
+  "type": "set_difference",
+  "sufficient": true,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages contain the company protocol guidelines and session headers but do not include the actual data rows or list view of the Expense Lines where the specific records (Numbers) for the filter #SERIES-d93334a3-5 are displayed.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 2735,
+    "output_tokens": 88,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "a6ad4c03",
+     "table": "Expense Lines",
+     "filter": "#SERIES-d93334a3-5",
+     "why": "The memory for trajectory a6ad4c03 only contains the initial task definition and a loading screen; it is missing the actual list view showing the expense records (Number, Short description, etc.) required to identify which records appeared first but disappeared later."
+    }
+   ],
+   "fetched": [
+    [
+     "a6ad4c03",
+     12
+    ],
+    [
+     "a6ad4c03",
+     44
+    ]
+   ],
+   "g_chars": 17854,
+   "e_chars": 17854,
+   "g_hit": true,
+   "e_hit": true,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+G": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "R+E": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "R+Goracle": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   },
+   "S@R": {
+    "correct": false,
+    "unsupported": false,
+    "wrong_refusal": true,
+    "parse_fail": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "executor",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "a6ad4c03",
+     "table": "Expense Lines",
+     "conditions": [
+      "Short description contains #SERIES-d93334a3-5"
+     ],
+     "key_col": null,
+     "key": null
+    },
+    "exec": {
+     "status": "answered",
+     "answer": [
+      "EXP-11557813481",
+      "EXP-21557813481",
+      "EXP-31557813481",
+      "EXP-41557813481",
+      "EXP-51557813481"
+     ],
+     "evidence": [
+      {
+       "trajectory": "a6ad4c03",
+       "state": 12
+      },
+      {
+       "trajectory": "a6ad4c03",
+       "state": 44,
+       "page": {
+        "first": 1,
+        "last": 7,
+        "total": 7
+       }
+      }
+     ]
+    },
+    "n_avail": 2
+   }
+  }
+ },
+ {
+  "qid": "S02H050",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n\"sufficient\": false,\n\"answer\": null,\n\"observed_lower_bound\": null,\n\"reason\": \"The provided memory pages show the filter being applied and the resulting lists being empty, but they do not contain the initial list view with the specific records that were present before the filtering or deletion process.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 2358,
+    "output_tokens": 69,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "3bdbee95",
+     "table": "Expense Lines",
+     "filter": "Short description contains #SERIES-42aa4dcb-0",
+     "why": "The memory pages show the filter setup and subsequent empty results, but do not display the actual list of records (with their Numbers) that were present before the duplicates were deleted."
+    }
+   ],
+   "fetched": [
+    [
+     "3bdbee95",
+     11
+    ]
+   ],
+   "g_chars": 3152,
+   "e_chars": 3152,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "3bdbee95",
+     "table": "Expense Lines",
+     "conditions": [
+      "\"Short description\" contains #SERIES-42aa4dcb-0"
+     ],
+     "key_col": "Number",
+     "key": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Expense Lines",
+      "conditions": [
+       "\"Short description\" contains #SERIES-42aa4dcb-0"
+      ]
+     },
+     "observed_scopes": [
+      [
+       "Short description contains #SERIES-42aa4dcb-0"
+      ]
+     ]
+    },
+    "n_avail": 1
+   }
+  }
+ },
+ {
+  "qid": "S02H051",
+  "type": "set_difference",
+  "sufficient": false,
+  "triggered": true,
+  "R": {
+   "out": {
+    "text": "{\n  \"sufficient\": false,\n  \"answer\": null,\n  \"observed_lower_bound\": null,\n  \"reason\": \"The provided memory pages show empty lists or deletion confirmations without displaying the initial list of user records to identify which specific names appeared and then disappeared.\"\n}",
+    "finish": "stop",
+    "prompt_tokens": 2632,
+    "output_tokens": 64,
+    "batch_seconds": 74.71754455566406
+   }
+  },
+  "meta": {
+   "needs": [
+    {
+     "trajectory": "1d4038be",
+     "table": "User",
+     "filter": "Name >= Kristina-Ashley Jennings-Frank",
+     "why": "The provided memory pages show the 'Entitled Custom Tables' list (which is empty) and a hardware asset page, but they do not contain the 'User' list view required to identify which user records appeared initially and were subsequently removed."
+    }
+   ],
+   "fetched": [
+    [
+     "1d4038be",
+     19
+    ]
+   ],
+   "g_chars": 3936,
+   "e_chars": 3936,
+   "g_hit": false,
+   "e_hit": false,
+   "ctx_hit": false
+  },
+  "scores": {
+   "R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+E": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "R+Goracle": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S@R": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   },
+   "S+G": {
+    "correct": true,
+    "unsupported": false,
+    "wrong_refusal": false,
+    "parse_fail": false,
+    "lower_bound_ok": false
+   }
+  },
+  "s_log": {
+   "S@R": {
+    "how": "reader_fallback",
+    "intent": null,
+    "exec": null,
+    "n_avail": 0
+   },
+   "S+G": {
+    "how": "reader_fallback",
+    "intent": {
+     "operator": "difference",
+     "anchor_trajectory": "1d4038be",
+     "table": "Users",
+     "conditions": [
+      "Name >= Kristina-Ashley Jennings-Frank"
+     ],
+     "key_col": null,
+     "key": null,
+     "column": "Name",
+     "value": null
+    },
+    "exec": {
+     "status": "insufficient",
+     "reason": "no_observation_with_requested_scope",
+     "gap": {
+      "fetch": "list",
+      "table": "Users",
+      "conditions": [
+       "Name >= Kristina-Ashley Jennings-Frank"
+      ]
+     },
+     "observed_scopes": []
+    },
+    "n_avail": 1
+   }
+  }
+ }
+]

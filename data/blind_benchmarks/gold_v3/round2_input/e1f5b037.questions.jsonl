@@ -1,0 +1,6 @@
+{"qid": "e1f5b037-q1", "question": "In the session where you were asked to sort the change requests list by Number in descending order, how many change requests did the list contain in total?"}
+{"qid": "e1f5b037-q2", "question": "In the session where you were asked to sort the change requests list by Number in descending order, which change request was in the first row after your first click on the Number column, and which was first after your second click?"}
+{"qid": "e1f5b037-q3", "question": "In the session where you were asked to sort the change requests list by Number in descending order, which change requests on the first page of the descending-sorted list had Risk 'Very High'?"}
+{"qid": "e1f5b037-q4", "question": "In the session where you were asked to sort the change requests list by Number in descending order, how many change requests in the whole list had an Approval status of 'Rejected'?"}
+{"qid": "e1f5b037-q5", "question": "In the session where you were asked to sort the change requests list by Number in descending order, which change request in the list had the earliest planned start date?"}
+{"qid": "e1f5b037-q6", "question": "In the session where you were asked to sort the change requests list by Number in descending order, who was change request CHG0000050 assigned to?"}

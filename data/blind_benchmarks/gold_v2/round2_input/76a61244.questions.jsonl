@@ -1,0 +1,6 @@
+{"qid": "76a61244-q1", "question": "In the session where you were asked to allocate a 150000 $ investment budget across expense lines whose short description contains '#08ffaf6d-9', how many expense lines matched that filter?"}
+{"qid": "76a61244-q2", "question": "In the session where you were allocating the 150000 $ budget over the '#08ffaf6d-9' expense lines, what was the Amount of expense line EXP-07d72982e-9?"}
+{"qid": "76a61244-q3", "question": "In the session where you were allocating the 150000 $ budget over the '#08ffaf6d-9' expense lines, was the new expense line EXP0010611 actually submitted?"}
+{"qid": "76a61244-q4", "question": "In the session where you were asked to allocate the 150000 $ budget to maximize returns, which expense line Numbers should be selected?"}
+{"qid": "76a61244-q5", "question": "In the session where you filtered expense lines for '#08ffaf6d-9', how did the number of rows in the Expense Lines list change when you applied the filter?"}
+{"qid": "76a61244-q6", "question": "In the session where you were allocating the 150000 $ budget over the '#08ffaf6d-9' expense lines, which of the matching expense lines promised the highest return?"}

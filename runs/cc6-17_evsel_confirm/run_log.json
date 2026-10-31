@@ -1,0 +1,39 @@
+{
+ "stage": "evsel",
+ "dry_run": false,
+ "limit": 1000000,
+ "start": 1792576464.151636,
+ "evsel": {
+  "B1_sel_scope": {
+   "insuff_correct": 54,
+   "insuff_n": 84,
+   "unsupported": 29,
+   "wrong_refusal": 10,
+   "parse_fail": 12,
+   "prompt_tokens": 358004,
+   "suff_correct": 87,
+   "suff_n": 116
+  },
+  "B2_sel_scope": {
+   "insuff_correct": 73,
+   "insuff_n": 84,
+   "unsupported": 9,
+   "wrong_refusal": 26,
+   "parse_fail": 11,
+   "prompt_tokens": 382404,
+   "suff_correct": 72,
+   "suff_n": 116
+  },
+  "B2_sel_table": {
+   "insuff_correct": 72,
+   "insuff_n": 84,
+   "unsupported": 11,
+   "wrong_refusal": 26,
+   "parse_fail": 11,
+   "prompt_tokens": 828922,
+   "suff_correct": 71,
+   "suff_n": 116
+  }
+ },
+ "seconds": 488.3442168235779
+}

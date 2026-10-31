@@ -1,0 +1,62 @@
+{
+ "stage": "dev38",
+ "dry_run": false,
+ "limit": 1000000,
+ "start": 1792660140.1322486,
+ "dev38": {
+  "B0": {
+   "insuff_correct": 77,
+   "insuff_n": 84,
+   "unsupported": 7,
+   "wrong_refusal": 75,
+   "parse_fail": 0,
+   "prompt_tokens": 3274639,
+   "prompt_chars": 0,
+   "suff_correct": 32,
+   "suff_n": 116
+  },
+  "B1": {
+   "insuff_correct": 45,
+   "insuff_n": 84,
+   "unsupported": 39,
+   "wrong_refusal": 6,
+   "parse_fail": 0,
+   "prompt_tokens": 3821846,
+   "prompt_chars": 0,
+   "suff_correct": 96,
+   "suff_n": 116
+  },
+  "B2": {
+   "insuff_correct": 66,
+   "insuff_n": 84,
+   "unsupported": 18,
+   "wrong_refusal": 7,
+   "parse_fail": 0,
+   "prompt_tokens": 3846246,
+   "prompt_chars": 0,
+   "suff_correct": 97,
+   "suff_n": 116
+  },
+  "S": {
+   "insuff_correct": 80,
+   "insuff_n": 84,
+   "unsupported": 4,
+   "wrong_refusal": 17,
+   "parse_fail": 0,
+   "prompt_tokens": 184968,
+   "prompt_chars": 0,
+   "suff_correct": 79,
+   "suff_n": 116
+  },
+  "S_oracle": {
+   "insuff_correct": 84,
+   "insuff_n": 84,
+   "unsupported": 0,
+   "wrong_refusal": 0,
+   "parse_fail": 0,
+   "suff_correct": 116,
+   "suff_n": 116
+  }
+ },
+ "seconds": 1967.5966439247131
+}

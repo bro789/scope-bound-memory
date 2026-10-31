@@ -1,0 +1,1078 @@
+{
+ "summary": {
+  "n": 240,
+  "determined_agree": 232,
+  "full_agree": 194,
+  "r1_determined": 124,
+  "r2_determined": 130,
+  "kappa_determined": 0.9331
+ },
+ "disagreements": [
+  {
+   "qid": "02fb0ac0-q4",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The comment text was entered and the notify checkbox clicked; the Comments History tab captured later shows only the heading 'Notes for this Order' with an empty list and no comment entries.",
+    "evidence_pages": [
+     "P2",
+     "P3",
+     "P48"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No, the Comments History tab showed an empty list under 'Notes for this Order'.",
+    "what_is_known": "The comment text was typed in the box (P2, P3) but the Comments History view (P48) lists no entry.",
+    "evidence_pages": [
+     "P3",
+     "P48"
+    ]
+   }
+  },
+  {
+   "qid": "1eb536f8-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It changed from 'Fix Applied' in the list to 'Duplicate' in the Mark Duplicate dialog",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P10"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "In the list it was 'Fix Applied'; in the Mark Duplicate dialog the Resolution code was set to 'Duplicate'.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "2834c56b-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": 20923,
+     "after": 7648
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: 20923 items; after filtering to Men: 7648 items",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "2834c56b-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "DL Men's Moccasin Slippers Comfy Micro Suede Memory Foam House Shoes with Indoor Outdoor Anti-Skid Rubber Sole",
+     "yygq Unisex Knit Garden Mules Womens or Mens \\u200bSlip On Open Back Clogs Mens Walking Shoes Lightweight Breathable Mesh Sandals Summer Beach Shoes Outdoor Slipper"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P35"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "DL Men's Moccasin Slippers Comfy Micro Suede Memory Foam House Shoes with Indoor Outdoor Anti-Skid Rubber Sole ($24.99)",
+     "yygq Unisex Knit Garden Mules Womens or Mens Slip On Open Back Clogs Mens Walking Shoes Lightweight Breathable Mesh Sandals Summer Beach Shoes Outdoor Slipper ($23.50)"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P35"
+    ]
+   }
+  },
+  {
+   "qid": "3f28b9c0-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": "-- None --",
+     "after": "English"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: '-- None --'; afterwards: 'English'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "3f28b9c0-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "yes",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P11"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Yes: an Info Message 'Primary email device created for Joel-Raymond Madden-Parker'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P11"
+    ]
+   }
+  },
+  {
+   "qid": "3f28b9c0-q6",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The form displays the info 'To set up the User's password, save the record and then click Set Password.' After submission a blank new-record form appeared; no Set Password step or password dialog was shown.",
+    "evidence_pages": [
+     "P0",
+     "P11"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P11"
+    ]
+   }
+  },
+  {
+   "qid": "40a8e2a9-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": "https://www.byteblaze.com",
+     "after": "https://byteblaze.github.io"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: https://www.byteblaze.com; after saving: https://byteblaze.github.io",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "40a8e2a9-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "yes",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Yes: 'Profile was successfully updated'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "40e4e95f-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Distance 644km -> 716km; Time 7:59 -> 158:17",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Distance went from 644 km to 716 km (+72 km); time went from 7:59 to 158:17",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "42442496-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "78 -> 79",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P17"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Increased by 1, from 78 to 79",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P8",
+     "P17"
+    ]
+   }
+  },
+  {
+   "qid": "43507a75-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "no (it is open)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P3"
+    ]
+   }
+  },
+  {
+   "qid": "43dea45d-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "yes",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P26"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "yes - 'The following mandatory fields are not filled in: Vendor'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P26",
+     "P27",
+     "P28"
+    ]
+   }
+  },
+  {
+   "qid": "43dea45d-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from empty to 'Dell Inc.'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P26",
+     "P27",
+     "P28"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It went from empty to 'Dell' typed in (P27), then to 'Dell Inc.' once the suggestion was selected (P28)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P26",
+     "P27",
+     "P28"
+    ]
+   }
+  },
+  {
+   "qid": "4dbcde1f-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 34 to −1",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P7"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "The score went from 34 (before) to -1 (after the downvote, with 'Retract downvote' shown).",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P7"
+    ]
+   }
+  },
+  {
+   "qid": "4dbcde1f-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No, it returned 'No results for author:RickyDontLoseThat f:massachusetts'.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "5915af4e-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From $1,100.00 + $100.00 Annually to $11,000.00 + $1,000.00 Annually",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Subtotal went from $1,100.00 + $100.00 Annually (quantity 1) to $11,000.00 + $1,000.00 Annually (quantity 10).",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "5915af4e-q4",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The Sales Laptop form shows the Optional Software checkboxes (Microsoft Powerpoint, Adobe Acrobat, Adobe Photoshop, Siebel Client) but never exposes their checked state; the order confirmation lists only Acer Aspire NX, quantity 10, without the options.",
+    "evidence_pages": [
+     "P2",
+     "P4",
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "5a87cf13-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before: 123 Peachtree St, Atlanta, Georgia, 30308, United States; after: 654 Elm Drive, Apartment 12, Miami, Florida, 33101, United States",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: Matt Baker, 123 Peachtree St, Atlanta, Georgia, 30308, United States, T: 4045551234. After: Matt Baker, 654 Elm Drive, Apartment 12, Miami, Florida, 33101, United States, T: 4045551234.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "5a87cf13-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No, the billing address was unchanged (still Matt Baker, 123 Peachtree St, Atlanta, Georgia, 30308)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "62ee3102-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "with_search": 0,
+     "after_clearing": 54
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "0 after searching, 54 after clearing the search",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "6f9dde76-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "Before: 101 S San Mateo Dr, San Mateo, California, 94010, United States; after: 231 Willow Way, Suite 100, Chicago, Illinois, 60601, United States",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2",
+     "P9"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: Emma Lopez, 101 S San Mateo Dr, San Mateo, California, 94010, United States, T: 6505551212. After: Emma Lopez, 231 Willow Way, Suite 100, Chicago, Illinois, 60601, United States, T: 6505551212",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P1",
+     "P2",
+     "P9"
+    ]
+   }
+  },
+  {
+   "qid": "76a61244-q3",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "A 'Create EXP0010611' new-record form was opened with Parent EXP-07d72982e-9, Amount 0.00 and State Pending, but the session ends on that unsaved form; no confirmation of submission is shown.",
+    "evidence_pages": [
+     "P23"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "no",
+    "what_is_known": "The last page of the session (P23) is the unsaved 'Create EXP0010611' New record form with Amount 0.00 and empty Short description; no page shows it saved or submitted.",
+    "evidence_pages": [
+     "P23"
+    ]
+   }
+  },
+  {
+   "qid": "76a61244-q5",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "from 2,819 to 11",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P11"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From 2,819 rows to 11 rows",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P10",
+     "P11"
+    ]
+   }
+  },
+  {
+   "qid": "7ac42869-q6",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It changed from '01/01/2023' to '1/1/23'",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It changed from '01/01/2023' as typed to '1/1/23' after clicking Show Report.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "7cdb35a0-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It went from 101 to 26",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P15"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It dropped from 101 change requests to 26.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0",
+     "P15"
+    ]
+   }
+  },
+  {
+   "qid": "8a606e3b-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "car": "642km",
+     "foot": "714km"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It increased from 642 km (Car) to 714 km (Foot), a difference of 72 km",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "8a606e3b-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "faster": "Car (OSRM)",
+     "car_time": "8:00",
+     "foot_time": "157:55"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Driving was faster: Time 8:00 by car versus 157:55 on foot (as displayed)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "8d92c632-q1",
+   "issue": "determined",
+   "r1": {
+    "determined": true,
+    "answer": "PRB0040296",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P0"
+    ]
+   },
+   "r2": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The new-record form was pre-numbered PRB0040296 (P0-P10), but every submit attempt returned an 'Invalid update' error and the record was never shown as saved.",
+    "evidence_pages": [
+     "P0",
+     "P4",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "8d92c632-q4",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "Views shown: 'Importing Address Book From CSV File' 35, 'What is a cookie?' 3, 'Are Copyrighted Files Illegal to Have...' 22, 'Excel Functionality' 2. The fifth article, 'Maximizing total investment return', shows no view count.",
+    "evidence_pages": [
+     "P3"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Importing Address Book From CSV File (35 views)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "8d92c632-q5",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The form for PRB0040296 was still on the 'Problem New record' page with an 'Invalid update' error; the last page seen is a task reference lookup with 'No records to display'. No submission confirmation or saved record appears.",
+    "evidence_pages": [
+     "P4",
+     "P10",
+     "P11"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5",
+     "P7",
+     "P8",
+     "P10"
+    ]
+   }
+  },
+  {
+   "qid": "a77f9486-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "The letters of T. S. Eliot to Emily Hale that were kept sealed from 1956 to 2020 have been released for free online",
+     "Friendly reminder bookshop.org exists.",
+     "Appalachian prison book project seeks notebook donations: \"The books can help inmates learn new skills, broaden their worldviews and obtain college credits through the West Virginia University Higher Education in Prison Initiative\""
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "The letters of T. S. Eliot to Emily Hale that were kept sealed from 1956 to 2020 have been released for free online (3591)",
+     "Friendly reminder bookshop.org exists. (3085)",
+     "Appalachian prison book project seeks notebook donations: \"The books can help inmates learn new skills, broaden their worldviews and obtain college credits through the West Virginia University High... (1716)"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5"
+    ]
+   }
+  },
+  {
+   "qid": "a77f9486-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "3591 -> −1",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: 3591; after the downvote: -1",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "b0baa61f-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 1 to 3",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P13"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It went from 1 member to 3 members.",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P13"
+    ]
+   }
+  },
+  {
+   "qid": "b0baa61f-q4",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "Byte Blaze",
+     "The A11Y Project",
+     "yjlou"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P13"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "Byte Blaze (@byteblaze, Owner)",
+     "The A11Y Project (@a11yproject, Reporter)",
+     "yjlou (@yjlou, Reporter)"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P13"
+    ]
+   }
+  },
+  {
+   "qid": "c2941ccc-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From 0 to 1",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It changed from 0 records found to 1 record found",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "c2941ccc-q6",
+   "issue": "determined",
+   "r1": {
+    "determined": false,
+    "answer": null,
+    "what_is_known": "The Export to: combobox was set to CSV and an Export button was present, but no page shows an export being performed or completed.",
+    "evidence_pages": [
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "No",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "c54716c8-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "From $1,499.00 + $100.00 Annually to $14,990.00 + $1,000.00 Annually",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From $1,499.00 + $100.00 Annually (quantity 1) to $14,990.00 + $1,000.00 Annually (quantity 10)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P5",
+     "P6"
+    ]
+   }
+  },
+  {
+   "qid": "c71543c0-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "IDweel iPhone SE 2020 Case with Tempered Glass Screen Protector, Hybrid 3 in 1 Shockproof Slim Heavy Duty Hard PC Cover Soft Silicone Rugged Bumper Full Body Case for iPhone SE 2nd Gen (Red)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "IDweel iPhone SE 2020 Case with Tempered Glass Screen Protector (Red) Black ($12.99)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P7"
+    ]
+   }
+  },
+  {
+   "qid": "c71bcab1-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": "$1,100.00",
+     "after": "$9,900.00"
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P4"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: $1,100.00 (quantity 1); after: $9,900.00 (quantity 9)",
+    "what_is_known": "Earlier, before the Windows 8 option was selected, the page showed price/subtotal $1,000.00 at quantity 1 (P2).",
+    "evidence_pages": [
+     "P3",
+     "P4"
+    ]
+   }
+  },
+  {
+   "qid": "df9dd2e1-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "from 296 to 51",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P8"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "From 296 incidents to 51 incidents",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P6",
+     "P8"
+    ]
+   }
+  },
+  {
+   "qid": "f0885231-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "EXP-12713087403 ($2,596.66) disappeared; 3 lines remained (EXP-02713087403, EXP-22713087403, EXP-32713087403)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P39",
+     "P45",
+     "P46"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "EXP-12713087403 disappeared; 3 lines remained (EXP-02713087403, EXP-22713087403, EXP-32713087403).",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P39",
+     "P45",
+     "P46"
+    ]
+   }
+  },
+  {
+   "qid": "f5c42c59-q1",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": {
+     "before": 4,
+     "after": 2
+    },
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P17"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: 4 active problems; after: 2",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P17"
+    ]
+   }
+  },
+  {
+   "qid": "fc5cabed-q3",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "It did not change: 1 member (Byte Blaze) both times",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P47"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "It did not change: 'Members 1' (only Byte Blaze, Owner) at first and in every later view, including the last",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P3",
+     "P47"
+    ]
+   }
+  },
+  {
+   "qid": "fc5cabed-q6",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": [
+     "!96",
+     "!95",
+     "!93",
+     "!94",
+     "!92",
+     "!87",
+     "!91"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": [
+     "!96 Create Tiffany Pender.json",
+     "!95 Add Mike Mai to webring",
+     "!93 Create Josh Kim",
+     "!94 Update RSS icon",
+     "!92 Restore Winnie Bosibori",
+     "!87 Create marine_hillaire.json",
+     "!91 Add Adam Norris.json"
+    ],
+    "what_is_known": "",
+    "evidence_pages": [
+     "P2"
+    ]
+   }
+  },
+  {
+   "qid": "fd7f700a-q2",
+   "issue": "answer",
+   "r1": {
+    "determined": true,
+    "answer": "PRB0040301 (before: PRB0040299)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   },
+   "r2": {
+    "determined": true,
+    "answer": "Before: PRB0040299; after clicking the final button (Submit): PRB0040301 (a fresh blank Problem New record form)",
+    "what_is_known": "",
+    "evidence_pages": [
+     "P4",
+     "P5"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,139 @@
+{
+ "totals": {
+  "B0": {
+   "suff_correct": 7,
+   "suff_n": 25,
+   "unsupported": 1,
+   "wrong_refusal": 16,
+   "parse_fail": 2,
+   "insuff_correct": 13,
+   "insuff_n": 15
+  },
+  "B1": {
+   "suff_correct": 18,
+   "suff_n": 25,
+   "unsupported": 4,
+   "wrong_refusal": 0,
+   "parse_fail": 1,
+   "insuff_correct": 11,
+   "insuff_n": 15
+  },
+  "B2": {
+   "suff_correct": 18,
+   "suff_n": 25,
+   "unsupported": 5,
+   "wrong_refusal": 1,
+   "parse_fail": 1,
+   "insuff_correct": 10,
+   "insuff_n": 15
+  },
+  "S": {
+   "suff_correct": 18,
+   "suff_n": 25,
+   "unsupported": 0,
+   "wrong_refusal": 6,
+   "parse_fail": 0,
+   "insuff_correct": 15,
+   "insuff_n": 15
+  },
+  "S_bracketfix": {
+   "suff_correct": 22,
+   "suff_n": 25,
+   "unsupported": 0,
+   "wrong_refusal": 1,
+   "parse_fail": 0,
+   "insuff_correct": 15,
+   "insuff_n": 15
+  }
+ },
+ "by_type": {
+  "B0": {
+   "count:insuff:X": 1,
+   "count:insuff:ok": 4,
+   "count:suff:X": 4,
+   "count:suff:ok": 1,
+   "enumeration:insuff:X": 1,
+   "enumeration:insuff:ok": 3,
+   "enumeration:suff:X": 3,
+   "enumeration:suff:ok": 1,
+   "existence:insuff:ok": 4,
+   "existence:suff:X": 3,
+   "existence:suff:ok": 1,
+   "set_difference:insuff:ok": 2,
+   "set_difference:suff:X": 2,
+   "single_fact:suff:X": 2,
+   "single_fact:suff:ok": 3,
+   "version:suff:X": 4,
+   "version:suff:ok": 1
+  },
+  "B1": {
+   "count:insuff:X": 3,
+   "count:insuff:ok": 2,
+   "count:suff:ok": 5,
+   "enumeration:insuff:ok": 4,
+   "enumeration:suff:X": 1,
+   "enumeration:suff:ok": 3,
+   "existence:insuff:X": 1,
+   "existence:insuff:ok": 3,
+   "existence:suff:X": 1,
+   "existence:suff:ok": 3,
+   "set_difference:insuff:ok": 2,
+   "set_difference:suff:X": 1,
+   "set_difference:suff:ok": 1,
+   "single_fact:suff:X": 1,
+   "single_fact:suff:ok": 4,
+   "version:suff:X": 3,
+   "version:suff:ok": 2
+  },
+  "B2": {
+   "count:insuff:X": 2,
+   "count:insuff:ok": 3,
+   "count:suff:ok": 5,
+   "enumeration:insuff:ok": 4,
+   "enumeration:suff:X": 1,
+   "enumeration:suff:ok": 3,
+   "existence:insuff:X": 2,
+   "existence:insuff:ok": 2,
+   "existence:suff:X": 1,
+   "existence:suff:ok": 3,
+   "set_difference:insuff:X": 1,
+   "set_difference:insuff:ok": 1,
+   "set_difference:suff:X": 1,
+   "set_difference:suff:ok": 1,
+   "single_fact:suff:X": 1,
+   "single_fact:suff:ok": 4,
+   "version:suff:X": 3,
+   "version:suff:ok": 2
+  },
+  "S": {
+   "count:insuff:ok": 5,
+   "count:suff:ok": 5,
+   "enumeration:insuff:ok": 4,
+   "enumeration:suff:X": 3,
+   "enumeration:suff:ok": 1,
+   "existence:insuff:ok": 4,
+   "existence:suff:ok": 4,
+   "set_difference:insuff:ok": 2,
+   "set_difference:suff:X": 1,
+   "set_difference:suff:ok": 1,
+   "single_fact:suff:X": 2,
+   "single_fact:suff:ok": 3,
+   "version:suff:X": 1,
+   "version:suff:ok": 4
+  },
+  "S_bracketfix": {
+   "count:insuff:ok": 5,
+   "count:suff:ok": 5,
+   "enumeration:insuff:ok": 4,
+   "enumeration:suff:X": 2,
+   "enumeration:suff:ok": 2,
+   "existence:insuff:ok": 4,
+   "existence:suff:ok": 4,
+   "set_difference:insuff:ok": 2,
+   "set_difference:suff:ok": 2,
+   "single_fact:suff:X": 1,
+   "single_fact:suff:ok": 4,
+   "version:suff:ok": 5
+  }
+ }
+}
